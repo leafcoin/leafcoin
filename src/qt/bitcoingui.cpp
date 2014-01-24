@@ -181,7 +181,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(overviewAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Drop leaves"), this);
-    sendCoinsAction->setStatusTip(tr("Send coins to a Dogecoin address"));
+    sendCoinsAction->setStatusTip(tr("Send coins to a Leafcoin address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
