@@ -23,10 +23,10 @@ BEGIN
             VALUE "CompanyName",        "Leafcoin"
             VALUE "FileDescription",    "Leafcoin-Qt (OSS GUI client for Leafcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "dogecoin-qt"
+            VALUE "InternalName",       "leafcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "dogecoin-qt.exe"
+            VALUE "OriginalFilename",   "leafcoin-qt.exe"
             VALUE "ProductName",        "Leafcoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

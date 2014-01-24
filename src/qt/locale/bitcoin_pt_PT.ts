@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS DOGECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEAFCOINS&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS LEAFCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Leafcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your dogecoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Leafcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus dogecoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>Leafcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your leafcoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Leafcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus leafcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -420,12 +420,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-347"/>
         <source>Send coins to a Leafcoin address</source>
-        <translation>Enviar moedas para um endereço dogecoin</translation>
+        <translation>Enviar moedas para um endereço leafcoin</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Leafcoin</source>
-        <translation>Modificar opções de configuração para dogecoin</translation>
+        <translation>Modificar opções de configuração para leafcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -738,7 +738,7 @@ Endereço: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Leafcoin address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço dogecoin válido.</translation>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço leafcoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -845,7 +845,7 @@ Endereço: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the Leafcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente dogecoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <translation>Abrir a porta do cliente leafcoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1069,8 +1069,8 @@ Endereço: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start dogecoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com dogecoin:</translation>
+        <source>Cannot start leafcoin: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com leafcoin:</translation>
     </message>
 </context>
 <context>
@@ -2197,8 +2197,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or dogecoind</source>
-        <translation>Enviar comando para -server ou dogecoind</translation>
+        <source>Send command to -server or leafcoind</source>
+        <translation>Enviar comando para -server ou leafcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: dogecoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: dogecoin.conf)</translation>
+        <source>Specify configuration file (default: leafcoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: leafcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: dogecoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: dogecoind.pid)</translation>
+        <source>Specify pid file (default: leafcoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: leafcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,7 +2300,7 @@ Endereço: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=dogecoinrpc
+rpcuser=leafcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2311,7 +2311,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Leafcoin Alert&quot; admin@foo
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=dogecoinrpc
+rpcuser=leafcoinrpc
 rpcpassword=%s
 (não precisa recordar esta palavra-passe)
 O nome de utilizador e password NÃO DEVEM ser iguais.

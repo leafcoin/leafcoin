@@ -296,7 +296,7 @@ void ThreadIRCSeed2()
             Send(hSocket, "JOIN #leafcoinTEST0\r");
             Send(hSocket, "WHO #leafcoinTEST0\r");
         } else {
-            // randomly join #dogecoin00-#dogecoin99
+            // randomly join #leafcoin00-#leafcoin99
             // network is now over 3k peers , get them to join 50 random channels!
             //            channel_number = 0; 
             int channel_number = 0; //GetRandInt(50);
