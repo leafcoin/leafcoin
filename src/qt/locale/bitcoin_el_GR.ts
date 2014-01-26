@@ -2631,8 +2631,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Leafcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Litecoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>SSL options: (see the Leafcoin Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Leafcoin Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
         <location line="+1"/>

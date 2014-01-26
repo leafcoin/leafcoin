@@ -2626,7 +2626,7 @@ nt: alertnotify=echo %%s | email -s &quot;Leafcoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the Leafcoin Wiki for SSL setup instructions)</source>
         <translation>SSL valikud: (vaata Leafcoini Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
