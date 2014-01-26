@@ -1,2955 +1,3207 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<TS language="zh_TW" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Leafcoin</source>
-        <translation>é—œæ–¼è±ç‰¹å¹£</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Leafcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;è±ç‰¹å¹£&lt;/b&gt;ç‰ˆæœ¬</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-é€™æ˜¯ä¸€å¥—å¯¦é©—æ€§çš„è»Ÿé«”.
-
-æ­¤è»Ÿé«”æ˜¯ä¾æ“š MIT/X11 è»Ÿé«”æˆæ¬Šæ¢æ¬¾æ•£å¸ƒ, è©³æƒ…è«‹è¦‹é™„å¸¶çš„ COPYING æª”æ¡ˆ, æˆ–æ˜¯ä»¥ä¸‹ç¶²ç«™: http://www.opensource.org/licenses/mit-license.php.
-
-æ­¤ç”¢å“ä¹ŸåŒ…å«äº†ç”± OpenSSL Project æ‰€é–‹ç™¼çš„ OpenSSL Toolkit (http://www.openssl.org/) è»Ÿé«”, ç”± Eric Young (eay@cryptsoft.com) æ’°å¯«çš„åŠ è§£å¯†è»Ÿé«”, ä»¥åŠç”± Thomas Bernard æ‰€æ’°å¯«çš„ UPnP è»Ÿé«”.</translation>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation>ç‰ˆæ¬Š</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The Leafcoin developers</source>
-        <translation>è±ç‰¹å¹£é–‹ç™¼äººå“¡</translation>
-    </message>
-</context>
-<context>
-    <name>AddressBookPage</name>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>ä½å€ç°¿</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>é»å…©ä¸‹ä¾†ä¿®æ”¹ä½å€æˆ–æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Create a new address</source>
-        <translation>ç”¢ç”Ÿæ–°ä½å€</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>è¤‡è£½ç›®å‰é¸å–çš„ä½å€åˆ°ç³»çµ±å‰ªè²¼ç°¿</translation>
-    </message>
-    <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation>æ–°å¢ä½å€</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Leafcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>é€™äº›æ˜¯ä½ ç”¨ä¾†æ”¶æ¬¾çš„è±ç‰¹å¹£ä½å€. ä½ å¯ä»¥æä¾›ä¸åŒçš„ä½å€çµ¦ä¸åŒçš„ä»˜æ¬¾äºº, ä¾†è¿½è¹¤æ˜¯èª°æ”¯ä»˜çµ¦ä½ .</translation>
-    </message>
-    <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation>è¤‡è£½ä½å€</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation>é¡¯ç¤º &amp;QR æ¢ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Leafcoin address</source>
-        <translation>ç°½ç½²è¨Šæ¯æ˜¯ç”¨ä¾†è­‰æ˜è±ç‰¹å¹£ä½å€æ˜¯ä½ çš„</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>è¨Šæ¯ç°½ç½²</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Delete the currently selected address from the list</source>
-        <translation>å¾åˆ—è¡¨ä¸­åˆªé™¤ç›®å‰é¸å–çš„ä½å€</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>å°‡ç›®å‰åˆ†é çš„è³‡æ–™åŒ¯å‡ºå­˜æˆæª”æ¡ˆ</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Export</source>
-        <translation>åŒ¯å‡º</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Leafcoin address</source>
-        <translation>é©—è­‰è¨Šæ¯æ˜¯ç”¨ä¾†ç¢ºèªè¨Šæ¯æ˜¯ç”¨æŒ‡å®šçš„è±ç‰¹å¹£ä½å€ç°½ç½²çš„</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>è¨Šæ¯é©—è­‰</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>&amp;Delete</source>
-        <translation>åˆªé™¤</translation>
-    </message>
-    <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Leafcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>é€™æ˜¯ä½ ç”¨ä¾†ä»˜æ¬¾çš„è±ç‰¹å¹£ä½å€. åœ¨ä»˜éŒ¢ä¹‹å‰, å‹™å¿…è¦æª¢æŸ¥é‡‘é¡å’Œæ”¶æ¬¾ä½å€æ˜¯å¦æ­£ç¢º.</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Copy &amp;Label</source>
-        <translation>è¤‡è£½æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Edit</source>
-        <translation>ç·¨è¼¯</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation>ä»˜éŒ¢</translation>
-    </message>
-    <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>åŒ¯å‡ºä½å€ç°¿è³‡æ–™</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>é€—è™Ÿå€éš”è³‡æ–™æª” (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>åŒ¯å‡ºå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>ç„¡æ³•å¯«å…¥æª”æ¡ˆ %1.</translation>
-    </message>
-</context>
-<context>
-    <name>AddressTableModel</name>
-    <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
-        <source>Label</source>
-        <translation>æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>ä½å€</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>(no label)</source>
-        <translation>(æ²’æœ‰æ¨™è¨˜)</translation>
-    </message>
-</context>
-<context>
-    <name>AskPassphraseDialog</name>
-    <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
-        <source>Passphrase Dialog</source>
-        <translation>å¯†ç¢¼å°è©±è¦–çª—</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>Enter passphrase</source>
-        <translation>è¼¸å…¥å¯†ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>New passphrase</source>
-        <translation>æ–°çš„å¯†ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Repeat new passphrase</source>
-        <translation>é‡è¤‡æ–°å¯†ç¢¼</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>è¼¸å…¥éŒ¢åŒ…çš„æ–°å¯†ç¢¼.&lt;br/&gt;è«‹ç”¨&lt;b&gt;10å€‹ä»¥ä¸Šçš„å­—å…ƒ&lt;/b&gt;, æˆ–æ˜¯&lt;b&gt;8å€‹ä»¥ä¸Šçš„å–®å­—&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Encrypt wallet</source>
-        <translation>éŒ¢åŒ…åŠ å¯†</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>é€™å€‹å‹•ä½œéœ€è¦ç”¨ä½ çš„éŒ¢åŒ…å¯†ç¢¼ä¾†è§£é–</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Unlock wallet</source>
-        <translation>éŒ¢åŒ…è§£é–</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>é€™å€‹å‹•ä½œéœ€è¦ç”¨ä½ çš„éŒ¢åŒ…å¯†ç¢¼ä¾†è§£å¯†</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Decrypt wallet</source>
-        <translation>éŒ¢åŒ…è§£å¯†</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Change passphrase</source>
-        <translation>è®Šæ›´å¯†ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>è¼¸å…¥éŒ¢åŒ…çš„æ–°èˆŠå¯†ç¢¼.</translation>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>Confirm wallet encryption</source>
-        <translation>éŒ¢åŒ…åŠ å¯†ç¢ºèª</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LEAFCOINS&lt;/b&gt;!</source>
-        <translation>è­¦å‘Š: å¦‚æœå°‡éŒ¢åŒ…åŠ å¯†å¾Œå¿˜è¨˜å¯†ç¢¼, ä½ æœƒ&lt;b&gt;å¤±å»å…¶ä¸­æ‰€æœ‰çš„è±ç‰¹å¹£&lt;/b&gt;!</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>ä½ ç¢ºå®šè¦å°‡éŒ¢åŒ…åŠ å¯†å—?</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>é‡è¦: è«‹æ”¹ç”¨æ–°ç”¢ç”Ÿæœ‰åŠ å¯†çš„éŒ¢åŒ…æª”, ä¾†å–ä»£ä¹‹å‰éŒ¢åŒ…æª”çš„å‚™ä»½. ç‚ºäº†å®‰å…¨æ€§çš„ç†ç”±, ç•¶ä½ é–‹å§‹ä½¿ç”¨æ–°çš„æœ‰åŠ å¯†çš„éŒ¢åŒ…æ™‚, èˆŠéŒ¢åŒ…çš„å‚™ä»½å°±ä¸èƒ½å†ä½¿ç”¨äº†.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>è­¦å‘Š: å¤§å¯«å­—æ¯é–å®šä½œç”¨ä¸­!</translation>
-    </message>
-    <message>
-        <location line="-130"/>
-        <location line="+58"/>
-        <source>Wallet encrypted</source>
-        <translation>éŒ¢åŒ…å·²åŠ å¯†</translation>
-    </message>
-    <message>
-        <location line="-56"/>
-        <source>Leafcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your leafcoins from being stolen by malware infecting your computer.</source>
-        <translation>è±ç‰¹å¹£ç¾åœ¨è¦é—œé–‰ä»¥å®ŒæˆåŠ å¯†ç¨‹åº. è«‹è¨˜ä½, åŠ å¯†éŒ¢åŒ…ç„¡æ³•å®Œå…¨é˜²æ­¢å…¥ä¾µé›»è…¦çš„æƒ¡æ„ç¨‹å¼å·å–ä½ çš„è±ç‰¹å¹£.</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
-        <source>Wallet encryption failed</source>
-        <translation>éŒ¢åŒ…åŠ å¯†å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="-54"/>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>éŒ¢åŒ…åŠ å¯†å› ç¨‹å¼å…§éƒ¨éŒ¯èª¤è€Œå¤±æ•—. ä½ çš„éŒ¢åŒ…é‚„æ˜¯æ²’æœ‰åŠ å¯†.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <location line="+48"/>
-        <source>The supplied passphrases do not match.</source>
-        <translation>æä¾›çš„å¯†ç¢¼ä¸ç¬¦.</translation>
-    </message>
-    <message>
-        <location line="-37"/>
-        <source>Wallet unlock failed</source>
-        <translation>éŒ¢åŒ…è§£é–å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>ç”¨ä¾†è§£å¯†éŒ¢åŒ…çš„å¯†ç¢¼è¼¸å…¥éŒ¯èª¤.</translation>
-    </message>
-    <message>
-        <location line="-20"/>
-        <source>Wallet decryption failed</source>
-        <translation>éŒ¢åŒ…è§£å¯†å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>éŒ¢åŒ…å¯†ç¢¼è®Šæ›´æˆåŠŸ.</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
-    <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
-        <source>Sign &amp;message...</source>
-        <translation>è¨Šæ¯ç°½ç½²...</translation>
-    </message>
-    <message>
-        <location line="+280"/>
-        <source>Synchronizing with network...</source>
-        <translation>ç¶²è·¯åŒæ­¥ä¸­...</translation>
-    </message>
-    <message>
-        <location line="-349"/>
-        <source>&amp;Overview</source>
-        <translation>ç¸½è¦½</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show general overview of wallet</source>
-        <translation>é¡¯ç¤ºéŒ¢åŒ…ä¸€èˆ¬ç¸½è¦½</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>&amp;Transactions</source>
-        <translation>äº¤æ˜“</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Browse transaction history</source>
-        <translation>ç€è¦½äº¤æ˜“ç´€éŒ„</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels for sending</source>
-        <translation>ç·¨è¼¯ä½å€èˆ‡æ¨™è¨˜çš„å„²å­˜åˆ—è¡¨</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>é¡¯ç¤ºæ”¶æ¬¾ä½å€çš„åˆ—è¡¨</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>E&amp;xit</source>
-        <translation>çµæŸ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Quit application</source>
-        <translation>çµæŸæ‡‰ç”¨ç¨‹å¼</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Show information about Leafcoin</source>
-        <translation>é¡¯ç¤ºè±ç‰¹å¹£ç›¸é—œè³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>About &amp;Qt</source>
-        <translation>é—œæ–¼ &amp;Qt</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show information about Qt</source>
-        <translation>é¡¯ç¤ºæœ‰é—œæ–¼ Qt çš„è³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Options...</source>
-        <translation>é¸é …...</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>éŒ¢åŒ…åŠ å¯†...</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Backup Wallet...</source>
-        <translation>éŒ¢åŒ…å‚™ä»½...</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>&amp;Change Passphrase...</source>
-        <translation>å¯†ç¢¼è®Šæ›´...</translation>
-    </message>
-    <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation>å¾ç£ç¢ŸåŒ¯å…¥å€å¡Šä¸­...</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Reindexing blocks on disk...</source>
-        <translation>é‡å»ºç£ç¢Ÿå€å¡Šç´¢å¼•ä¸­...</translation>
-    </message>
-    <message>
-        <location line="-347"/>
-        <source>Send coins to a Leafcoin address</source>
-        <translation>ä»˜éŒ¢åˆ°è±ç‰¹å¹£ä½å€</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Modify configuration options for Leafcoin</source>
-        <translation>ä¿®æ”¹è±ç‰¹å¹£çš„è¨­å®šé¸é …</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Backup wallet to another location</source>
-        <translation>å°‡éŒ¢åŒ…å‚™ä»½åˆ°å…¶å®ƒåœ°æ–¹</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>è®Šæ›´éŒ¢åŒ…åŠ å¯†ç”¨çš„å¯†ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>&amp;Debug window</source>
-        <translation>é™¤éŒ¯è¦–çª—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Open debugging and diagnostic console</source>
-        <translation>é–‹å•“é™¤éŒ¯èˆ‡è¨ºæ–·ä¸»æ§å°</translation>
-    </message>
-    <message>
-        <location line="-4"/>
-        <source>&amp;Verify message...</source>
-        <translation>é©—è­‰è¨Šæ¯...</translation>
-    </message>
-    <message>
-        <location line="-165"/>
-        <location line="+530"/>
-        <source>Leafcoin</source>
-        <translation>è±ç‰¹å¹£</translation>
-    </message>
-    <message>
-        <location line="-530"/>
-        <source>Wallet</source>
-        <translation>éŒ¢åŒ…</translation>
-    </message>
-    <message>
-        <location line="+101"/>
-        <source>&amp;Send</source>
-        <translation>ä»˜å‡º</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Receive</source>
-        <translation>æ”¶å—</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation>ä½å€</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Leafcoin</source>
-        <translation>é—œæ–¼è±ç‰¹å¹£</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>&amp;Show / Hide</source>
-        <translation>é¡¯ç¤ºæˆ–éš±è—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show or hide the main Window</source>
-        <translation>é¡¯ç¤ºæˆ–éš±è—ä¸»è¦–çª—</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>å°‡å±¬æ–¼ä½ çš„éŒ¢åŒ…çš„å¯†é‘°åŠ å¯†</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Sign messages with your Leafcoin addresses to prove you own them</source>
-        <translation>ç”¨è±ç‰¹å¹£ä½å€ç°½ç½²è¨Šæ¯ä¾†è­‰æ˜é‚£æ˜¯ä½ çš„</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Leafcoin addresses</source>
-        <translation>é©—è­‰è¨Šæ¯ä¾†ç¢ºèªæ˜¯ç”¨æŒ‡å®šçš„è±ç‰¹å¹£ä½å€ç°½ç½²çš„</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>&amp;File</source>
-        <translation>æª”æ¡ˆ</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Settings</source>
-        <translation>è¨­å®š</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>&amp;Help</source>
-        <translation>æ±‚åŠ©</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Tabs toolbar</source>
-        <translation>åˆ†é å·¥å…·åˆ—</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-    <message>
-        <location line="+47"/>
-        <source>Leafcoin client</source>
-        <translation>è±ç‰¹å¹£å®¢æˆ¶ç«¯è»Ÿé«”</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+141"/>
-        <source>%n active connection(s) to Leafcoin network</source>
-        <translation><numerusform>èˆ‡è±ç‰¹å¹£ç¶²è·¯æœ‰ %n å€‹é€£ç·šåœ¨ä½¿ç”¨ä¸­</numerusform></translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation>ç›®å‰æ²’æœ‰å€å¡Šä¾†æº...</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation>å·²è™•ç†äº†ä¼°è¨ˆå…¨éƒ¨ %2 å€‹ä¸­çš„ %1 å€‹å€å¡Šçš„äº¤æ˜“ç´€éŒ„.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>å·²è™•ç†äº† %1 å€‹å€å¡Šçš„äº¤æ˜“ç´€éŒ„.</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n å€‹å°æ™‚</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n å¤©</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n å€‹æ˜ŸæœŸ</numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>%1 behind</source>
-        <translation>è½å¾Œ %1</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>æœ€è¿‘æ”¶åˆ°çš„å€å¡Šæ˜¯åœ¨ %1 ä¹‹å‰ç”Ÿç”¢å‡ºä¾†.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>æœƒçœ‹ä¸è¦‹åœ¨é€™ä¹‹å¾Œçš„äº¤æ˜“.</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Error</source>
-        <translation>éŒ¯èª¤</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning</source>
-        <translation>è­¦å‘Š</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Information</source>
-        <translation>è³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>é€™ç­†äº¤æ˜“çš„è³‡æ–™å¤§å°è¶…éé™åˆ¶äº†. ä½ é‚„æ˜¯å¯ä»¥ä»˜å‡º %1 çš„è²»ç”¨ä¾†å‚³é€, é€™ç­†è²»ç”¨æœƒä»˜çµ¦è™•ç†ä½ çš„äº¤æ˜“çš„ç¯€é», ä¸¦å¹«åŠ©ç¶­æŒæ•´å€‹ç¶²è·¯. ä½ é¡˜æ„æ”¯ä»˜é€™é …è²»ç”¨å—?</translation>
-    </message>
-    <message>
-        <location line="-140"/>
-        <source>Up to date</source>
-        <translation>æœ€æ–°ç‹€æ…‹</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Catching up...</source>
-        <translation>é€²åº¦è¿½è¶•ä¸­...</translation>
-    </message>
-    <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>ç¢ºèªäº¤æ˜“æ‰‹çºŒè²»</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Sent transaction</source>
-        <translation>ä»˜æ¬¾äº¤æ˜“</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Incoming transaction</source>
-        <translation>æ”¶æ¬¾äº¤æ˜“</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
+<name>AboutDialog</name>
+<message>...</message>
+<message>
+<location line="+39"/>
+<source><b>Leafcoin</b> version</source>
+<translation><b>ËÄÈ~Å</b>°æ±¾</translation>
+</message>
+<message>
+<location line="+57"/>
+<source>
+This is experimental software. Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 </source>
-        <translation>æ—¥æœŸ: %1
-é‡‘é¡: %2
-é¡åˆ¥: %3
-ä½å€: %4</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation>URI è™•ç†</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Leafcoin address or malformed URI parameters.</source>
-        <translation>ç„¡æ³•è§£æ URI! ä¹Ÿè¨±è±ç‰¹å¹£ä½å€ç„¡æ•ˆæˆ– URI åƒæ•¸æœ‰èª¤.</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>éŒ¢åŒ…&lt;b&gt;å·²åŠ å¯†&lt;/b&gt;ä¸¦ä¸”æ­£&lt;b&gt;è§£é–ä¸­&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>éŒ¢åŒ…&lt;b&gt;å·²åŠ å¯†&lt;/b&gt;ä¸¦ä¸”æ­£&lt;b&gt;ä¸Šé–ä¸­&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Leafcoin can no longer continue safely and will quit.</source>
-        <translation>ç™¼ç”Ÿäº†è‡´å‘½çš„éŒ¯èª¤. è±ç‰¹å¹£ç¨‹å¼ç„¡æ³•å†ç¹¼çºŒå®‰å…¨åŸ·è¡Œ, åªå¥½çµæŸ.</translation>
-    </message>
-</context>
-<context>
-    <name>ClientModel</name>
-    <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation>ç¶²è·¯è­¦å ±</translation>
-    </message>
-</context>
-<context>
-    <name>EditAddressDialog</name>
-    <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation>ç·¨è¼¯ä½å€</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>&amp;Label</source>
-        <translation>æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>èˆ‡é€™å€‹ä½å€ç°¿é …ç›®é—œè¯çš„æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Address</source>
-        <translation>ä½å€</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>èˆ‡é€™å€‹ä½å€ç°¿é …ç›®é—œè¯çš„ä½å€. ä»˜æ¬¾ä½å€æ‰èƒ½è¢«æ›´æ”¹.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>æ–°æ”¶æ¬¾ä½å€</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>æ–°å¢ä»˜æ¬¾ä½å€</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>ç·¨è¼¯æ”¶æ¬¾ä½å€</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>ç·¨è¼¯ä»˜æ¬¾ä½å€</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>è¼¸å…¥çš„ä½å€&quot;%1&quot;å·²å­˜åœ¨æ–¼ä½å€ç°¿ä¸­.</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Leafcoin address.</source>
-        <translation>è¼¸å…¥çš„ä½å€ &quot;%1&quot; ä¸¦ä¸æ˜¯æœ‰æ•ˆçš„è±ç‰¹å¹£ä½å€.</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>ç„¡æ³•å°‡éŒ¢åŒ…è§£é–.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>æ–°å¯†é‘°ç”¢ç”Ÿå¤±æ•—.</translation>
-    </message>
-</context>
-<context>
-    <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Leafcoin-Qt</source>
-        <translation>è±ç‰¹å¹£-Qt</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation>ç‰ˆæœ¬</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation>ç”¨æ³•:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation>å‘½ä»¤åˆ—é¸é …</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>ä½¿ç”¨ç•Œé¢é¸é …</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>è¨­å®šèªè¨€, æ¯”å¦‚èªª &quot;de_DE&quot; (é è¨­: ç³»çµ±èªç³»)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation>å•“å‹•æ™‚æœ€å°åŒ–
+<translation>
+ß@ÊÇÒ»Ì×ŒòĞÔµÄÜ›ów. ´ËÜ›ówÊÇÒÀ“ş MIT/X11 Ü›ówÊÚ™à—l¿îÉ¢²¼, Ô”ÇéÕˆÒŠ¸½§µÄ COPYING ™n°¸, »òÊÇÒÔÏÂ¾WÕ¾: http://www.opensource.org/licenses/mit-license.php. ´Ë®aÆ·Ò²°üº¬ÁËÓÉ OpenSSL Project Ëùé_°lµÄ OpenSSL Toolkit (http://www.openssl.org/) Ü›ów, ÓÉ Eric Young (eay@cryptsoft.com) ×«Œ‘µÄ¼Ó½âÃÜÜ›ów, ÒÔ¼°ÓÉ Thomas Bernard Ëù×«Œ‘µÄ UPnP Ü›ów.
 </translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>é¡¯ç¤ºå•“å‹•ç•«é¢ (é è¨­: 1)</translation>
-    </message>
+</message>
+<message>
+<location filename="../aboutdialog.cpp" line="+14"/>
+<source>Copyright</source>
+<translation>°æ™à</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>The Leafcoin developers</source>
+<translation>ËÄÈ~Åé_°lÈË†T</translation>
+</message>
 </context>
 <context>
-    <name>OptionsDialog</name>
-    <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
-        <source>Options</source>
-        <translation>é¸é …</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation>ä¸»è¦</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation>éå¿…è¦çš„äº¤æ˜“æ‰‹çºŒè²», ä»¥ kB ç‚ºè¨ˆè²»å–®ä½, ä¸”æœ‰åŠ©æ–¼ç¸®çŸ­ä½ çš„äº¤æ˜“è™•ç†æ™‚é–“. å¤§éƒ¨ä»½äº¤æ˜“è³‡æ–™çš„å¤§å°æ˜¯ 1 kB.</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>ä»˜äº¤æ˜“æ‰‹çºŒè²»</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Automatically start Leafcoin after logging in to the system.</source>
-        <translation>åœ¨ç™»å…¥ç³»çµ±å¾Œè‡ªå‹•å•“å‹•è±ç‰¹å¹£.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start Leafcoin on system login</source>
-        <translation>ç³»çµ±ç™»å…¥æ™‚å•Ÿå‹•è±ç‰¹å¹£</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Reset all client options to default.</source>
-        <translation>å›å¾©æ‰€æœ‰å®¢æˆ¶ç«¯è»Ÿé«”é¸é …æˆé è¨­å€¼.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Reset Options</source>
-        <translation>é¸é …å›å¾©</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>&amp;Network</source>
-        <translation>ç¶²è·¯</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Automatically open the Leafcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>è‡ªå‹•åœ¨è·¯ç”±å™¨ä¸Šé–‹å•Ÿ Leafcoin çš„å®¢æˆ¶ç«¯é€šè¨ŠåŸ . åªæœ‰åœ¨ä½ çš„è·¯ç”±å™¨æ”¯æ´ UPnP ä¸”é–‹å•Ÿæ™‚æ‰æœ‰ä½œç”¨.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation>ç”¨ &amp;UPnP è¨­å®šé€šè¨ŠåŸ å°æ‡‰</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Connect to the Leafcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>é€é SOCKS ä»£ç†ä¼ºæœå™¨é€£ç·šè‡³è±ç‰¹å¹£ç¶²è·¯ (æ¯”å¦‚èªªè¦é€é Tor é€£ç·š).</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>é€é SOCKS ä»£ç†ä¼ºæœå™¨é€£ç·š:</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Proxy &amp;IP:</source>
-        <translation>ä»£ç†ä¼ºæœå™¨ä½å€:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>ä»£ç†ä¼ºæœå™¨çš„ç¶²éš›ç¶²è·¯ä½å€ (æ¯”å¦‚èªª 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation>é€šè¨ŠåŸ :</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>ä»£ç†ä¼ºæœå™¨çš„é€šè¨ŠåŸ  (æ¯”å¦‚èªª 9050)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS å”å®šç‰ˆæœ¬:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>ä»£ç†ä¼ºæœå™¨çš„ SOCKS å”å®šç‰ˆæœ¬ (æ¯”å¦‚èªª 5)</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>&amp;Window</source>
-        <translation>è¦–çª—</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>æœ€å°åŒ–è¦–çª—å¾Œåªåœ¨é€šçŸ¥å€åŸŸé¡¯ç¤ºåœ–ç¤º</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>æœ€å°åŒ–è‡³é€šçŸ¥å€åŸŸè€Œéå·¥ä½œåˆ—</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>ç•¶è¦–çª—é—œé–‰æ™‚å°‡å…¶æœ€å°åŒ–, è€ŒéçµæŸæ‡‰ç”¨ç¨‹å¼. ç•¶å‹¾é¸é€™å€‹é¸é …æ™‚, æ‡‰ç”¨ç¨‹å¼åªèƒ½ç”¨é¸å–®ä¸­çš„çµæŸä¾†åœæ­¢åŸ·è¡Œ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation>é—œé–‰æ™‚æœ€å°åŒ–</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation>é¡¯ç¤º</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation>ä½¿ç”¨ç•Œé¢èªè¨€</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Leafcoin.</source>
-        <translation>å¯ä»¥åœ¨é€™è£¡è¨­å®šä½¿ç”¨è€…ä»‹é¢çš„èªè¨€. é€™å€‹è¨­å®šåœ¨è±ç‰¹å¹£ç¨‹å¼é‡å•“å¾Œæ‰æœƒç”Ÿæ•ˆ.</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>é‡‘é¡é¡¯ç¤ºå–®ä½:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>é¸æ“‡æ“ä½œç•Œé¢èˆ‡ä»˜éŒ¢æ™‚é è¨­é¡¯ç¤ºçš„ç´°åˆ†å–®ä½.</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show Leafcoin addresses in the transaction list or not.</source>
-        <translation>æ˜¯å¦è¦åœ¨äº¤æ˜“åˆ—è¡¨ä¸­é¡¯ç¤ºè±ç‰¹å¹£ä½å€.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation>åœ¨äº¤æ˜“åˆ—è¡¨é¡¯ç¤ºä½å€</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation>å¥½</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation>å–æ¶ˆ</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>å¥—ç”¨</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
-        <source>default</source>
-        <translation>é è¨­</translation>
-    </message>
-    <message>
-        <location line="+130"/>
-        <source>Confirm options reset</source>
-        <translation>ç¢ºèªå›å¾©é¸é …</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation>æœ‰äº›è¨­å®šå¯èƒ½éœ€è¦é‡æ–°å•“å‹•å®¢æˆ¶ç«¯è»Ÿé«”æ‰æœƒç”Ÿæ•ˆ.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation>ä½ æƒ³è¦å°±åšä¸‹å»å—?</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>è­¦å‘Š</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Leafcoin.</source>
-        <translation>é€™å€‹è¨­å®šæœƒåœ¨è±ç‰¹å¹£ç¨‹å¼é‡å•“å¾Œç”Ÿæ•ˆ.</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>The supplied proxy address is invalid.</source>
-        <translation>æä¾›çš„ä»£ç†ä¼ºæœå™¨ä½å€ç„¡æ•ˆ</translation>
-    </message>
-</context>
-<context>
-    <name>OverviewPage</name>
-    <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
-        <source>Form</source>
-        <translation>è¡¨å–®</translation>
-    </message>
-    <message>
-        <location line="+50"/>
-        <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Leafcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>é¡¯ç¤ºçš„è³‡è¨Šå¯èƒ½æ˜¯éæœŸçš„. èˆ‡è±ç‰¹å¹£ç¶²è·¯çš„é€£ç·šå»ºç«‹å¾Œ, ä½ çš„éŒ¢åŒ…æœƒè‡ªå‹•å’Œç¶²è·¯åŒæ­¥, ä½†é€™å€‹æ­¥é©Ÿé‚„æ²’å®Œæˆ.</translation>
-    </message>
-    <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>é¤˜é¡:</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>æœªç¢ºèªé¡:</translation>
-    </message>
-    <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation>éŒ¢åŒ…</translation>
-    </message>
-    <message>
-        <location line="+107"/>
-        <source>Immature:</source>
-        <translation>æœªç†Ÿæˆ</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Mined balance that has not yet matured</source>
-        <translation>å°šæœªç†Ÿæˆçš„é–‹æ¡é‡‘é¡</translation>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;æœ€è¿‘äº¤æ˜“&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>ç›®å‰é¤˜é¡</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>å°šæœªç¢ºèªä¹‹äº¤æ˜“çš„ç¸½é¡, ä¸åŒ…å«åœ¨ç›®å‰é¤˜é¡ä¸­</translation>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>æ²’åŒæ­¥</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start leafcoin: click-to-pay handler</source>
-        <translation>ç„¡æ³•å•Ÿå‹• leafcoin éš¨æŒ‰éš¨ä»˜è™•ç†å™¨</translation>
-    </message>
-</context>
-<context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>QR æ¢ç¢¼å°è©±è¦–çª—</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>ä»˜æ¬¾å–®</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>é‡‘é¡:</translation>
-    </message>
-    <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>æ¨™è¨˜:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>è¨Šæ¯:</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>å„²å­˜ç‚º...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>å°‡ URI ç·¨ç¢¼æˆ QR æ¢ç¢¼å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>è¼¸å…¥çš„é‡‘é¡ç„¡æ•ˆ, è«‹æª¢æŸ¥çœ‹çœ‹.</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>é€ å‡ºçš„ç¶²å€å¤ªé•·äº†,è«‹æŠŠæ¨™ç±¤æˆ–è¨Šæ¯çš„æ–‡å­—ç¸®çŸ­å†è©¦çœ‹çœ‹.</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation>å„²å­˜ QR æ¢ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>PNG åœ–æª” (*.png)</translation>
-    </message>
-</context>
-<context>
-    <name>RPCConsole</name>
-    <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>å®¢æˆ¶ç«¯è»Ÿé«”åç¨±</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
-        <source>N/A</source>
-        <translation>ç„¡</translation>
-    </message>
-    <message>
-        <location line="-217"/>
-        <source>Client version</source>
-        <translation>å®¢æˆ¶ç«¯è»Ÿé«”ç‰ˆæœ¬</translation>
-    </message>
-    <message>
-        <location line="-45"/>
-        <source>&amp;Information</source>
-        <translation>è³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>ä½¿ç”¨ OpenSSL ç‰ˆæœ¬</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Startup time</source>
-        <translation>å•“å‹•æ™‚é–“</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Network</source>
-        <translation>ç¶²è·¯</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Number of connections</source>
-        <translation>é€£ç·šæ•¸</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>ä½æ–¼æ¸¬è©¦ç¶²è·¯</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Block chain</source>
-        <translation>å€å¡Šé–éˆ</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Current number of blocks</source>
-        <translation>ç›®å‰å€å¡Šæ•¸</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation>ä¼°è¨ˆç¸½å€å¡Šæ•¸</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Last block time</source>
-        <translation>æœ€è¿‘å€å¡Šæ™‚é–“</translation>
-    </message>
-    <message>
-        <location line="+52"/>
-        <source>&amp;Open</source>
-        <translation>é–‹å•“</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>å‘½ä»¤åˆ—é¸é …</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Leafcoin-Qt help message to get a list with possible Leafcoin command-line options.</source>
-        <translation>é¡¯ç¤ºè±ç‰¹å¹£-Qtçš„æ±‚åŠ©è¨Šæ¯, ä¾†å–å¾—å¯ç”¨çš„å‘½ä»¤åˆ—é¸é …åˆ—è¡¨.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>é¡¯ç¤º</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>&amp;Console</source>
-        <translation>ä¸»æ§å°</translation>
-    </message>
-    <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation>å»ºç½®æ—¥æœŸ</translation>
-    </message>
-    <message>
-        <location line="-104"/>
-        <source>Leafcoin - Debug window</source>
-        <translation>è±ç‰¹å¹£ - é™¤éŒ¯è¦–çª—</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Leafcoin Core</source>
-        <translation>è±ç‰¹å¹£æ ¸å¿ƒ</translation>
-    </message>
-    <message>
-        <location line="+279"/>
-        <source>Debug log file</source>
-        <translation>é™¤éŒ¯ç´€éŒ„æª”</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Open the Leafcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>å¾ç›®å‰çš„è³‡æ–™ç›®éŒ„ä¸‹é–‹å•“è±ç‰¹å¹£çš„é™¤éŒ¯ç´€éŒ„æª”. ç•¶ç´€éŒ„æª”å¾ˆå¤§æ™‚å¯èƒ½è¦èŠ±å¥½å¹¾ç§’çš„æ™‚é–“.</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Clear console</source>
-        <translation>æ¸…ä¸»æ§å°</translation>
-    </message>
-    <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Leafcoin RPC console.</source>
-        <translation>æ­¡è¿ä½¿ç”¨è±ç‰¹å¹£ RPC ä¸»æ§å°.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>è«‹ç”¨ä¸Šä¸‹æ¸¸æ¨™éµä¾†ç€è¦½æ­·å²æŒ‡ä»¤, ä¸”å¯ç”¨ &lt;b&gt;Ctrl-L&lt;/b&gt; ä¾†æ¸…ç†ç•«é¢.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>è«‹æ‰“ &lt;b&gt;help&lt;/b&gt; ä¾†çœ‹å¯ç”¨æŒ‡ä»¤çš„ç°¡ä»‹.</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsDialog</name>
-    <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <source>Send Coins</source>
-        <translation>ä»˜éŒ¢</translation>
-    </message>
-    <message>
-        <location line="+50"/>
-        <source>Send to multiple recipients at once</source>
-        <translation>ä¸€æ¬¡ä»˜çµ¦å¤šå€‹äºº</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Add &amp;Recipient</source>
-        <translation>åŠ æ”¶æ¬¾äºº</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation>ç§»é™¤æ‰€æœ‰äº¤æ˜“æ¬„ä½</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Clear &amp;All</source>
-        <translation>å…¨éƒ¨æ¸…æ‰</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>Balance:</source>
-        <translation>é¤˜é¡:</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Confirm the send action</source>
-        <translation>ç¢ºèªä»˜æ¬¾å‹•ä½œ</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>S&amp;end</source>
-        <translation>ä»˜å‡º</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; çµ¦ %2 (%3)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>ç¢ºèªè¦ä»˜éŒ¢</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>ç¢ºå®šè¦ä»˜å‡º %1 å—?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>å’Œ</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>ç„¡æ•ˆçš„æ”¶æ¬¾ä½å€, è«‹å†æª¢æŸ¥çœ‹çœ‹.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>ä»˜æ¬¾é‡‘é¡å¿…é ˆå¤§æ–¼ 0.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>é‡‘é¡è¶…éé¤˜é¡äº†.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>åŒ…å« %1 çš„äº¤æ˜“æ‰‹çºŒè²»å¾Œ, ç¸½é‡‘é¡è¶…éä½ çš„é¤˜é¡äº†.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>ç™¼ç¾æœ‰é‡è¤‡çš„ä½å€. æ¯å€‹ä»˜æ¬¾å‹•ä½œä¸­, åªèƒ½ä»˜çµ¦å€‹åˆ¥çš„ä½å€ä¸€æ¬¡.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>éŒ¯èª¤: äº¤æ˜“ç”¢ç”Ÿå¤±æ•—!</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>éŒ¯èª¤: äº¤æ˜“è¢«æ‹’çµ•. æœ‰æ™‚å€™æœƒç™¼ç”Ÿé€™ç¨®éŒ¯èª¤, æ˜¯å› ç‚ºä½ éŒ¢åŒ…ä¸­çš„ä¸€äº›éŒ¢å·²ç¶“è¢«èŠ±æ‰äº†. æ¯”å¦‚èªªä½ è¤‡è£½äº†éŒ¢åŒ…æª” wallet.dat, ç„¶å¾Œç”¨è¤‡è£½çš„éŒ¢åŒ…èŠ±æ‰äº†éŒ¢, ä½ ç¾åœ¨æ‰€ç”¨çš„åŸä¾†çš„éŒ¢åŒ…ä¸­å»æ²’æœ‰è©²ç­†äº¤æ˜“ç´€éŒ„.</translation>
-    </message>
-</context>
-<context>
-    <name>SendCoinsEntry</name>
-    <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>è¡¨å–®</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>A&amp;mount:</source>
-        <translation>é‡‘é¡:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Pay &amp;To:</source>
-        <translation>ä»˜çµ¦:</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>ä»˜æ¬¾çš„ç›®æ¨™ä½å€ (æ¯”å¦‚èªª Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>è¼¸å…¥ä¸€å€‹æ¨™è¨˜çµ¦é€™å€‹ä½å€, ä¸¦åŠ åˆ°ä½å€ç°¿ä¸­</translation>
-    </message>
-    <message>
-        <location line="-78"/>
-        <source>&amp;Label:</source>
-        <translation>æ¨™è¨˜:</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>å¾ä½å€ç°¿ä¸­é¸ä¸€å€‹ä½å€</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Paste address from clipboard</source>
-        <translation>å¾å‰ªè²¼ç°¿è²¼ä¸Šä½å€</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>å»æ‰é€™å€‹æ”¶æ¬¾äºº</translation>
-    </message>
-    <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Leafcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>è¼¸å…¥è±ç‰¹å¹£ä½å€ (æ¯”å¦‚èªª Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-</context>
-<context>
-    <name>SignVerifyMessageDialog</name>
-    <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
-        <source>Signatures - Sign / Verify a Message</source>
-        <translation>ç°½ç«  - ç°½ç½²æˆ–é©—è­‰è¨Šæ¯</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>&amp;Sign Message</source>
-        <translation>è¨Šæ¯ç°½ç½²</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>ä½ å¯ä»¥ç”¨è‡ªå·±çš„ä½å€ä¾†ç°½ç½²è¨Šæ¯, ä»¥è­‰æ˜ä½ å°å®ƒçš„æ‰€æœ‰æ¬Š. ä½†æ˜¯è«‹å°å¿ƒ, ä¸è¦ç°½ç½²èªæ„å«ç³Šä¸æ¸…çš„å…§å®¹, å› ç‚ºé‡£é­šå¼è©é¨™å¯èƒ½æœƒç”¨é¨™ä½ ç°½ç½²çš„æ‰‹æ³•ä¾†å†’å……æ˜¯ä½ . åªæœ‰åœ¨èªå¥ä¸­çš„ç´°ç¯€ä½ éƒ½åŒæ„æ™‚æ‰ç°½ç½².</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>ç”¨ä¾†ç°½ç½²è¨Šæ¯çš„ä½å€ (æ¯”å¦‚èªª Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation>å¾ä½å€ç°¿é¸ä¸€å€‹ä½å€</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <location line="+213"/>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <location line="-203"/>
-        <source>Paste address from clipboard</source>
-        <translation>å¾å‰ªè²¼ç°¿è²¼ä¸Šä½å€</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Enter the message you want to sign here</source>
-        <translation>åœ¨é€™è£¡è¼¸å…¥ä½ æƒ³ç°½ç½²çš„è¨Šæ¯</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Signature</source>
-        <translation>ç°½ç« </translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Copy the current signature to the system clipboard</source>
-        <translation>è¤‡è£½ç›®å‰çš„ç°½ç« åˆ°ç³»çµ±å‰ªè²¼ç°¿</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>Sign the message to prove you own this Leafcoin address</source>
-        <translation>ç°½ç½²è¨Šæ¯æ˜¯ç”¨ä¾†è­‰æ˜é€™å€‹è±ç‰¹å¹£ä½å€æ˜¯ä½ çš„</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>è¨Šæ¯ç°½ç½²</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Reset all sign message fields</source>
-        <translation>é‡ç½®æ‰€æœ‰è¨Šæ¯ç°½ç½²æ¬„ä½</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+146"/>
-        <source>Clear &amp;All</source>
-        <translation>å…¨éƒ¨æ¸…æ‰</translation>
-    </message>
-    <message>
-        <location line="-87"/>
-        <source>&amp;Verify Message</source>
-        <translation>è¨Šæ¯é©—è­‰</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>è«‹åœ¨ä¸‹é¢è¼¸å…¥ç°½ç½²çš„ä½å€, è¨Šæ¯(è«‹ç¢ºèªå®Œæ•´è¤‡è£½äº†æ‰€åŒ…å«çš„æ›è¡Œ, ç©ºæ ¼, è·³ä½ç¬¦è™Ÿç­‰ç­‰), èˆ‡ç°½ç« , ä»¥é©—è­‰è©²è¨Šæ¯. è«‹å°å¿ƒ, é™¤äº†è¨Šæ¯å…§å®¹å¤–, ä¸è¦å°ç°½ç« æœ¬èº«éåº¦è§£è®€, ä»¥é¿å…è¢«ç”¨&quot;ä¸­é–“äººæ”»æ“Šæ³•&quot;è©é¨™.</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>ç°½ç½²è©²è¨Šæ¯çš„ä½å€ (æ¯”å¦‚èªª Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Leafcoin address</source>
-        <translation>é©—è­‰è¨Šæ¯æ˜¯ç”¨ä¾†ç¢ºèªè¨Šæ¯æ˜¯ç”¨æŒ‡å®šçš„è±ç‰¹å¹£ä½å€ç°½ç½²çš„</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Verify &amp;Message</source>
-        <translation>è¨Šæ¯é©—è­‰</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Reset all verify message fields</source>
-        <translation>é‡ç½®æ‰€æœ‰è¨Šæ¯é©—è­‰æ¬„ä½</translation>
-    </message>
-    <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Leafcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>è¼¸å…¥è±ç‰¹å¹£ä½å€ (æ¯”å¦‚èªª Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>æŒ‰&quot;è¨Šæ¯ç°½ç½²&quot;ä¾†ç”¢ç”Ÿç°½ç« </translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Leafcoin signature</source>
-        <translation>è¼¸å…¥è±ç‰¹å¹£ç°½ç« </translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
-        <source>The entered address is invalid.</source>
-        <translation>è¼¸å…¥çš„ä½å€ç„¡æ•ˆ.</translation>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
-        <source>Please check the address and try again.</source>
-        <translation>è«‹æª¢æŸ¥ä½å€æ˜¯å¦æ­£ç¢ºå¾Œå†è©¦ä¸€æ¬¡.</translation>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+81"/>
-        <source>The entered address does not refer to a key.</source>
-        <translation>è¼¸å…¥çš„ä½å€æ²’æœ‰æŒ‡åˆ°ä»»ä½•å¯†é‘°.</translation>
-    </message>
-    <message>
-        <location line="-73"/>
-        <source>Wallet unlock was cancelled.</source>
-        <translation>éŒ¢åŒ…è§£é–å·²å–æ¶ˆ.</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Private key for the entered address is not available.</source>
-        <translation>æ²’æœ‰æ‰€è¼¸å…¥ä½å€çš„å¯†é‘°.</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Message signing failed.</source>
-        <translation>è¨Šæ¯ç°½ç½²å¤±æ•—.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message signed.</source>
-        <translation>è¨Šæ¯å·²ç°½ç½².</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>The signature could not be decoded.</source>
-        <translation>ç„¡æ³•å°‡é€™å€‹ç°½ç« è§£ç¢¼.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+13"/>
-        <source>Please check the signature and try again.</source>
-        <translation>è«‹æª¢æŸ¥ç°½ç« æ˜¯å¦æ­£ç¢ºå¾Œå†è©¦ä¸€æ¬¡.</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The signature did not match the message digest.</source>
-        <translation>é€™å€‹ç°½ç« èˆ‡è¨Šæ¯çš„æ•¸ä½æ‘˜è¦ä¸ç¬¦.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Message verification failed.</source>
-        <translation>è¨Šæ¯é©—è­‰å¤±æ•—.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message verified.</source>
-        <translation>è¨Šæ¯å·²é©—è­‰.</translation>
-    </message>
-</context>
-<context>
-    <name>SplashScreen</name>
-    <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Leafcoin developers</source>
-        <translation>è±ç‰¹å¹£é–‹ç™¼äººå“¡</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDesc</name>
-    <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation>åœ¨ %1 å‰æœªå®š</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation>%1/é›¢ç·šä¸­</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/æœªç¢ºèª</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>ç¶“ç¢ºèª %1 æ¬¡</translation>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation>ç‹€æ…‹</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, å·²å…¬å‘Šè‡³ %n å€‹ç¯€é»</numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>æ—¥æœŸ</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation>ä¾†æº</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation>ç”Ÿç”¢å‡º</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation>ä¾†è™•</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>ç›®çš„</translation>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation>è‡ªå·±çš„ä½å€</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation>æ¨™ç±¤</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation>å…¥å¸³</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>å°‡åœ¨ %n å€‹å€å¡Šç”¢å‡ºå¾Œç†Ÿæˆ</numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation>ä¸è¢«æ¥å—</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation>å‡ºå¸³</translation>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation>äº¤æ˜“æ‰‹çºŒè²»</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation>æ·¨é¡</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>è¨Šæ¯</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation>é™„è¨»</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation>äº¤æ˜“è­˜åˆ¥ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>ç”Ÿç”¢å‡ºä¾†çš„éŒ¢è¦å†ç­‰ 120 å€‹å€å¡Šç†Ÿæˆä¹‹å¾Œ, æ‰èƒ½å¤ èŠ±ç”¨. ç•¶ä½ ç”¢å‡ºå€å¡Šæ™‚, å®ƒæœƒè¢«å…¬å¸ƒåˆ°ç¶²è·¯ä¸Š, ä»¥è¢«ä¸²é€£è‡³å€å¡Šé–éˆ. å¦‚æœä¸²é€£å¤±æ•—äº†, å®ƒçš„ç‹€æ…‹å°±æœƒè®Šæˆ&quot;ä¸è¢«æ¥å—&quot;, ä¸”ä¸èƒ½è¢«èŠ±ç”¨. ç•¶ä½ ç”¢å‡ºå€å¡Šçš„å¹¾ç§’é˜å…§, ä¹Ÿæœ‰å…¶ä»–ç¯€é»ç”¢å‡ºå€å¡Šçš„è©±, æœ‰æ™‚å€™å°±æœƒç™¼ç”Ÿé€™ç¨®æƒ…å½¢.</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation>é™¤éŒ¯è³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>äº¤æ˜“</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation>è¼¸å…¥</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation>é‡‘é¡</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation>æ˜¯</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation>å¦</translation>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, å°šæœªæˆåŠŸå…¬å‘Šå‡ºå»</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>åœ¨æ¥ä¸‹ä¾† %n å€‹å€å¡Šç”¢å‡ºå‰æœªå®š</numerusform></translation>
-    </message>
-    <message>
-        <location line="+70"/>
-        <source>unknown</source>
-        <translation>æœªçŸ¥</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionDescDialog</name>
-    <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>äº¤æ˜“æ˜ç´°</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>æ­¤ç‰ˆé¢é¡¯ç¤ºäº¤æ˜“çš„è©³ç´°èªªæ˜</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionTableModel</name>
-    <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
-        <source>Date</source>
-        <translation>æ—¥æœŸ</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation>ç¨®é¡</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>ä½å€</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>é‡‘é¡</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+57"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>åœ¨æ¥ä¸‹ä¾† %n å€‹å€å¡Šç”¢å‡ºå‰æœªå®š</numerusform></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Open until %1</source>
-        <translation>åœ¨ %1 å‰æœªå®š</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation>é›¢ç·šä¸­ (ç¶“ç¢ºèª %1 æ¬¡)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>æœªç¢ºèª (ç¶“ç¢ºèª %1 æ¬¡, æ‡‰ç¢ºèª %2 æ¬¡)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>å·²ç¢ºèª (ç¶“ç¢ºèª %1 æ¬¡)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>é–‹æ¡é‡‘é¡å°‡å¯åœ¨ %n å€‹å€å¡Šç†Ÿæˆå¾Œå¯ç”¨</numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>æ²’æœ‰å…¶ä»–ç¯€é»æ”¶åˆ°é€™å€‹å€å¡Š, ä¹Ÿè¨±å®ƒä¸è¢«æ¥å—!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation>ç”Ÿç”¢å‡ºä½†ä¸è¢«æ¥å—</translation>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Received with</source>
-        <translation>æ”¶å—æ–¼</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation>æ”¶å—è‡ª</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>ä»˜å‡ºè‡³</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation>ä»˜çµ¦è‡ªå·±</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>é–‹æ¡æ‰€å¾—</translation>
-    </message>
-    <message>
-        <location line="+38"/>
-        <source>(n/a)</source>
-        <translation>(ä¸é©ç”¨)</translation>
-    </message>
-    <message>
-        <location line="+199"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>äº¤æ˜“ç‹€æ…‹. ç§»å‹•æ¸¸æ¨™è‡³æ¬„ä½ä¸Šæ–¹ä¾†é¡¯ç¤ºç¢ºèªæ¬¡æ•¸.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation>æ”¶åˆ°äº¤æ˜“çš„æ—¥æœŸèˆ‡æ™‚é–“.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Type of transaction.</source>
-        <translation>äº¤æ˜“çš„ç¨®é¡.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>äº¤æ˜“çš„ç›®æ¨™ä½å€.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation>æ¸›å»æˆ–åŠ å…¥è‡³é¤˜é¡çš„é‡‘é¡</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
-        <source>All</source>
-        <translation>å…¨éƒ¨</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Today</source>
-        <translation>ä»Šå¤©</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This week</source>
-        <translation>é€™é€±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This month</source>
-        <translation>é€™å€‹æœˆ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last month</source>
-        <translation>ä¸Šå€‹æœˆ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This year</source>
-        <translation>ä»Šå¹´</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Range...</source>
-        <translation>æŒ‡å®šç¯„åœ...</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Received with</source>
-        <translation>æ”¶å—æ–¼</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation>ä»˜å‡ºè‡³</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation>çµ¦è‡ªå·±</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>é–‹æ¡æ‰€å¾—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation>å…¶ä»–</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>è¼¸å…¥ä½å€æˆ–æ¨™è¨˜ä¾†æœå°‹</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation>æœ€å°é‡‘é¡</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Copy address</source>
-        <translation>è¤‡è£½ä½å€</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation>è¤‡è£½æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation>è¤‡è£½é‡‘é¡</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation>è¤‡è£½äº¤æ˜“è­˜åˆ¥ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation>ç·¨è¼¯æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation>é¡¯ç¤ºäº¤æ˜“æ˜ç´°</translation>
-    </message>
-    <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation>åŒ¯å‡ºäº¤æ˜“è³‡æ–™</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>é€—è™Ÿåˆ†éš”è³‡æ–™æª” (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>å·²ç¢ºèª</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation>æ—¥æœŸ</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation>ç¨®é¡</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Label</source>
-        <translation>æ¨™è¨˜</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Address</source>
-        <translation>ä½å€</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>é‡‘é¡</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation>è­˜åˆ¥ç¢¼</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>åŒ¯å‡ºå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>ç„¡æ³•å¯«å…¥è‡³ %1 æª”æ¡ˆ.</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation>ç¯„åœ:</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation>è‡³</translation>
-    </message>
-</context>
-<context>
-    <name>WalletModel</name>
-    <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
-        <source>Send Coins</source>
-        <translation>ä»˜éŒ¢</translation>
-    </message>
-</context>
-<context>
-    <name>WalletView</name>
-    <message>
-        <location filename="../walletview.cpp" line="+42"/>
-        <source>&amp;Export</source>
-        <translation>åŒ¯å‡º</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>å°‡ç›®å‰åˆ†é çš„è³‡æ–™åŒ¯å‡ºå­˜æˆæª”æ¡ˆ</translation>
-    </message>
-    <message>
-        <location line="+193"/>
-        <source>Backup Wallet</source>
-        <translation>éŒ¢åŒ…å‚™ä»½</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>éŒ¢åŒ…è³‡æ–™æª” (*.dat)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation>å‚™ä»½å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>å„²å­˜éŒ¢åŒ…è³‡æ–™åˆ°æ–°çš„åœ°æ–¹å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Backup Successful</source>
-        <translation>å‚™ä»½æˆåŠŸ</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation>éŒ¢åŒ…çš„è³‡æ–™å·²ç¶“æˆåŠŸå„²å­˜åˆ°æ–°çš„åœ°æ–¹äº†.</translation>
-    </message>
-</context>
-<context>
-    <name>bitcoin-core</name>
-    <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Leafcoin version</source>
-        <translation>è±ç‰¹å¹£ç‰ˆæœ¬</translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation>ç”¨æ³•:</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>Send command to -server or leafcoind</source>
-        <translation>é€æŒ‡ä»¤çµ¦ -server æˆ– leafcoind
-</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation>åˆ—å‡ºæŒ‡ä»¤
-</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation>å–å¾—æŒ‡ä»¤èªªæ˜
-</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation>é¸é …:
-</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: leafcoin.conf)</source>
-        <translation>æŒ‡å®šè¨­å®šæª” (é è¨­: leafcoin.conf)
-</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: leafcoind.pid)</source>
-        <translation>æŒ‡å®šè¡Œç¨‹è­˜åˆ¥ç¢¼æª”æ¡ˆ (é è¨­: leafcoind.pid)
-</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation>æŒ‡å®šè³‡æ–™ç›®éŒ„
-</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>è¨­å®šè³‡æ–™åº«å¿«å–å¤§å°ç‚ºå¤šå°‘ç™¾è¬ä½å…ƒçµ„(MB, é è¨­: 25)</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 22556 or testnet: 44556)</source>
-        <translation>åœ¨é€šè¨ŠåŸ  &lt;port&gt; è½å€™é€£ç·š (é è¨­: 22556, æˆ–è‹¥ç‚ºæ¸¬è©¦ç¶²è·¯: 44556)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>ç¶­æŒèˆ‡ç¯€é»é€£ç·šæ•¸çš„ä¸Šé™ç‚º &lt;n&gt; å€‹ (é è¨­: 125)</translation>
-    </message>
-    <message>
-        <location line="-48"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>é€£ç·šåˆ°æŸå€‹ç¯€é»ä»¥å–å¾—å…¶å®ƒç¯€é»çš„ä½å€, ç„¶å¾Œæ–·ç·š</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <source>Specify your own public address</source>
-        <translation>æŒ‡å®šè‡ªå·±å…¬é–‹çš„ä½å€</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>èˆ‡äº‚æçš„ç¯€é»æ–·ç·šçš„è‡¨ç•Œå€¼ (é è¨­: 100)</translation>
-    </message>
-    <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>é¿å…èˆ‡äº‚æçš„ç¯€é»é€£ç·šçš„ç§’æ•¸ (é è¨­: 86400)</translation>
-    </message>
-    <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>åœ¨ IPv4 ç¶²è·¯ä¸Šä»¥é€šè¨ŠåŸ  %u è½å– RPC é€£ç·šæ™‚ç™¼ç”ŸéŒ¯èª¤: %s</translation>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 22555 or testnet: 44555)</source>
-        <translation>åœ¨é€šè¨ŠåŸ  &lt;port&gt; è½å€™ JSON-RPC é€£ç·š (é è¨­: 22555, æˆ–è‹¥ç‚ºæ¸¬è©¦ç¶²è·¯: 44555)</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>æ¥å—å‘½ä»¤åˆ—èˆ‡ JSON-RPC æŒ‡ä»¤
-</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>ä»¥èƒŒæ™¯ç¨‹å¼åŸ·è¡Œä¸¦æ¥å—æŒ‡ä»¤</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation>ä½¿ç”¨æ¸¬è©¦ç¶²è·¯
-</translation>
-    </message>
-    <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>æ˜¯å¦æ¥å—å¤–ä¾†é€£ç·š (é è¨­: ç•¶æ²’æœ‰ -proxy æˆ– -connect æ™‚é è¨­ç‚º 1)</translation>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=leafcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Leafcoin Alert&quot; admin@foo.com
+<name>AddressBookPage</name>
+<message>
+<location filename="../forms/addressbookpage.ui" line="+14"/>
+<source>Address Book</source>
+<translation>Î»Ö·²¾</translation>
+</message>
+<message>
+<location line="+19"/>
+<source>Double-click to edit address or label</source>
+<translation>ücƒÉÏÂíĞŞ¸ÄÎ»Ö·»ò˜ËÓ›</translation>
+</message>
+<message>
+<location line="+27"/>
+<source>Create a new address</source>
+<translation>®aÉúĞÂÎ»Ö·</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>
+Copy the currently selected address to the system clipboard
 </source>
-        <translation>%s, ä½ å¿…é ˆè¦åœ¨ä»¥ä¸‹è¨­å®šæª”ä¸­è¨­å®š RPC å¯†ç¢¼(rpcpassword):
-%s
-å»ºè­°ä½ ä½¿ç”¨ä»¥ä¸‹éš¨æ©Ÿç”¢ç”Ÿçš„å¯†ç¢¼:
-rpcuser=leafcoinrpc
-rpcpassword=%s
-(ä½ ä¸ç”¨è¨˜ä½é€™å€‹å¯†ç¢¼)
-ä½¿ç”¨è€…åç¨±(rpcuser)å’Œå¯†ç¢¼(rpcpassword)ä¸å¯ä»¥ç›¸åŒ!
-å¦‚æœè¨­å®šæª”é‚„ä¸å­˜åœ¨, è«‹åœ¨æ–°å¢æ™‚, è¨­å®šæª”æ¡ˆæ¬Šé™ç‚º&quot;åªæœ‰ä¸»äººæ‰èƒ½è®€å–&quot;.
-ä¹Ÿå»ºè­°ä½ è¨­å®šè­¦ç¤ºé€šçŸ¥, ç™¼ç”Ÿå•é¡Œæ™‚ä½ æ‰æœƒè¢«é€šçŸ¥åˆ°;
-æ¯”å¦‚èªªè¨­å®šç‚º:
-alertnotify=echo %%s | mail -s &quot;Leafcoin Alert&quot; admin@foo.com
+<translation>Ñ}ÑuÄ¿Ç°ßxÈ¡µÄÎ»Ö·µ½Ïµ½y¼ôÙN²¾</translation>
+</message>
+<message>
+<location line="-11"/>
+<source>&New Address</source>
+<translation>ĞÂÔöÎ»Ö·</translation>
+</message>
+<message>
+<location filename="../addressbookpage.cpp" line="+63"/>
+<source>
+These are your Leafcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.
+</source>
+<translation>ß@Ğ©ÊÇÄãÓÃíÊÕ¿îµÄËÄÈ~ÅÎ»Ö·. Äã¿ÉÒÔÌá¹©²»Í¬µÄÎ»Ö·½o²»Í¬µÄ¸¶¿îÈË, í×·Û™ÊÇÕlÖ§¸¶½oÄã.</translation>
+</message>
+<message>
+<location filename="../forms/addressbookpage.ui" line="+14"/>
+<source>&Copy Address</source>
+<translation>Ñ}ÑuÎ»Ö·</translation>
+</message>
+<message>
+<location line="+11"/>
+<source>Show &QR Code</source>
+<translation>ï@Ê¾ &QR —l´a</translation>
+</message>
+<message>
+<location line="+11"/>
+<source>Sign a message to prove you own a Leafcoin address</source>
+<translation>ºÊğÓÏ¢ÊÇÓÃí×CÃ÷ËÄÈ~ÅÎ»Ö·ÊÇÄãµÄ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Sign &Message</source>
+<translation>ÓÏ¢ºÊğ</translation>
+</message>
+<message>
+<location line="+25"/>
+<source>
+Delete the currently selected address from the list
+</source>
+<translation>ÄÁĞ±íÖĞ„h³ıÄ¿Ç°ßxÈ¡µÄÎ»Ö·</translation>
+</message>
+<message>
+<location line="+27"/>
+<source>Export the data in the current tab to a file</source>
+<translation>Œ¢Ä¿Ç°·Öí“µÄÙYÁÏ…R³ö´æ³É™n°¸</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Export</source>
+<translation>…R³ö</translation>
+</message>
+<message>
+<location line="-44"/>
+<source>
+Verify a message to ensure it was signed with a specified Leafcoin address
+</source>
+<translation>ò×CÓÏ¢ÊÇÓÃí´_ÕJÓÏ¢ÊÇÓÃÖ¸¶¨µÄËÄÈ~ÅÎ»Ö·ºÊğµÄ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Verify Message</source>
+<translation>ÓÏ¢ò×C</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>&Delete</source>
+<translation>„h³ı</translation>
+</message>
+<message>
+<location filename="../addressbookpage.cpp" line="-5"/>
+<source>
+These are your Leafcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.
+</source>
+<translation>ß@ÊÇÄãÓÃí¸¶¿îµÄËÄÈ~ÅÎ»Ö·. ÔÚ¸¶åXÖ®Ç°, „Õ±ØÒª™z²é½ğî~ºÍÊÕ¿îÎ»Ö·ÊÇ·ñÕı´_.</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>Copy &Label</source>
+<translation>Ñ}Ñu˜ËÓ›</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>&Edit</source>
+<translation>¾İ‹</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Send &Coins</source>
+<translation>¸¶åX</translation>
+</message>
+<message>
+<location line="+260"/>
+<source>Export Address Book Data</source>
+<translation>…R³öÎ»Ö·²¾ÙYÁÏ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Comma separated file (*.csv)</source>
+<translation>¶ºÌ–…^¸ôÙYÁÏ™n (*.csv)</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>Error exporting</source>
+<translation>…R³öÊ§”¡</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Could not write to file %1.</source>
+<translation>Ÿo·¨Œ‘Èë™n°¸ %1.</translation>
+</message>
+</context>
+<context>
+<name>AddressTableModel</name>
+<message>
+<location filename="../addresstablemodel.cpp" line="+144"/>
+<source>Label</source>
+<translation>˜ËÓ›</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Address</source>
+<translation>Î»Ö·</translation>
+</message>
+<message>
+<location line="+36"/>
+<source>(no label)</source>
+<translation>(›]ÓĞ˜ËÓ›)</translation>
+</message>
+</context>
+<context>
+<name>AskPassphraseDialog</name>
+<message>
+<location filename="../forms/askpassphrasedialog.ui" line="+26"/>
+<source>Passphrase Dialog</source>
+<translation>ÃÜ´aŒ¦Ô’Ò•´°</translation>
+</message>
+<message>
+<location line="+21"/>
+<source>Enter passphrase</source>
+<translation>İ”ÈëÃÜ´a</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>New passphrase</source>
+<translation>ĞÂµÄÃÜ´a</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>Repeat new passphrase</source>
+<translation>ÖØÑ}ĞÂÃÜ´a</translation>
+</message>
+<message>
+<location filename="../askpassphrasedialog.cpp" line="+33"/>
+<source>
+Enter the new passphrase to the wallet.<br/>Please use a passphrase of <b>10 or more random characters</b>, or <b>eight or more words</b>.
+</source>
+<translation>İ”ÈëåX°üµÄĞÂÃÜ´a.<br/>ÕˆÓÃ<b>10‚€ÒÔÉÏµÄ×ÖÔª</b>, »òÊÇ<b>8‚€ÒÔÉÏµÄ†Î×Ö</b>.</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Encrypt wallet</source>
+<translation>åX°ü¼ÓÃÜ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+This operation needs your wallet passphrase to unlock the wallet.
+</source>
+<translation>ß@‚€„Ó×÷ĞèÒªÓÃÄãµÄåX°üÃÜ´aí½âæi</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Unlock wallet</source>
+<translation>åX°ü½âæi</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+This operation needs your wallet passphrase to decrypt the wallet.
+</source>
+<translation>ß@‚€„Ó×÷ĞèÒªÓÃÄãµÄåX°üÃÜ´aí½âÃÜ</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Decrypt wallet</source>
+<translation>åX°ü½âÃÜ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Change passphrase</source>
+<translation>×ƒ¸üÃÜ´a</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Enter the old and new passphrase to the wallet.</source>
+<translation>İ”ÈëåX°üµÄĞÂÅfÃÜ´a.</translation>
+</message>
+<message>
+<location line="+46"/>
+<source>Confirm wallet encryption</source>
+<translation>åX°ü¼ÓÃÜ´_ÕJ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Warning: If you encrypt your wallet and lose your passphrase, you will <b>LOSE ALL OF YOUR LEAFCOINS</b>!
+</source>
+<translation>¾¯¸æ: Èç¹ûŒ¢åX°ü¼ÓÃÜááÍüÓ›ÃÜ´a, Äã•ş<b>Ê§È¥ÆäÖĞËùÓĞµÄËÄÈ~Å</b>!</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Are you sure you wish to encrypt your wallet?</source>
+<translation>Äã´_¶¨ÒªŒ¢åX°ü¼ÓÃÜ†á?</translation>
+</message>
+<message>
+<location line="+15"/>
+<source>
+IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.
+</source>
+<translation>
+ÖØÒª: Õˆ¸ÄÓÃĞÂ®aÉúÓĞ¼ÓÃÜµÄåX°ü™n, íÈ¡´úÖ®Ç°åX°ü™nµÄ‚ä·İ. éÁË°²È«ĞÔµÄÀíÓÉ, ®”Äãé_Ê¼Ê¹ÓÃĞÂµÄÓĞ¼ÓÃÜµÄåX°ü•r, ÅfåX°üµÄ‚ä·İ¾Í²»ÄÜÔÙÊ¹ÓÃÁË.
 </translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>è¨­å®šåœ¨ IPv6 ç¶²è·¯çš„é€šè¨ŠåŸ  %u ä¸Šè½å€™ RPC é€£ç·šå¤±æ•—, é€€è€Œæ”¹ç”¨ IPv4 ç¶²è·¯: %s</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>å’ŒæŒ‡å®šçš„ä½å€ç¹«çµ, ä¸¦ç¸½æ˜¯åœ¨è©²ä½å€è½å€™é€£ç·š. IPv6 è«‹ç”¨ &quot;[ä¸»æ©Ÿ]:é€šè¨ŠåŸ &quot; é€™ç¨®æ ¼å¼</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Leafcoin is probably already running.</source>
-        <translation>ç„¡æ³•é–å®šè³‡æ–™ç›®éŒ„ %s. ä¹Ÿè¨±è±ç‰¹å¹£å·²ç¶“åœ¨åŸ·è¡Œäº†.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>éŒ¯èª¤: äº¤æ˜“è¢«æ‹’çµ•äº†! æœ‰æ™‚å€™æœƒç™¼ç”Ÿé€™ç¨®éŒ¯èª¤, æ˜¯å› ç‚ºä½ éŒ¢åŒ…ä¸­çš„ä¸€äº›éŒ¢å·²ç¶“è¢«èŠ±æ‰äº†. æ¯”å¦‚èªªä½ è¤‡è£½äº†éŒ¢åŒ…æª” wallet.dat, ç„¶å¾Œç”¨è¤‡è£½çš„éŒ¢åŒ…èŠ±æ‰äº†éŒ¢, ä½ ç¾åœ¨æ‰€ç”¨çš„åŸä¾†çš„éŒ¢åŒ…ä¸­å»æ²’æœ‰è©²ç­†äº¤æ˜“ç´€éŒ„.</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>éŒ¯èª¤: é€™ç­†äº¤æ˜“éœ€è¦è‡³å°‘ %s çš„æ‰‹çºŒè²»! å› ç‚ºå®ƒçš„é‡‘é¡å¤ªå¤§, æˆ–è¤‡é›œåº¦å¤ªé«˜, æˆ–æ˜¯ä½¿ç”¨äº†æœ€è¿‘æ‰å‰›æ”¶åˆ°çš„æ¬¾é ….</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>ç•¶æ”¶åˆ°ç›¸é—œè­¦ç¤ºæ™‚æ‰€è¦åŸ·è¡Œçš„æŒ‡ä»¤ (æŒ‡ä»¤ä¸­çš„ %s æœƒè¢«å–ä»£ç‚ºè­¦ç¤ºè¨Šæ¯)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>ç•¶éŒ¢åŒ…æœ‰äº¤æ˜“æ”¹è®Šæ™‚æ‰€è¦åŸ·è¡Œçš„æŒ‡ä»¤ (æŒ‡ä»¤ä¸­çš„ %s æœƒè¢«å–ä»£ç‚ºäº¤æ˜“è­˜åˆ¥ç¢¼)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>è¨­å®šé«˜å„ªå…ˆæ¬Šæˆ–ä½æ‰‹çºŒè²»çš„äº¤æ˜“è³‡æ–™å¤§å°ä¸Šé™ç‚ºå¤šå°‘ä½å…ƒçµ„ (é è¨­: 27000)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>é€™æ˜¯å°šæœªç™¼è¡¨çš„æ¸¬è©¦ç‰ˆæœ¬ - ä½¿ç”¨è«‹è‡ªè² é¢¨éšª - è«‹ä¸è¦ç”¨æ–¼é–‹æ¡æˆ–å•†æ¥­æ‡‰ç”¨</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>è­¦å‘Š: -paytxfee è¨­å®šäº†å¾ˆé«˜çš„é‡‘é¡! é€™å¯æ˜¯ä½ äº¤æ˜“ä»˜æ¬¾æ‰€è¦ä»˜çš„æ‰‹çºŒè²».</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>è­¦å‘Š: é¡¯ç¤ºçš„äº¤æ˜“å¯èƒ½ä¸æ­£ç¢º! ä½ å¯èƒ½éœ€è¦å‡ç´š, æˆ–è€…éœ€è¦ç­‰å…¶å®ƒçš„ç¯€é»å‡ç´š.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Leafcoin will not work properly.</source>
-        <translation>è­¦å‘Š: è«‹æª¢æŸ¥é›»è…¦æ™‚é–“èˆ‡æ—¥æœŸæ˜¯å¦æ­£ç¢º! è±ç‰¹å¹£ç„¡æ³•åœ¨æ™‚é˜ä¸æº–çš„æƒ…æ³ä¸‹æ­£å¸¸é‹ä½œ.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>è­¦å‘Š: è®€å–éŒ¢åŒ…æª” wallet.dat å¤±æ•—äº†! æ‰€æœ‰çš„å¯†é‘°éƒ½æ­£ç¢ºè®€å–äº†, ä½†æ˜¯äº¤æ˜“è³‡æ–™æˆ–ä½å€ç°¿è³‡æ–™å¯èƒ½æœƒç¼ºå°‘æˆ–ä¸æ­£ç¢º.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>è­¦å‘Š: éŒ¢åŒ…æª” wallet.dat å£æ‰, ä½†è³‡æ–™è¢«æ‹¯æ•‘å›ä¾†äº†! åŸä¾†çš„ wallet.dat æœƒæ”¹å„²å­˜åœ¨ %s, æª”åç‚º wallet.{timestamp}.bak. å¦‚æœé¤˜é¡æˆ–äº¤æ˜“è³‡æ–™æœ‰èª¤, ä½ æ‡‰è©²è¦ç”¨å‚™ä»½è³‡æ–™å¾©åŸå›ä¾†.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>å˜—è©¦å¾å£æ‰çš„éŒ¢åŒ…æª” wallet.dat å¾©åŸå¯†é‘°</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Block creation options:</source>
-        <translation>å€å¡Šç”¢ç”Ÿé¸é …:</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>åªé€£ç·šè‡³æŒ‡å®šç¯€é»(å¯å¤šå€‹)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Corrupted block database detected</source>
-        <translation>ç™¼ç¾å€å¡Šè³‡æ–™åº«å£æ‰äº†</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>æ‰¾å‡ºè‡ªå·±çš„ç¶²éš›ç¶²è·¯ä½å€ (é è¨­: ç•¶æœ‰è½å€™é€£ç·šä¸”æ²’æœ‰ -externalip æ™‚ç‚º 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>ä½ è¦ç¾åœ¨é‡å»ºå€å¡Šè³‡æ–™åº«å—?</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error initializing block database</source>
-        <translation>åˆå§‹åŒ–å€å¡Šè³‡æ–™åº«å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>éŒ¢åŒ…è³‡æ–™åº«ç’°å¢ƒ %s åˆå§‹åŒ–éŒ¯èª¤!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading block database</source>
-        <translation>è¼‰å…¥å€å¡Šè³‡æ–™åº«å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error opening block database</source>
-        <translation>æ‰“é–‹å€å¡Šè³‡æ–™åº«æª”æ¡ˆå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error: Disk space is low!</source>
-        <translation>éŒ¯èª¤: ç£ç¢Ÿç©ºé–“å¾ˆå°‘!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>éŒ¯èª¤: éŒ¢åŒ…è¢«ä¸Šé–äº†, ç„¡æ³•ç”¢ç”Ÿæ–°çš„äº¤æ˜“!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation>éŒ¯èª¤: ç³»çµ±éŒ¯èª¤:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>åœ¨ä»»æ„çš„é€šè¨ŠåŸ è½å€™å¤±æ•—. å¦‚æœä½ æƒ³çš„è©±å¯ä»¥ç”¨ -listen=0.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation>è®€å–å€å¡Šè³‡è¨Šå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation>è®€å–å€å¡Šå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation>åŒæ­¥å€å¡Šç´¢å¼•å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation>å¯«å…¥å€å¡Šç´¢å¼•å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation>å¯«å…¥å€å¡Šè³‡è¨Šå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation>å¯«å…¥å€å¡Šå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation>å¯«å…¥æª”æ¡ˆè³‡è¨Šå¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation>å¯«å…¥è±ç‰¹å¹£è³‡æ–™åº«å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation>å¯«å…¥äº¤æ˜“ç´¢å¼•å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation>å¯«å…¥å›å¾©è³‡æ–™å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>æ˜¯å¦å…è¨±åœ¨æ‰¾ç¯€é»æ™‚ä½¿ç”¨åŸŸåæŸ¥è©¢ (é è¨­: ç•¶æ²’ç”¨ -connect æ™‚ç‚º 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation>ç”Ÿç”¢è±ç‰¹å¹£ (é è¨­å€¼: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>å•“å‹•æ™‚æª¢æŸ¥çš„å€å¡Šæ•¸ (é è¨­: 288, æŒ‡å®š 0 è¡¨ç¤ºå…¨éƒ¨)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation>å€å¡Šæª¢æŸ¥çš„ä»”ç´°ç¨‹åº¦ (0 è‡³ 4, é è¨­: 3)</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Not enough file descriptors available.</source>
-        <translation>æª”æ¡ˆæè¿°å™¨ä¸è¶³.</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>å¾ç›®å‰çš„å€å¡Šæª” blk000??.dat é‡å»ºé–éˆç´¢å¼•</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>è¨­å®šè™•ç† RPC æœå‹™è«‹æ±‚çš„åŸ·è¡Œç·’æ•¸ç›® (é è¨­ç‚º 4)</translation>
-    </message>
-    <message>
-        <location line="+26"/>
-        <source>Verifying blocks...</source>
-        <translation>é©—è­‰å€å¡Šè³‡æ–™ä¸­...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation>é©—è­‰éŒ¢åŒ…è³‡æ–™ä¸­...</translation>
-    </message>
-    <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation>å¾å…¶å®ƒä¾†æºçš„ blk000??.dat æª”åŒ¯å…¥å€å¡Š</translation>
-    </message>
-    <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation>è¨­å®šæŒ‡ä»¤ç¢¼é©—è­‰çš„åŸ·è¡Œç·’æ•¸ç›® (æœ€å¤šç‚º 16, è‹¥ç‚º 0 è¡¨ç¤ºç¨‹å¼è‡ªå‹•æ±ºå®š, å°æ–¼ 0 è¡¨ç¤ºä¿ç•™ä¸ç”¨çš„è™•ç†å™¨æ ¸å¿ƒæ•¸ç›®, é è¨­ç‚º 0)</translation>
-    </message>
-    <message>
-        <location line="+77"/>
-        <source>Information</source>
-        <translation>è³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>ç„¡æ•ˆçš„ -tor ä½å€: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>è¨­å®š -minrelaytxfee=&lt;é‡‘é¡&gt; çš„é‡‘é¡ç„¡æ•ˆ: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>è¨­å®š -mintxfee=&lt;amount&gt; çš„é‡‘é¡ç„¡æ•ˆ: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation>ç¶­è­·å…¨éƒ¨äº¤æ˜“çš„ç´¢å¼• (é è¨­ç‚º 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>æ¯å€‹é€£ç·šçš„æ¥æ”¶ç·©è¡å€å¤§å°ä¸Šé™ç‚º &lt;n&gt;*1000 å€‹ä½å…ƒçµ„ (é è¨­: 5000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>æ¯å€‹é€£ç·šçš„å‚³é€ç·©è¡å€å¤§å°ä¸Šé™ç‚º &lt;n&gt;*1000 ä½å…ƒçµ„ (é è¨­: 1000)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation>åªæ¥å—èˆ‡å…§å»ºçš„æª¢æŸ¥æ®µé»å»åˆçš„å€å¡Šé–éˆ (é è¨­: 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>åªå’Œ &lt;net&gt; ç¶²è·¯ä¸Šçš„ç¯€é»é€£ç·š (IPv4, IPv6, æˆ– Tor)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>è¼¸å‡ºé¡å¤–çš„é™¤éŒ¯è³‡è¨Š. åŒ…å«äº†å…¶å®ƒæ‰€æœ‰çš„ -debug* é¸é …</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation>è¼¸å‡ºé¡å¤–çš„ç¶²è·¯é™¤éŒ¯è³‡è¨Š</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp (default: 1)</source>
-        <translation>åœ¨é™¤éŒ¯è¼¸å‡ºå…§å®¹å‰é™„åŠ æ™‚é–“</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Leafcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL é¸é …: (SSL è¨­å®šç¨‹åºè«‹è¦‹ Leafcoin Wiki)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>é¸æ“‡ SOCKS ä»£ç†ä¼ºæœå™¨çš„å”å®šç‰ˆæœ¬(4 æˆ– 5, é è¨­: 5)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>åœ¨çµ‚ç«¯æ©Ÿé¡¯ç¤ºè¿½è¹¤æˆ–é™¤éŒ¯è³‡è¨Š, è€Œéå¯«åˆ° debug.log æª”</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation>è¼¸å‡ºè¿½è¹¤æˆ–é™¤éŒ¯è³‡è¨Šçµ¦é™¤éŒ¯å™¨</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>è¨­å®šå€å¡Šå¤§å°ä¸Šé™ç‚ºå¤šå°‘ä½å…ƒçµ„ (é è¨­: 250000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>è¨­å®šå€å¡Šå¤§å°ä¸‹é™ç‚ºå¤šå°‘ä½å…ƒçµ„ (é è¨­: 0)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>å®¢æˆ¶ç«¯è»Ÿé«”å•“å‹•æ™‚å°‡ debug.log æª”ç¸®å° (é è¨­: ç•¶æ²’æœ‰ -debug æ™‚ç‚º 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Signing transaction failed</source>
-        <translation>ç°½ç½²äº¤æ˜“å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>æŒ‡å®šé€£ç·šåœ¨å¹¾æ¯«ç§’å¾Œé€¾æ™‚ (é è¨­: 5000)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation>ç³»çµ±éŒ¯èª¤:</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Transaction amount too small</source>
-        <translation>äº¤æ˜“é‡‘é¡å¤ªå°</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation>äº¤æ˜“é‡‘é¡å¿…é ˆæ˜¯æ­£çš„</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Transaction too large</source>
-        <translation>äº¤æ˜“ä½å…ƒé‡å¤ªå¤§</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>æ˜¯å¦ä½¿ç”¨é€šç”¨å³æ’å³ç”¨(UPnP)å”å®šä¾†è¨­å®šè½å€™é€£ç·šçš„é€šè¨ŠåŸ  (é è¨­: 0)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>æ˜¯å¦ä½¿ç”¨é€šç”¨å³æ’å³ç”¨(UPnP)å”å®šä¾†è¨­å®šè½å€™é€£ç·šçš„é€šè¨ŠåŸ  (é è¨­: ç•¶æœ‰è½å€™é€£ç·šç‚º 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>é€éä»£ç†ä¼ºæœå™¨ä¾†ä½¿ç”¨ Tor éš±è—æœå‹™ (é è¨­: åŒ -proxy)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC é€£ç·šä½¿ç”¨è€…åç¨±</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Warning</source>
-        <translation>è­¦å‘Š</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>è­¦å‘Š: é€™å€‹ç‰ˆæœ¬å·²ç¶“è¢«æ·˜æ±°æ‰äº†, å¿…é ˆè¦å‡ç´š!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation>æ”¹è®Š -txindex åƒæ•¸å¾Œ, å¿…é ˆè¦ç”¨ -reindex åƒæ•¸ä¾†é‡å»ºè³‡æ–™åº«</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>éŒ¢åŒ…æª” weallet.dat å£æ‰äº†, æ‹¯æ•‘å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC é€£ç·šå¯†ç¢¼</translation>
-    </message>
-    <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>åªå…è¨±å¾æŒ‡å®šç¶²è·¯ä½å€ä¾†çš„ JSON-RPC é€£ç·š</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>é€æŒ‡ä»¤çµ¦åœ¨ &lt;ip&gt; çš„ç¯€é» (é è¨­: 127.0.0.1)
+</message>
+<message>
+<location line="+100"/>
+<location line="+24"/>
+<source>Warning: The Caps Lock key is on!</source>
+<translation>¾¯¸æ: ´óŒ‘×ÖÄ¸æi¶¨×÷ÓÃÖĞ!</translation>
+</message>
+<message>
+<location line="-130"/>
+<location line="+58"/>
+<source>Wallet encrypted</source>
+<translation>åX°üÒÑ¼ÓÃÜ</translation>
+</message>
+<message>
+<location line="-56"/>
+<source>
+Leafcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your leafcoins from being stolen by malware infecting your computer.
+</source>
+<translation>ËÄÈ~Å¬FÔÚÒªêPé]ÒÔÍê³É¼ÓÃÜ³ÌĞò. ÕˆÓ›×¡, ¼ÓÃÜåX°üŸo·¨ÍêÈ«·ÀÖ¹ÈëÇÖëŠÄXµÄºÒâ³ÌÊ½ÍµÈ¡ÄãµÄËÄÈ~Å.</translation>
+</message>
+<message>
+<location line="+13"/>
+<location line="+7"/>
+<location line="+42"/>
+<location line="+6"/>
+<source>Wallet encryption failed</source>
+<translation>åX°ü¼ÓÃÜÊ§”¡</translation>
+</message>
+<message>
+<location line="-54"/>
+<source>
+Wallet encryption failed due to an internal error. Your wallet was not encrypted.
+</source>
+<translation>åX°ü¼ÓÃÜÒò³ÌÊ½ƒÈ²¿åeÕ`¶øÊ§”¡. ÄãµÄåX°üß€ÊÇ›]ÓĞ¼ÓÃÜ.</translation>
+</message>
+<message>
+<location line="+7"/>
+<location line="+48"/>
+<source>The supplied passphrases do not match.</source>
+<translation>Ìá¹©µÄÃÜ´a²»·û.</translation>
+</message>
+<message>
+<location line="-37"/>
+<source>Wallet unlock failed</source>
+<translation>åX°ü½âæiÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<location line="+11"/>
+<location line="+19"/>
+<source>
+The passphrase entered for the wallet decryption was incorrect.
+</source>
+<translation>ÓÃí½âÃÜåX°üµÄÃÜ´aİ”ÈëåeÕ`.</translation>
+</message>
+<message>
+<location line="-20"/>
+<source>Wallet decryption failed</source>
+<translation>åX°ü½âÃÜÊ§”¡</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>Wallet passphrase was successfully changed.</source>
+<translation>åX°üÃÜ´a×ƒ¸ü³É¹¦.</translation>
+</message>
+</context>
+<context>
+<name>BitcoinGUI</name>
+<message>
+<location filename="../bitcoingui.cpp" line="+233"/>
+<source>Sign &message...</source>
+<translation>ÓÏ¢ºÊğ...</translation>
+</message>
+<message>
+<location line="+280"/>
+<source>Synchronizing with network...</source>
+<translation>¾WÂ·Í¬²½ÖĞ...</translation>
+</message>
+<message>
+<location line="-349"/>
+<source>&Overview</source>
+<translation>¿‚Ó[</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Show general overview of wallet</source>
+<translation>ï@Ê¾åX°üÒ»°ã¿‚Ó[</translation>
+</message>
+<message>
+<location line="+20"/>
+<source>&Transactions</source>
+<translation>½»Ò×</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Browse transaction history</source>
+<translation>gÓ[½»Ò×¼oä›</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>
+Edit the list of stored addresses and labels for sending
+</source>
+<translation>¾İ‹Î»Ö·Åc˜ËÓ›µÄƒ¦´æÁĞ±í</translation>
+</message>
+<message>
+<location line="-14"/>
+<source>Show the list of addresses for receiving payments</source>
+<translation>ï@Ê¾ÊÕ¿îÎ»Ö·µÄÁĞ±í</translation>
+</message>
+<message>
+<location line="+31"/>
+<source>E&xit</source>
+<translation>½YÊø</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Quit application</source>
+<translation>½YÊø‘ªÓÃ³ÌÊ½</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Show information about Leafcoin</source>
+<translation>ï@Ê¾ËÄÈ~ÅÏàêPÙYÓ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>About &Qt</source>
+<translation>êPì¶ &Qt</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Show information about Qt</source>
+<translation>ï@Ê¾ÓĞêPì¶ Qt µÄÙYÓ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>&Options...</source>
+<translation>ßxí—...</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>&Encrypt Wallet...</source>
+<translation>åX°ü¼ÓÃÜ...</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Backup Wallet...</source>
+<translation>åX°ü‚ä·İ...</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>&Change Passphrase...</source>
+<translation>ÃÜ´a×ƒ¸ü...</translation>
+</message>
+<message>
+<location line="+285"/>
+<source>Importing blocks from disk...</source>
+<translation>Ä´Åµú…RÈë…^‰KÖĞ...</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Reindexing blocks on disk...</source>
+<translation>ÖØ½¨´Åµú…^‰KË÷ÒıÖĞ...</translation>
+</message>
+<message>
+<location line="-347"/>
+<source>Send coins to a Leafcoin address</source>
+<translation>¸¶åXµ½ËÄÈ~ÅÎ»Ö·</translation>
+</message>
+<message>
+<location line="+49"/>
+<source>Modify configuration options for Leafcoin</source>
+<translation>ĞŞ¸ÄËÄÈ~ÅµÄÔO¶¨ßxí—</translation>
+</message>
+<message>
+<location line="+9"/>
+<source>Backup wallet to another location</source>
+<translation>Œ¢åX°ü‚ä·İµ½ÆäËüµØ·½</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Change the passphrase used for wallet encryption</source>
+<translation>×ƒ¸üåX°ü¼ÓÃÜÓÃµÄÃÜ´a</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>&Debug window</source>
+<translation>³ıåeÒ•´°</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Open debugging and diagnostic console</source>
+<translation>é_†™³ıåeÅcÔ\”àÖ÷¿ØÌ¨</translation>
+</message>
+<message>
+<location line="-4"/>
+<source>&Verify message...</source>
+<translation>ò×CÓÏ¢...</translation>
+</message>
+<message>
+<location line="-165"/>
+<location line="+530"/>
+<source>Leafcoin</source>
+<translation>ËÄÈ~Å</translation>
+</message>
+<message>
+<location line="-530"/>
+<source>Wallet</source>
+<translation>åX°ü</translation>
+</message>
+<message>
+<location line="+101"/>
+<source>&Send</source>
+<translation>¸¶³ö</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>&Receive</source>
+<translation>ÊÕÊÜ</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>&Addresses</source>
+<translation>Î»Ö·</translation>
+</message>
+<message>
+<location line="+22"/>
+<source>&About Leafcoin</source>
+<translation>êPì¶ËÄÈ~Å</translation>
+</message>
+<message>
+<location line="+9"/>
+<source>&Show / Hide</source>
+<translation>ï@Ê¾»òë[²Ø</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Show or hide the main Window</source>
+<translation>ï@Ê¾»òë[²ØÖ÷Ò•´°</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Encrypt the private keys that belong to your wallet
+</source>
+<translation>Œ¢ŒÙì¶ÄãµÄåX°üµÄÃÜè€¼ÓÃÜ</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>
+Sign messages with your Leafcoin addresses to prove you own them
+</source>
+<translation>ÓÃËÄÈ~ÅÎ»Ö·ºÊğÓÏ¢í×CÃ÷ÄÇÊÇÄãµÄ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Verify messages to ensure they were signed with specified Leafcoin addresses
+</source>
+<translation>ò×CÓÏ¢í´_ÕJÊÇÓÃÖ¸¶¨µÄËÄÈ~ÅÎ»Ö·ºÊğµÄ</translation>
+</message>
+<message>
+<location line="+28"/>
+<source>&File</source>
+<translation>™n°¸</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>&Settings</source>
+<translation>ÔO¶¨</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>&Help</source>
+<translation>ÇóÖú</translation>
+</message>
+<message>
+<location line="+9"/>
+<source>Tabs toolbar</source>
+<translation>·Öí“¹¤¾ßÁĞ</translation>
+</message>
+<message>
+<location line="+17"/>
+<location line="+10"/>
+<source>[testnet]</source>
+<translation>[testnet]</translation>
+</message>
+<message>
+<location line="+47"/>
+<source>Leafcoin client</source>
+<translation>ËÄÈ~Å¿Í‘ô¶ËÜ›ów</translation>
+</message>
+<message numerus="yes">
+<location line="+141"/>
+<source>%n active connection(s) to Leafcoin network</source>
+<translation>
+<numerusform>ÅcËÄÈ~Å¾WÂ·ÓĞ %n ‚€ßB¾€ÔÚÊ¹ÓÃÖĞ</numerusform>
 </translation>
-    </message>
-    <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>ç•¶æœ€æ–°å€å¡Šæ”¹è®Šæ™‚æ‰€è¦åŸ·è¡Œçš„æŒ‡ä»¤ (æŒ‡ä»¤ä¸­çš„ %s æœƒè¢«å–ä»£ç‚ºå€å¡Šçš„é›œæ¹Šå€¼)</translation>
-    </message>
-    <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>å°‡éŒ¢åŒ…å‡ç´šæˆæœ€æ–°çš„æ ¼å¼</translation>
-    </message>
-    <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>è¨­å®šå¯†é‘°æ± å¤§å°ç‚º &lt;n&gt; (é è¨­: 100)
+</message>
+<message>
+<location line="+22"/>
+<source>No block source available...</source>
+<translation>Ä¿Ç°›]ÓĞ…^‰KíÔ´...</translation>
+</message>
+<message>
+<location line="+12"/>
+<source>
+Processed %1 of %2 (estimated) blocks of transaction history.
+</source>
+<translation>ÒÑÌÀíÁË¹ÀÓ‹È«²¿ %2 ‚€ÖĞµÄ %1 ‚€…^‰KµÄ½»Ò×¼oä›.</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Processed %1 blocks of transaction history.</source>
+<translation>ÒÑÌÀíÁË %1 ‚€…^‰KµÄ½»Ò×¼oä›.</translation>
+</message>
+<message numerus="yes">
+<location line="+20"/>
+<source>%n hour(s)</source>
+<translation>
+<numerusform>%n ‚€Ğ¡•r</numerusform>
 </translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>é‡æ–°æƒæå€å¡Šé–éˆ, ä»¥å°‹æ‰¾éŒ¢åŒ…æ‰€éºæ¼çš„äº¤æ˜“.</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>æ–¼ JSON-RPC é€£ç·šä½¿ç”¨ OpenSSL (https)
+</message>
+<message numerus="yes">
+<location line="+4"/>
+<source>%n day(s)</source>
+<translation>
+<numerusform>%n Ìì</numerusform>
 </translation>
-    </message>
-    <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>ä¼ºæœå™¨æ†‘è­‰æª” (é è¨­: server.cert)
+</message>
+<message numerus="yes">
+<location line="+4"/>
+<source>%n week(s)</source>
+<translation>
+<numerusform>%n ‚€ĞÇÆÚ</numerusform>
 </translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>ä¼ºæœå™¨å¯†é‘°æª” (é è¨­: server.pem)
+</message>
+<message>
+<location line="+4"/>
+<source>%1 behind</source>
+<translation>Âäáá %1</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>Last received block was generated %1 ago.</source>
+<translation>×î½üÊÕµ½µÄ…^‰KÊÇÔÚ %1 Ö®Ç°Éú®a³öí.</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Transactions after this will not yet be visible.</source>
+<translation>•ş¿´²»ÒŠÔÚß@Ö®ááµÄ½»Ò×.</translation>
+</message>
+<message>
+<location line="+22"/>
+<source>Error</source>
+<translation>åeÕ`</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Warning</source>
+<translation>¾¯¸æ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Information</source>
+<translation>ÙYÓ</translation>
+</message>
+<message>
+<location line="+70"/>
+<source>
+This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?
+</source>
+<translation>
+ß@¹P½»Ò×µÄÙYÁÏ´óĞ¡³¬ß^ÏŞÖÆÁË. Äãß€ÊÇ¿ÉÒÔ¸¶³ö %1 µÄÙMÓÃí‚÷ËÍ, ß@¹PÙMÓÃ•ş¸¶½oÌÀíÄãµÄ½»Ò×µÄ¹üc, KÍÖú¾S³ÖÕû‚€¾WÂ·. ÄãîŠÒâÖ§¸¶ß@í—ÙMÓÃ†á?
 </translation>
-    </message>
-    <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>å¯ä»¥æ¥å—çš„åŠ å¯†æ³• (é è¨­: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
+</message>
+<message>
+<location line="-140"/>
+<source>Up to date</source>
+<translation>×îĞÂ î‘B</translation>
+</message>
+<message>
+<location line="+31"/>
+<source>Catching up...</source>
+<translation>ßM¶È×·ÚsÖĞ...</translation>
+</message>
+<message>
+<location line="+113"/>
+<source>Confirm transaction fee</source>
+<translation>´_ÕJ½»Ò×ÊÖÀmÙM</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>Sent transaction</source>
+<translation>¸¶¿î½»Ò×</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Incoming transaction</source>
+<translation>ÊÕ¿î½»Ò×</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Date: %1 Amount: %2 Type: %3 Address: %4</source>
+<translation>ÈÕÆÚ: %1 ½ğî~: %2 î„e: %3 Î»Ö·: %4</translation>
+</message>
+<message>
+<location line="+33"/>
+<location line="+23"/>
+<source>URI handling</source>
+<translation>URI ÌÀí</translation>
+</message>
+<message>
+<location line="-23"/>
+<location line="+23"/>
+<source>
+URI can not be parsed! This can be caused by an invalid Leafcoin address or malformed URI parameters.
+</source>
+<translation>Ÿo·¨½âÎö URI! Ò²ÔSËÄÈ~ÅÎ»Ö·ŸoĞ§»ò URI …¢”µÓĞÕ`.</translation>
+</message>
+<message>
+<location line="+17"/>
+<source>
+Wallet is <b>encrypted</b> and currently <b>unlocked</b>
+</source>
+<translation>åX°ü<b>ÒÑ¼ÓÃÜ</b>KÇÒÕı<b>½âæiÖĞ</b></translation>
+</message>
+<message>
+<location line="+8"/>
+<source>
+Wallet is <b>encrypted</b> and currently <b>locked</b>
+</source>
+<translation>åX°ü<b>ÒÑ¼ÓÃÜ</b>KÇÒÕı<b>ÉÏæiÖĞ</b></translation>
+</message>
+<message>
+<location filename="../bitcoin.cpp" line="+111"/>
+<source>
+A fatal error occurred. Leafcoin can no longer continue safely and will quit.
+</source>
+<translation>°lÉúÁËÖÂÃüµÄåeÕ`. ËÄÈ~Å³ÌÊ½Ÿo·¨ÔÙÀ^Àm°²È«ˆÌĞĞ, Ö»ºÃ½YÊø.</translation>
+</message>
+</context>
+<context>
+<name>ClientModel</name>
+<message>
+<location filename="../clientmodel.cpp" line="+104"/>
+<source>Network Alert</source>
+<translation>¾WÂ·¾¯ˆó</translation>
+</message>
+</context>
+<context>
+<name>EditAddressDialog</name>
+<message>
+<location filename="../forms/editaddressdialog.ui" line="+14"/>
+<source>Edit Address</source>
+<translation>¾İ‹Î»Ö·</translation>
+</message>
+<message>
+<location line="+11"/>
+<source>&Label</source>
+<translation>˜ËÓ›</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>The label associated with this address book entry</source>
+<translation>Åcß@‚€Î»Ö·²¾í—Ä¿êPÂ“µÄ˜ËÓ›</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>&Address</source>
+<translation>Î»Ö·</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>
+The address associated with this address book entry. This can only be modified for sending addresses.
+</source>
+<translation>Åcß@‚€Î»Ö·²¾í—Ä¿êPÂ“µÄÎ»Ö·. ¸¶¿îÎ»Ö·²ÅÄÜ±»¸ü¸Ä.</translation>
+</message>
+<message>
+<location filename="../editaddressdialog.cpp" line="+21"/>
+<source>New receiving address</source>
+<translation>ĞÂÊÕ¿îÎ»Ö·</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>New sending address</source>
+<translation>ĞÂÔö¸¶¿îÎ»Ö·</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Edit receiving address</source>
+<translation>¾İ‹ÊÕ¿îÎ»Ö·</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Edit sending address</source>
+<translation>¾İ‹¸¶¿îÎ»Ö·</translation>
+</message>
+<message>
+<location line="+76"/>
+<source>
+The entered address "%1" is already in the address book.
+</source>
+<translation>İ”ÈëµÄÎ»Ö·"%1"ÒÑ´æÔÚì¶Î»Ö·²¾ÖĞ.</translation>
+</message>
+<message>
+<location line="-5"/>
+<source>
+The entered address "%1" is not a valid Leafcoin address.
+</source>
+<translation>İ”ÈëµÄÎ»Ö· "%1" K²»ÊÇÓĞĞ§µÄËÄÈ~ÅÎ»Ö·.</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>Could not unlock wallet.</source>
+<translation>Ÿo·¨Œ¢åX°ü½âæi.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>New key generation failed.</source>
+<translation>ĞÂÃÜè€®aÉúÊ§”¡.</translation>
+</message>
+</context>
+<context>
+<name>GUIUtil::HelpMessageBox</name>
+<message>
+<location filename="../guiutil.cpp" line="+424"/>
+<location line="+12"/>
+<source>Leafcoin-Qt</source>
+<translation>ËÄÈ~Å-Qt</translation>
+</message>
+<message>
+<location line="-12"/>
+<source>version</source>
+<translation>°æ±¾</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Usage:</source>
+<translation>ÓÃ·¨:</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>command-line options</source>
+<translation>ÃüÁîÁĞßxí—</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>UI options</source>
+<translation>Ê¹ÓÃ½çÃæßxí—</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Set language, for example "de_DE" (default: system locale)
+</source>
+<translation>ÔO¶¨ÕZÑÔ, ±ÈÈçÕf "de_DE" (îAÔO: Ïµ½yÕZÏµ)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Start minimized</source>
+<translation>†™„Ó•r×îĞ¡»¯</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Show splash screen on startup (default: 1)</source>
+<translation>ï@Ê¾†™„Ó®‹Ãæ (îAÔO: 1)</translation>
+</message>
+</context>
+<context>
+<name>OptionsDialog</name>
+<message>
+<location filename="../forms/optionsdialog.ui" line="+14"/>
+<source>Options</source>
+<translation>ßxí—</translation>
+</message>
+<message>
+<location line="+16"/>
+<source>&Main</source>
+<translation>Ö÷Òª</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.
+</source>
+<translation>
+·Ç±ØÒªµÄ½»Ò×ÊÖÀmÙM, ÒÔ kB éÓ‹ÙM†ÎÎ», ÇÒÓĞÖúì¶¿s¶ÌÄãµÄ½»Ò×ÌÀí•rég. ´ó²¿·İ½»Ò×ÙYÁÏµÄ´óĞ¡ÊÇ 1 kB.
 </translation>
-    </message>
-    <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation>æ­¤å”åŠ©è¨Šæ¯
+</message>
+<message>
+<location line="+15"/>
+<source>Pay transaction &fee</source>
+<translation>¸¶½»Ò×ÊÖÀmÙM</translation>
+</message>
+<message>
+<location line="+31"/>
+<source>
+Automatically start Leafcoin after logging in to the system.
+</source>
+<translation>ÔÚµÇÈëÏµ½yáá×Ô„Ó†™„ÓËÄÈ~Å.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Start Leafcoin on system login</source>
+<translation>Ïµ½yµÇÈë•r†¢„ÓËÄÈ~Å</translation>
+</message>
+<message>
+<location line="+35"/>
+<source>Reset all client options to default.</source>
+<translation>»ØÍËùÓĞ¿Í‘ô¶ËÜ›ówßxí—³ÉîAÔOÖµ.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Reset Options</source>
+<translation>ßxí—»ØÍ</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>&Network</source>
+<translation>¾WÂ·</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+Automatically open the Leafcoin client port on the router. This only works when your router supports UPnP and it is enabled.
+</source>
+<translation>
+×Ô„ÓÔÚÂ·ÓÉÆ÷ÉÏé_†¢ Leafcoin µÄ¿Í‘ô¶ËÍ¨Ó²º. Ö»ÓĞÔÚÄãµÄÂ·ÓÉÆ÷Ö§Ô® UPnP ÇÒé_†¢•r²ÅÓĞ×÷ÓÃ.
 </translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>ç„¡æ³•å’Œé€™å°é›»è…¦ä¸Šçš„ %s ç¹«çµ (ç¹«çµå›å‚³éŒ¯èª¤ %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation>é€é SOCKS ä»£ç†ä¼ºæœå™¨é€£ç·š</translation>
-    </message>
-    <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>å…è¨±å° -addnode, -seednode, -connect çš„åƒæ•¸ä½¿ç”¨åŸŸåæŸ¥è©¢ </translation>
-    </message>
-    <message>
-        <location line="+55"/>
-        <source>Loading addresses...</source>
-        <translation>è¼‰å…¥ä½å€ä¸­...</translation>
-    </message>
-    <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>è¼‰å…¥æª”æ¡ˆ wallet.dat å¤±æ•—: éŒ¢åŒ…å£æ‰äº†</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Leafcoin</source>
-        <translation>è¼‰å…¥æª”æ¡ˆ wallet.dat å¤±æ•—: æ­¤éŒ¢åŒ…éœ€è¦æ–°ç‰ˆçš„ Leafcoin</translation>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Leafcoin to complete</source>
-        <translation>éŒ¢åŒ…éœ€è¦é‡å¯«: è«‹é‡å•Ÿè±ç‰¹å¹£ä¾†å®Œæˆ</translation>
-    </message>
-    <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation>è¼‰å…¥æª”æ¡ˆ wallet.dat å¤±æ•—</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>ç„¡æ•ˆçš„ -proxy ä½å€: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>åœ¨ -onlynet æŒ‡å®šäº†ä¸æ˜çš„ç¶²è·¯åˆ¥: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation>åœ¨ -socks æŒ‡å®šäº†ä¸æ˜çš„ä»£ç†å”å®šç‰ˆæœ¬: %i</translation>
-    </message>
-    <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>ç„¡æ³•è§£æ -bind ä½å€: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>ç„¡æ³•è§£æ -externalip ä½å€: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>è¨­å®š -paytxfee=&lt;é‡‘é¡&gt; çš„é‡‘é¡ç„¡æ•ˆ: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation>ç„¡æ•ˆçš„é‡‘é¡</translation>
-    </message>
-    <message>
-        <location line="-6"/>
-        <source>Insufficient funds</source>
-        <translation>ç´¯ç©é‡‘é¡ä¸è¶³</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Loading block index...</source>
-        <translation>è¼‰å…¥å€å¡Šç´¢å¼•ä¸­...</translation>
-    </message>
-    <message>
-        <location line="-57"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>åŠ å…¥ä¸€å€‹è¦é€£ç·šçš„ç¯€ç·š, ä¸¦è©¦è‘—ä¿æŒå°å®ƒçš„é€£ç·šæš¢é€š</translation>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Leafcoin is probably already running.</source>
-        <translation>ç„¡æ³•å’Œé€™å°é›»è…¦ä¸Šçš„ %s ç¹«çµ. ä¹Ÿè¨±è±ç‰¹å¹£å·²ç¶“åœ¨åŸ·è¡Œäº†.</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>äº¤æ˜“ä»˜æ¬¾æ™‚æ¯ KB çš„äº¤æ˜“æ‰‹çºŒè²»</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Loading wallet...</source>
-        <translation>è¼‰å…¥éŒ¢åŒ…ä¸­...</translation>
-    </message>
-    <message>
-        <location line="-52"/>
-        <source>Cannot downgrade wallet</source>
-        <translation>ç„¡æ³•å°‡éŒ¢åŒ…æ ¼å¼é™ç´š</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation>ç„¡æ³•å¯«å…¥é è¨­ä½å€</translation>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Rescanning...</source>
-        <translation>é‡æ–°æƒæä¸­...</translation>
-    </message>
-    <message>
-        <location line="-57"/>
-        <source>Done loading</source>
-        <translation>è¼‰å…¥å®Œæˆ</translation>
-    </message>
-    <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation>ç‚ºäº†è¦ä½¿ç”¨ %s é¸é …</translation>
-    </message>
-    <message>
-        <location line="-74"/>
-        <source>Error</source>
-        <translation>éŒ¯èª¤</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>ä½ å¿…é ˆåœ¨ä¸‹åˆ—è¨­å®šæª”ä¸­è¨­å®š RPC å¯†ç¢¼(rpcpassword=&lt;password&gt;):
-%s
-å¦‚æœé€™å€‹æª”æ¡ˆé‚„ä¸å­˜åœ¨, è«‹åœ¨æ–°å¢æ™‚, è¨­å®šæª”æ¡ˆæ¬Šé™ç‚º&quot;åªæœ‰ä¸»äººæ‰èƒ½è®€å–&quot;.</translation>
-    </message>
+</message>
+<message>
+<location line="+3"/>
+<source>Map port using &UPnP</source>
+<translation>ÓÃ &UPnP ÔO¶¨Í¨Ó²ºŒ¦‘ª</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>
+Connect to the Leafcoin network through a SOCKS proxy (e.g. when connecting through Tor).
+</source>
+<translation>Í¸ß^ SOCKS ´úÀíËÅ·şÆ÷ßB¾€ÖÁËÄÈ~Å¾WÂ· (±ÈÈçÕfÒªÍ¸ß^ Tor ßB¾€).</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Connect through SOCKS proxy:</source>
+<translation>Í¸ß^ SOCKS ´úÀíËÅ·şÆ÷ßB¾€:</translation>
+</message>
+<message>
+<location line="+9"/>
+<source>Proxy &IP:</source>
+<translation>´úÀíËÅ·şÆ÷Î»Ö·:</translation>
+</message>
+<message>
+<location line="+19"/>
+<source>IP address of the proxy (e.g. 127.0.0.1)</source>
+<translation>´úÀíËÅ·şÆ÷µÄ¾WëH¾WÂ·Î»Ö· (±ÈÈçÕf 127.0.0.1)</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>&Port:</source>
+<translation>Í¨Ó²º:</translation>
+</message>
+<message>
+<location line="+19"/>
+<source>Port of the proxy (e.g. 9050)</source>
+<translation>´úÀíËÅ·şÆ÷µÄÍ¨Ó²º (±ÈÈçÕf 9050)</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>SOCKS &Version:</source>
+<translation>SOCKS …f¶¨°æ±¾:</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>SOCKS version of the proxy (e.g. 5)</source>
+<translation>´úÀíËÅ·şÆ÷µÄ SOCKS …f¶¨°æ±¾ (±ÈÈçÕf 5)</translation>
+</message>
+<message>
+<location line="+36"/>
+<source>&Window</source>
+<translation>Ò•´°</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>Show only a tray icon after minimizing the window.</source>
+<translation>×îĞ¡»¯Ò•´°ááÖ»ÔÚÍ¨Öª…^Óòï@Ê¾ˆDÊ¾</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Minimize to the tray instead of the taskbar</source>
+<translation>×îĞ¡»¯ÖÁÍ¨Öª…^Óò¶ø·Ç¹¤×÷ÁĞ</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>
+Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.
+</source>
+<translation>
+®”Ò•´°êPé]•rŒ¢Æä×îĞ¡»¯, ¶ø·Ç½YÊø‘ªÓÃ³ÌÊ½. ®”¹´ßxß@‚€ßxí—•r, ‘ªÓÃ³ÌÊ½Ö»ÄÜÓÃßx†ÎÖĞµÄ½YÊøíÍ£Ö¹ˆÌĞĞ.
+</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>M&inimize on close</source>
+<translation>êPé]•r×îĞ¡»¯</translation>
+</message>
+<message>
+<location line="+21"/>
+<source>&Display</source>
+<translation>ï@Ê¾</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>User Interface &language:</source>
+<translation>Ê¹ÓÃ½çÃæÕZÑÔ</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>
+The user interface language can be set here. This setting will take effect after restarting Leafcoin.
+</source>
+<translation>¿ÉÒÔÔÚß@ÑeÔO¶¨Ê¹ÓÃÕß½éÃæµÄÕZÑÔ. ß@‚€ÔO¶¨ÔÚËÄÈ~Å³ÌÊ½ÖØ†™áá²Å•şÉúĞ§.</translation>
+</message>
+<message>
+<location line="+11"/>
+<source>&Unit to show amounts in:</source>
+<translation>½ğî~ï@Ê¾†ÎÎ»:</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>
+Choose the default subdivision unit to show in the interface and when sending coins.
+</source>
+<translation>ßx“ñ²Ù×÷½çÃæÅc¸¶åX•rîAÔOï@Ê¾µÄ¼š·Ö†ÎÎ».</translation>
+</message>
+<message>
+<location line="+9"/>
+<source>
+Whether to show Leafcoin addresses in the transaction list or not.
+</source>
+<translation>ÊÇ·ñÒªÔÚ½»Ò×ÁĞ±íÖĞï@Ê¾ËÄÈ~ÅÎ»Ö·.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Display addresses in transaction list</source>
+<translation>ÔÚ½»Ò×ÁĞ±íï@Ê¾Î»Ö·</translation>
+</message>
+<message>
+<location line="+71"/>
+<source>&OK</source>
+<translation>ºÃ</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>&Cancel</source>
+<translation>È¡Ïû</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>&Apply</source>
+<translation>Ì×ÓÃ</translation>
+</message>
+<message>
+<location filename="../optionsdialog.cpp" line="+53"/>
+<source>default</source>
+<translation>îAÔO</translation>
+</message>
+<message>
+<location line="+130"/>
+<source>Confirm options reset</source>
+<translation>´_ÕJ»ØÍßxí—</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Some settings may require a client restart to take effect.
+</source>
+<translation>ÓĞĞ©ÔO¶¨¿ÉÄÜĞèÒªÖØĞÂ†™„Ó¿Í‘ô¶ËÜ›ów²Å•şÉúĞ§.</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Do you want to proceed?</source>
+<translation>ÄãÏëÒª¾Í×öÏÂÈ¥†á?</translation>
+</message>
+<message>
+<location line="+42"/>
+<location line="+9"/>
+<source>Warning</source>
+<translation>¾¯¸æ</translation>
+</message>
+<message>
+<location line="-9"/>
+<location line="+9"/>
+<source>
+This setting will take effect after restarting Leafcoin.
+</source>
+<translation>ß@‚€ÔO¶¨•şÔÚËÄÈ~Å³ÌÊ½ÖØ†™ááÉúĞ§.</translation>
+</message>
+<message>
+<location line="+29"/>
+<source>The supplied proxy address is invalid.</source>
+<translation>Ìá¹©µÄ´úÀíËÅ·şÆ÷Î»Ö·ŸoĞ§</translation>
+</message>
+</context>
+<context>
+<name>OverviewPage</name>
+<message>
+<location filename="../forms/overviewpage.ui" line="+14"/>
+<source>Form</source>
+<translation>±í†Î</translation>
+</message>
+<message>
+<location line="+50"/>
+<location line="+166"/>
+<source>
+The displayed information may be out of date. Your wallet automatically synchronizes with the Leafcoin network after a connection is established, but this process has not completed yet.
+</source>
+<translation>
+ï@Ê¾µÄÙYÓ¿ÉÄÜÊÇß^ÆÚµÄ. ÅcËÄÈ~Å¾WÂ·µÄßB¾€½¨Á¢áá, ÄãµÄåX°ü•ş×Ô„ÓºÍ¾WÂ·Í¬²½, µ«ß@‚€²½óEß€›]Íê³É.
+</translation>
+</message>
+<message>
+<location line="-124"/>
+<source>Balance:</source>
+<translation>ğNî~:</translation>
+</message>
+<message>
+<location line="+29"/>
+<source>Unconfirmed:</source>
+<translation>Î´´_ÕJî~:</translation>
+</message>
+<message>
+<location line="-78"/>
+<source>Wallet</source>
+<translation>åX°ü</translation>
+</message>
+<message>
+<location line="+107"/>
+<source>Immature:</source>
+<translation>Î´Êì³É</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>Mined balance that has not yet matured</source>
+<translation>ÉĞÎ´Êì³ÉµÄé_’ñ½ğî~</translation>
+</message>
+<message>
+<location line="+46"/>
+<source><b>Recent transactions</b></source>
+<translation><b>×î½ü½»Ò×</b></translation>
+</message>
+<message>
+<location line="-101"/>
+<source>Your current balance</source>
+<translation>Ä¿Ç°ğNî~</translation>
+</message>
+<message>
+<location line="+29"/>
+<source>
+Total of transactions that have yet to be confirmed, and do not yet count toward the current balance
+</source>
+<translation>ÉĞÎ´´_ÕJÖ®½»Ò×µÄ¿‚î~, ²»°üº¬ÔÚÄ¿Ç°ğNî~ÖĞ</translation>
+</message>
+<message>
+<location filename="../overviewpage.cpp" line="+116"/>
+<location line="+1"/>
+<source>out of sync</source>
+<translation>›]Í¬²½</translation>
+</message>
+</context>
+<context>
+<name>PaymentServer</name>
+<message>
+<location filename="../paymentserver.cpp" line="+107"/>
+<source>Cannot start leafcoin: click-to-pay handler</source>
+<translation>Ÿo·¨†¢„Ó leafcoin ëS°´ëS¸¶ÌÀíÆ÷</translation>
+</message>
+</context>
+<context>
+<name>QRCodeDialog</name>
+<message>
+<location filename="../forms/qrcodedialog.ui" line="+14"/>
+<source>QR Code Dialog</source>
+<translation>QR —l´aŒ¦Ô’Ò•´°</translation>
+</message>
+<message>
+<location line="+59"/>
+<source>Request Payment</source>
+<translation>¸¶¿î†Î</translation>
+</message>
+<message>
+<location line="+56"/>
+<source>Amount:</source>
+<translation>½ğî~:</translation>
+</message>
+<message>
+<location line="-44"/>
+<source>Label:</source>
+<translation>˜ËÓ›:</translation>
+</message>
+<message>
+<location line="+19"/>
+<source>Message:</source>
+<translation>ÓÏ¢:</translation>
+</message>
+<message>
+<location line="+71"/>
+<source>&Save As...</source>
+<translation>ƒ¦´æé...</translation>
+</message>
+<message>
+<location filename="../qrcodedialog.cpp" line="+62"/>
+<source>Error encoding URI into QR Code.</source>
+<translation>Œ¢ URI ¾´a³É QR —l´aÊ§”¡</translation>
+</message>
+<message>
+<location line="+40"/>
+<source>The entered amount is invalid, please check.</source>
+<translation>İ”ÈëµÄ½ğî~ŸoĞ§, Õˆ™z²é¿´¿´.</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>
+Resulting URI too long, try to reduce the text for label / message.
+</source>
+<translation>Ôì³öµÄ¾WÖ·Ì«éLÁË,Õˆ°Ñ˜Ë»`»òÓÏ¢µÄÎÄ×Ö¿s¶ÌÔÙÔ‡¿´¿´.</translation>
+</message>
+<message>
+<location line="+25"/>
+<source>Save QR Code</source>
+<translation>ƒ¦´æ QR —l´a</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>PNG Images (*.png)</source>
+<translation>PNG ˆD™n (*.png)</translation>
+</message>
+</context>
+<context>
+<name>RPCConsole</name>
+<message>
+<location filename="../forms/rpcconsole.ui" line="+46"/>
+<source>Client name</source>
+<translation>¿Í‘ô¶ËÜ›ówÃû·Q</translation>
+</message>
+<message>
+<location line="+10"/>
+<location line="+23"/>
+<location line="+26"/>
+<location line="+23"/>
+<location line="+23"/>
+<location line="+36"/>
+<location line="+53"/>
+<location line="+23"/>
+<location line="+23"/>
+<location filename="../rpcconsole.cpp" line="+339"/>
+<source>N/A</source>
+<translation>Ÿo</translation>
+</message>
+<message>
+<location line="-217"/>
+<source>Client version</source>
+<translation>¿Í‘ô¶ËÜ›ów°æ±¾</translation>
+</message>
+<message>
+<location line="-45"/>
+<source>&Information</source>
+<translation>ÙYÓ</translation>
+</message>
+<message>
+<location line="+68"/>
+<source>Using OpenSSL version</source>
+<translation>Ê¹ÓÃ OpenSSL °æ±¾</translation>
+</message>
+<message>
+<location line="+49"/>
+<source>Startup time</source>
+<translation>†™„Ó•rég</translation>
+</message>
+<message>
+<location line="+29"/>
+<source>Network</source>
+<translation>¾WÂ·</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Number of connections</source>
+<translation>ßB¾€”µ</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>On testnet</source>
+<translation>Î»ì¶œyÔ‡¾WÂ·</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>Block chain</source>
+<translation>…^‰Kæiæœ</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Current number of blocks</source>
+<translation>Ä¿Ç°…^‰K”µ</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>Estimated total blocks</source>
+<translation>¹ÀÓ‹¿‚…^‰K”µ</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>Last block time</source>
+<translation>×î½ü…^‰K•rég</translation>
+</message>
+<message>
+<location line="+52"/>
+<source>&Open</source>
+<translation>é_†™</translation>
+</message>
+<message>
+<location line="+16"/>
+<source>Command-line options</source>
+<translation>ÃüÁîÁĞßxí—</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>
+Show the Leafcoin-Qt help message to get a list with possible Leafcoin command-line options.
+</source>
+<translation>ï@Ê¾ËÄÈ~Å-QtµÄÇóÖúÓÏ¢, íÈ¡µÃ¿ÉÓÃµÄÃüÁîÁĞßxí—ÁĞ±í.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>&Show</source>
+<translation>ï@Ê¾</translation>
+</message>
+<message>
+<location line="+24"/>
+<source>&Console</source>
+<translation>Ö÷¿ØÌ¨</translation>
+</message>
+<message>
+<location line="-260"/>
+<source>Build date</source>
+<translation>½¨ÖÃÈÕÆÚ</translation>
+</message>
+<message>
+<location line="-104"/>
+<source>Leafcoin - Debug window</source>
+<translation>ËÄÈ~Å - ³ıåeÒ•´°</translation>
+</message>
+<message>
+<location line="+25"/>
+<source>Leafcoin Core</source>
+<translation>ËÄÈ~ÅºËĞÄ</translation>
+</message>
+<message>
+<location line="+279"/>
+<source>Debug log file</source>
+<translation>³ıåe¼oä›™n</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>
+Open the Leafcoin debug log file from the current data directory. This can take a few seconds for large log files.
+</source>
+<translation>ÄÄ¿Ç°µÄÙYÁÏÄ¿ä›ÏÂé_†™ËÄÈ~ÅµÄ³ıåe¼oä›™n. ®”¼oä›™nºÜ´ó•r¿ÉÄÜÒª»¨ºÃ×ÃëµÄ•rég.</translation>
+</message>
+<message>
+<location line="+102"/>
+<source>Clear console</source>
+<translation>ÇåÖ÷¿ØÌ¨</translation>
+</message>
+<message>
+<location filename="../rpcconsole.cpp" line="-30"/>
+<source>Welcome to the Leafcoin RPC console.</source>
+<translation>šgÓ­Ê¹ÓÃËÄÈ~Å RPC Ö÷¿ØÌ¨.</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.
+</source>
+<translation>ÕˆÓÃÉÏÏÂÓÎ˜ËæIígÓ[švÊ·Ö¸Áî, ÇÒ¿ÉÓÃ <b>Ctrl-L</b> íÇåÀí®‹Ãæ.</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Type <b>help</b> for an overview of available commands.
+</source>
+<translation>Õˆ´ò <b>help</b> í¿´¿ÉÓÃÖ¸ÁîµÄº†½é.</translation>
+</message>
+</context>
+<context>
+<name>SendCoinsDialog</name>
+<message>
+<location filename="../forms/sendcoinsdialog.ui" line="+14"/>
+<location filename="../sendcoinsdialog.cpp" line="+124"/>
+<location line="+5"/>
+<location line="+5"/>
+<location line="+5"/>
+<location line="+6"/>
+<location line="+5"/>
+<location line="+5"/>
+<source>Send Coins</source>
+<translation>¸¶åX</translation>
+</message>
+<message>
+<location line="+50"/>
+<source>Send to multiple recipients at once</source>
+<translation>Ò»´Î¸¶½o¶à‚€ÈË</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Add &Recipient</source>
+<translation>¼ÓÊÕ¿îÈË</translation>
+</message>
+<message>
+<location line="+20"/>
+<source>Remove all transaction fields</source>
+<translation>ÒÆ³ıËùÓĞ½»Ò×™ÚÎ»</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Clear &All</source>
+<translation>È«²¿Çåµô</translation>
+</message>
+<message>
+<location line="+22"/>
+<source>Balance:</source>
+<translation>ğNî~:</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>123.456 BTC</source>
+<translation>123.456 BTC</translation>
+</message>
+<message>
+<location line="+31"/>
+<source>Confirm the send action</source>
+<translation>´_ÕJ¸¶¿î„Ó×÷</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>S&end</source>
+<translation>¸¶³ö</translation>
+</message>
+<message>
+<location filename="../sendcoinsdialog.cpp" line="-59"/>
+<source><b>%1</b> to %2 (%3)</source>
+<translation><b>%1</b> ½o %2 (%3)</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Confirm send coins</source>
+<translation>´_ÕJÒª¸¶åX</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Are you sure you want to send %1?</source>
+<translation>´_¶¨Òª¸¶³ö %1 †á?</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>and</source>
+<translation>ºÍ</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>
+The recipient address is not valid, please recheck.
+</source>
+<translation>ŸoĞ§µÄÊÕ¿îÎ»Ö·, ÕˆÔÙ™z²é¿´¿´.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>The amount to pay must be larger than 0.</source>
+<translation>¸¶¿î½ğî~±Øíš´óì¶ 0.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>The amount exceeds your balance.</source>
+<translation>½ğî~³¬ß^ğNî~ÁË.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>
+The total exceeds your balance when the %1 transaction fee is included.
+</source>
+<translation>°üº¬ %1 µÄ½»Ò×ÊÖÀmÙMáá, ¿‚½ğî~³¬ß^ÄãµÄğNî~ÁË.</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+Duplicate address found, can only send to each address once per send operation.
+</source>
+<translation>°l¬FÓĞÖØÑ}µÄÎ»Ö·. Ã¿‚€¸¶¿î„Ó×÷ÖĞ, Ö»ÄÜ¸¶½o‚€„eµÄÎ»Ö·Ò»´Î.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Error: Transaction creation failed!</source>
+<translation>åeÕ`: ½»Ò×®aÉúÊ§”¡!</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>
+Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.
+</source>
+<translation>
+åeÕ`: ½»Ò×±»¾Ü½^. ÓĞ•rºò•ş°lÉúß@·NåeÕ`, ÊÇÒòéÄãåX°üÖĞµÄÒ»Ğ©åXÒÑ½›±»»¨µôÁË. ±ÈÈçÕfÄãÑ}ÑuÁËåX°ü™n wallet.dat, È»ááÓÃÑ}ÑuµÄåX°ü»¨µôÁËåX, Äã¬FÔÚËùÓÃµÄÔ­íµÄåX°üÖĞ…s›]ÓĞÔ“¹P½»Ò×¼oä›.
+</translation>
+</message>
+</context>
+<context>
+<name>SendCoinsEntry</name>
+<message>
+<location filename="../forms/sendcoinsentry.ui" line="+14"/>
+<source>Form</source>
+<translation>±í†Î</translation>
+</message>
+<message>
+<location line="+15"/>
+<source>A&mount:</source>
+<translation>½ğî~:</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>Pay &To:</source>
+<translation>¸¶½o:</translation>
+</message>
+<message>
+<location line="+34"/>
+<source>
+The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)
+</source>
+<translation>¸¶¿îµÄÄ¿˜ËÎ»Ö· (±ÈÈçÕf Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+</message>
+<message>
+<location line="+60"/>
+<location filename="../sendcoinsentry.cpp" line="+26"/>
+<source>
+Enter a label for this address to add it to your address book
+</source>
+<translation>İ”ÈëÒ»‚€˜ËÓ›½oß@‚€Î»Ö·, K¼Óµ½Î»Ö·²¾ÖĞ</translation>
+</message>
+<message>
+<location line="-78"/>
+<source>&Label:</source>
+<translation>˜ËÓ›:</translation>
+</message>
+<message>
+<location line="+28"/>
+<source>Choose address from address book</source>
+<translation>ÄÎ»Ö·²¾ÖĞßxÒ»‚€Î»Ö·</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>Alt+A</source>
+<translation>Alt+A</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Paste address from clipboard</source>
+<translation>Ä¼ôÙN²¾ÙNÉÏÎ»Ö·</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>Alt+P</source>
+<translation>Alt+P</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Remove this recipient</source>
+<translation>È¥µôß@‚€ÊÕ¿îÈË</translation>
+</message>
+<message>
+<location filename="../sendcoinsentry.cpp" line="+1"/>
+<source>
+Enter a Leafcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)
+</source>
+<translation>İ”ÈëËÄÈ~ÅÎ»Ö· (±ÈÈçÕf Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+</message>
+</context>
+<context>
+<name>SignVerifyMessageDialog</name>
+<message>
+<location filename="../forms/signverifymessagedialog.ui" line="+14"/>
+<source>Signatures - Sign / Verify a Message</source>
+<translation>ºÕÂ - ºÊğ»òò×CÓÏ¢</translation>
+</message>
+<message>
+<location line="+13"/>
+<source>&Sign Message</source>
+<translation>ÓÏ¢ºÊğ</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.
+</source>
+<translation>
+Äã¿ÉÒÔÓÃ×Ô¼ºµÄÎ»Ö·íºÊğÓÏ¢, ÒÔ×CÃ÷ÄãŒ¦ËüµÄËùÓĞ™à. µ«ÊÇÕˆĞ¡ĞÄ, ²»ÒªºÊğÕZÒâº¬ºı²»ÇåµÄƒÈÈİ, Òòéáô~Ê½Ôpò_¿ÉÄÜ•şÓÃò_ÄãºÊğµÄÊÖ·¨íÃ°³äÊÇÄã. Ö»ÓĞÔÚÕZ¾äÖĞµÄ¼š¹Äã¶¼Í¬Òâ•r²ÅºÊğ.
+</translation>
+</message>
+<message>
+<location line="+18"/>
+<source>
+The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)
+</source>
+<translation>ÓÃíºÊğÓÏ¢µÄÎ»Ö· (±ÈÈçÕf Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+</message>
+<message>
+<location line="+10"/>
+<location line="+213"/>
+<source>Choose an address from the address book</source>
+<translation>ÄÎ»Ö·²¾ßxÒ»‚€Î»Ö·</translation>
+</message>
+<message>
+<location line="-203"/>
+<location line="+213"/>
+<source>Alt+A</source>
+<translation>Alt+A</translation>
+</message>
+<message>
+<location line="-203"/>
+<source>Paste address from clipboard</source>
+<translation>Ä¼ôÙN²¾ÙNÉÏÎ»Ö·</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>Alt+P</source>
+<translation>Alt+P</translation>
+</message>
+<message>
+<location line="+12"/>
+<source>Enter the message you want to sign here</source>
+<translation>ÔÚß@Ñeİ”ÈëÄãÏëºÊğµÄÓÏ¢</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Signature</source>
+<translation>ºÕÂ</translation>
+</message>
+<message>
+<location line="+27"/>
+<source>Copy the current signature to the system clipboard</source>
+<translation>Ñ}ÑuÄ¿Ç°µÄºÕÂµ½Ïµ½y¼ôÙN²¾</translation>
+</message>
+<message>
+<location line="+21"/>
+<source>
+Sign the message to prove you own this Leafcoin address
+</source>
+<translation>ºÊğÓÏ¢ÊÇÓÃí×CÃ÷ß@‚€ËÄÈ~ÅÎ»Ö·ÊÇÄãµÄ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Sign &Message</source>
+<translation>ÓÏ¢ºÊğ</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>Reset all sign message fields</source>
+<translation>ÖØÖÃËùÓĞÓÏ¢ºÊğ™ÚÎ»</translation>
+</message>
+<message>
+<location line="+3"/>
+<location line="+146"/>
+<source>Clear &All</source>
+<translation>È«²¿Çåµô</translation>
+</message>
+<message>
+<location line="-87"/>
+<source>&Verify Message</source>
+<translation>ÓÏ¢ò×C</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.
+</source>
+<translation>
+ÕˆÔÚÏÂÃæİ”ÈëºÊğµÄÎ»Ö·, ÓÏ¢(Õˆ´_ÕJÍêÕûÑ}ÑuÁËËù°üº¬µÄ“QĞĞ, ¿Õ¸ñ, ÌøÎ»·ûÌ–µÈµÈ), ÅcºÕÂ, ÒÔò×CÔ“ÓÏ¢. ÕˆĞ¡ĞÄ, ³ıÁËÓÏ¢ƒÈÈİÍâ, ²»ÒªŒ¦ºÕÂ±¾Éíß^¶È½â×x, ÒÔ±ÜÃâ±»ÓÃ"ÖĞégÈË¹¥“ô·¨"Ôpò_.
+</translation>
+</message>
+<message>
+<location line="+21"/>
+<source>
+The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)
+</source>
+<translation>ºÊğÔ“ÓÏ¢µÄÎ»Ö· (±ÈÈçÕf Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+</message>
+<message>
+<location line="+40"/>
+<source>
+Verify the message to ensure it was signed with the specified Leafcoin address
+</source>
+<translation>ò×CÓÏ¢ÊÇÓÃí´_ÕJÓÏ¢ÊÇÓÃÖ¸¶¨µÄËÄÈ~ÅÎ»Ö·ºÊğµÄ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Verify &Message</source>
+<translation>ÓÏ¢ò×C</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>Reset all verify message fields</source>
+<translation>ÖØÖÃËùÓĞÓÏ¢ò×C™ÚÎ»</translation>
+</message>
+<message>
+<location filename="../signverifymessagedialog.cpp" line="+27"/>
+<location line="+3"/>
+<source>
+Enter a Leafcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)
+</source>
+<translation>İ”ÈëËÄÈ~ÅÎ»Ö· (±ÈÈçÕf Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+</message>
+<message>
+<location line="-2"/>
+<source>Click "Sign Message" to generate signature</source>
+<translation>°´"ÓÏ¢ºÊğ"í®aÉúºÕÂ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Enter Leafcoin signature</source>
+<translation>İ”ÈëËÄÈ~ÅºÕÂ</translation>
+</message>
+<message>
+<location line="+82"/>
+<location line="+81"/>
+<source>The entered address is invalid.</source>
+<translation>İ”ÈëµÄÎ»Ö·ŸoĞ§.</translation>
+</message>
+<message>
+<location line="-81"/>
+<location line="+8"/>
+<location line="+73"/>
+<location line="+8"/>
+<source>Please check the address and try again.</source>
+<translation>Õˆ™z²éÎ»Ö·ÊÇ·ñÕı´_ááÔÙÔ‡Ò»´Î.</translation>
+</message>
+<message>
+<location line="-81"/>
+<location line="+81"/>
+<source>The entered address does not refer to a key.</source>
+<translation>İ”ÈëµÄÎ»Ö·›]ÓĞÖ¸µ½ÈÎºÎÃÜè€.</translation>
+</message>
+<message>
+<location line="-73"/>
+<source>Wallet unlock was cancelled.</source>
+<translation>åX°ü½âæiÒÑÈ¡Ïû.</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>
+Private key for the entered address is not available.
+</source>
+<translation>›]ÓĞËùİ”ÈëÎ»Ö·µÄÃÜè€.</translation>
+</message>
+<message>
+<location line="+12"/>
+<source>Message signing failed.</source>
+<translation>ÓÏ¢ºÊğÊ§”¡.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Message signed.</source>
+<translation>ÓÏ¢ÒÑºÊğ.</translation>
+</message>
+<message>
+<location line="+59"/>
+<source>The signature could not be decoded.</source>
+<translation>Ÿo·¨Œ¢ß@‚€ºÕÂ½â´a.</translation>
+</message>
+<message>
+<location line="+0"/>
+<location line="+13"/>
+<source>Please check the signature and try again.</source>
+<translation>Õˆ™z²éºÕÂÊÇ·ñÕı´_ááÔÙÔ‡Ò»´Î.</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>The signature did not match the message digest.</source>
+<translation>ß@‚€ºÕÂÅcÓÏ¢µÄ”µÎ»ÕªÒª²»·û.</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Message verification failed.</source>
+<translation>ÓÏ¢ò×CÊ§”¡.</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Message verified.</source>
+<translation>ÓÏ¢ÒÑò×C.</translation>
+</message>
+</context>
+<context>
+<name>SplashScreen</name>
+<message>
+<location filename="../splashscreen.cpp" line="+22"/>
+<source>The Leafcoin developers</source>
+<translation>ËÄÈ~Åé_°lÈË†T</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>[testnet]</source>
+<translation>[testnet]</translation>
+</message>
+</context>
+<context>
+<name>TransactionDesc</name>
+<message>
+<location filename="../transactiondesc.cpp" line="+20"/>
+<source>Open until %1</source>
+<translation>ÔÚ %1 Ç°Î´¶¨</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>%1/offline</source>
+<translation>%1/ëx¾€ÖĞ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>%1/unconfirmed</source>
+<translation>%1/Î´´_ÕJ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>%1 confirmations</source>
+<translation>½›´_ÕJ %1 ´Î</translation>
+</message>
+<message>
+<location line="+18"/>
+<source>Status</source>
+<translation> î‘B</translation>
+</message>
+<message numerus="yes">
+<location line="+7"/>
+<source>, broadcast through %n node(s)</source>
+<translation>
+<numerusform>, ÒÑ¹«¸æÖÁ %n ‚€¹üc</numerusform>
+</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Date</source>
+<translation>ÈÕÆÚ</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Source</source>
+<translation>íÔ´</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Generated</source>
+<translation>Éú®a³ö</translation>
+</message>
+<message>
+<location line="+5"/>
+<location line="+17"/>
+<source>From</source>
+<translation>íÌ</translation>
+</message>
+<message>
+<location line="+1"/>
+<location line="+22"/>
+<location line="+58"/>
+<source>To</source>
+<translation>Ä¿µÄ</translation>
+</message>
+<message>
+<location line="-77"/>
+<location line="+2"/>
+<source>own address</source>
+<translation>×Ô¼ºµÄÎ»Ö·</translation>
+</message>
+<message>
+<location line="-2"/>
+<source>label</source>
+<translation>˜Ë»`</translation>
+</message>
+<message>
+<location line="+37"/>
+<location line="+12"/>
+<location line="+45"/>
+<location line="+17"/>
+<location line="+30"/>
+<source>Credit</source>
+<translation>Èë¤</translation>
+</message>
+<message numerus="yes">
+<location line="-102"/>
+<source>matures in %n more block(s)</source>
+<translation>
+<numerusform>Œ¢ÔÚ %n ‚€…^‰K®a³öááÊì³É</numerusform>
+</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>not accepted</source>
+<translation>²»±»½ÓÊÜ</translation>
+</message>
+<message>
+<location line="+44"/>
+<location line="+8"/>
+<location line="+15"/>
+<location line="+30"/>
+<source>Debit</source>
+<translation>³ö¤</translation>
+</message>
+<message>
+<location line="-39"/>
+<source>Transaction fee</source>
+<translation>½»Ò×ÊÖÀmÙM</translation>
+</message>
+<message>
+<location line="+16"/>
+<source>Net amount</source>
+<translation>œQî~</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>Message</source>
+<translation>ÓÏ¢</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Comment</source>
+<translation>¸½Ô]</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Transaction ID</source>
+<translation>½»Ò××R„e´a</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.
+</source>
+<translation>
+Éú®a³öíµÄåXÒªÔÙµÈ 120 ‚€…^‰KÊì³ÉÖ®áá, ²ÅÄÜ‰ò»¨ÓÃ. ®”Äã®a³ö…^‰K•r, Ëü•ş±»¹«²¼µ½¾WÂ·ÉÏ, ÒÔ±»´®ßBÖÁ…^‰Kæiæœ. Èç¹û´®ßBÊ§”¡ÁË, ËüµÄ î‘B¾Í•ş×ƒ³É"²»±»½ÓÊÜ", ÇÒ²»ÄÜ±»»¨ÓÃ. ®”Äã®a³ö…^‰KµÄ×ÃëçŠƒÈ, Ò²ÓĞÆäËû¹üc®a³ö…^‰KµÄÔ’, ÓĞ•rºò¾Í•ş°lÉúß@·NÇéĞÎ.
+</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Debug information</source>
+<translation>³ıåeÙYÓ</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>Transaction</source>
+<translation>½»Ò×</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Inputs</source>
+<translation>İ”Èë</translation>
+</message>
+<message>
+<location line="+23"/>
+<source>Amount</source>
+<translation>½ğî~</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>true</source>
+<translation>ÊÇ</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>false</source>
+<translation>·ñ</translation>
+</message>
+<message>
+<location line="-209"/>
+<source>, has not been successfully broadcast yet</source>
+<translation>, ÉĞÎ´³É¹¦¹«¸æ³öÈ¥</translation>
+</message>
+<message numerus="yes">
+<location line="-35"/>
+<source>Open for %n more block(s)</source>
+<translation>
+<numerusform>ÔÚ½ÓÏÂí %n ‚€…^‰K®a³öÇ°Î´¶¨</numerusform>
+</translation>
+</message>
+<message>
+<location line="+70"/>
+<source>unknown</source>
+<translation>Î´Öª</translation>
+</message>
+</context>
+<context>
+<name>TransactionDescDialog</name>
+<message>
+<location filename="../forms/transactiondescdialog.ui" line="+14"/>
+<source>Transaction details</source>
+<translation>½»Ò×Ã÷¼š</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+This pane shows a detailed description of the transaction
+</source>
+<translation>´Ë°æÃæï@Ê¾½»Ò×µÄÔ”¼šÕfÃ÷</translation>
+</message>
+</context>
+<context>
+<name>TransactionTableModel</name>
+<message>
+<location filename="../transactiontablemodel.cpp" line="+225"/>
+<source>Date</source>
+<translation>ÈÕÆÚ</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Type</source>
+<translation>·Nî</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Address</source>
+<translation>Î»Ö·</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Amount</source>
+<translation>½ğî~</translation>
+</message>
+<message numerus="yes">
+<location line="+57"/>
+<source>Open for %n more block(s)</source>
+<translation>
+<numerusform>ÔÚ½ÓÏÂí %n ‚€…^‰K®a³öÇ°Î´¶¨</numerusform>
+</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Open until %1</source>
+<translation>ÔÚ %1 Ç°Î´¶¨</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Offline (%1 confirmations)</source>
+<translation>ëx¾€ÖĞ (½›´_ÕJ %1 ´Î)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Unconfirmed (%1 of %2 confirmations)</source>
+<translation>Î´´_ÕJ (½›´_ÕJ %1 ´Î, ‘ª´_ÕJ %2 ´Î)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Confirmed (%1 confirmations)</source>
+<translation>ÒÑ´_ÕJ (½›´_ÕJ %1 ´Î)</translation>
+</message>
+<message numerus="yes">
+<location line="+8"/>
+<source>
+Mined balance will be available when it matures in %n more block(s)
+</source>
+<translation>
+<numerusform>é_’ñ½ğî~Œ¢¿ÉÔÚ %n ‚€…^‰KÊì³Éáá¿ÉÓÃ</numerusform>
+</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>
+This block was not received by any other nodes and will probably not be accepted!
+</source>
+<translation>›]ÓĞÆäËû¹ücÊÕµ½ß@‚€…^‰K, Ò²ÔSËü²»±»½ÓÊÜ!</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Generated but not accepted</source>
+<translation>Éú®a³öµ«²»±»½ÓÊÜ</translation>
+</message>
+<message>
+<location line="+43"/>
+<source>Received with</source>
+<translation>ÊÕÊÜì¶</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Received from</source>
+<translation>ÊÕÊÜ×Ô</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Sent to</source>
+<translation>¸¶³öÖÁ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Payment to yourself</source>
+<translation>¸¶½o×Ô¼º</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Mined</source>
+<translation>é_’ñËùµÃ</translation>
+</message>
+<message>
+<location line="+38"/>
+<source>(n/a)</source>
+<translation>(²»ßmÓÃ)</translation>
+</message>
+<message>
+<location line="+199"/>
+<source>
+Transaction status. Hover over this field to show number of confirmations.
+</source>
+<translation>½»Ò× î‘B. ÒÆ„ÓÓÎ˜ËÖÁ™ÚÎ»ÉÏ·½íï@Ê¾´_ÕJ´Î”µ.</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Date and time that the transaction was received.</source>
+<translation>ÊÕµ½½»Ò×µÄÈÕÆÚÅc•rég.</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Type of transaction.</source>
+<translation>½»Ò×µÄ·Nî.</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Destination address of transaction.</source>
+<translation>½»Ò×µÄÄ¿˜ËÎ»Ö·.</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Amount removed from or added to balance.</source>
+<translation>œpÈ¥»ò¼ÓÈëÖÁğNî~µÄ½ğî~</translation>
+</message>
+</context>
+<context>
+<name>TransactionView</name>
+<message>
+<location filename="../transactionview.cpp" line="+52"/>
+<location line="+16"/>
+<source>All</source>
+<translation>È«²¿</translation>
+</message>
+<message>
+<location line="-15"/>
+<source>Today</source>
+<translation>½ñÌì</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>This week</source>
+<translation>ß@ßL</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>This month</source>
+<translation>ß@‚€ÔÂ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Last month</source>
+<translation>ÉÏ‚€ÔÂ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>This year</source>
+<translation>½ñÄê</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Range...</source>
+<translation>Ö¸¶¨¹ ‡ú...</translation>
+</message>
+<message>
+<location line="+11"/>
+<source>Received with</source>
+<translation>ÊÕÊÜì¶</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Sent to</source>
+<translation>¸¶³öÖÁ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>To yourself</source>
+<translation>½o×Ô¼º</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Mined</source>
+<translation>é_’ñËùµÃ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Other</source>
+<translation>ÆäËû</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Enter address or label to search</source>
+<translation>İ”ÈëÎ»Ö·»ò˜ËÓ›íËÑŒ¤</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Min amount</source>
+<translation>×îĞ¡½ğî~</translation>
+</message>
+<message>
+<location line="+34"/>
+<source>Copy address</source>
+<translation>Ñ}ÑuÎ»Ö·</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Copy label</source>
+<translation>Ñ}Ñu˜ËÓ›</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Copy amount</source>
+<translation>Ñ}Ñu½ğî~</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Copy transaction ID</source>
+<translation>Ñ}Ñu½»Ò××R„e´a</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Edit label</source>
+<translation>¾İ‹˜ËÓ›</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Show transaction details</source>
+<translation>ï@Ê¾½»Ò×Ã÷¼š</translation>
+</message>
+<message>
+<location line="+139"/>
+<source>Export Transaction Data</source>
+<translation>…R³ö½»Ò×ÙYÁÏ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Comma separated file (*.csv)</source>
+<translation>¶ºÌ–·Ö¸ôÙYÁÏ™n (*.csv)</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>Confirmed</source>
+<translation>ÒÑ´_ÕJ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Date</source>
+<translation>ÈÕÆÚ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Type</source>
+<translation>·Nî</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Label</source>
+<translation>˜ËÓ›</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Address</source>
+<translation>Î»Ö·</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Amount</source>
+<translation>½ğî~</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>ID</source>
+<translation>×R„e´a</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Error exporting</source>
+<translation>…R³öÊ§”¡</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Could not write to file %1.</source>
+<translation>Ÿo·¨Œ‘ÈëÖÁ %1 ™n°¸.</translation>
+</message>
+<message>
+<location line="+100"/>
+<source>Range:</source>
+<translation>¹ ‡ú:</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>to</source>
+<translation>ÖÁ</translation>
+</message>
+</context>
+<context>
+<name>WalletModel</name>
+<message>
+<location filename="../walletmodel.cpp" line="+193"/>
+<source>Send Coins</source>
+<translation>¸¶åX</translation>
+</message>
+</context>
+<context>
+<name>WalletView</name>
+<message>
+<location filename="../walletview.cpp" line="+42"/>
+<source>&Export</source>
+<translation>…R³ö</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Export the data in the current tab to a file</source>
+<translation>Œ¢Ä¿Ç°·Öí“µÄÙYÁÏ…R³ö´æ³É™n°¸</translation>
+</message>
+<message>
+<location line="+193"/>
+<source>Backup Wallet</source>
+<translation>åX°ü‚ä·İ</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>Wallet Data (*.dat)</source>
+<translation>åX°üÙYÁÏ™n (*.dat)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Backup Failed</source>
+<translation>‚ä·İÊ§”¡</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>
+There was an error trying to save the wallet data to the new location.
+</source>
+<translation>ƒ¦´æåX°üÙYÁÏµ½ĞÂµÄµØ·½Ê§”¡</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Backup Successful</source>
+<translation>‚ä·İ³É¹¦</translation>
+</message>
+<message>
+<location line="+0"/>
+<source>
+The wallet data was successfully saved to the new location.
+</source>
+<translation>åX°üµÄÙYÁÏÒÑ½›³É¹¦ƒ¦´æµ½ĞÂµÄµØ·½ÁË.</translation>
+</message>
+</context>
+<context>
+<name>bitcoin-core</name>
+<message>
+<location filename="../bitcoinstrings.cpp" line="+94"/>
+<source>Leafcoin version</source>
+<translation>ËÄÈ~Å°æ±¾</translation>
+</message>
+<message>
+<location line="+102"/>
+<source>Usage:</source>
+<translation>ÓÃ·¨:</translation>
+</message>
+<message>
+<location line="-29"/>
+<source>Send command to -server or leafcoind</source>
+<translation>ËÍÖ¸Áî½o -server »ò leafcoind</translation>
+</message>
+<message>
+<location line="-23"/>
+<source>List commands</source>
+<translation>ÁĞ³öÖ¸Áî</translation>
+</message>
+<message>
+<location line="-12"/>
+<source>Get help for a command</source>
+<translation>È¡µÃÖ¸ÁîÕfÃ÷</translation>
+</message>
+<message>
+<location line="+24"/>
+<source>Options:</source>
+<translation>ßxí—:</translation>
+</message>
+<message>
+<location line="+24"/>
+<source>
+Specify configuration file (default: leafcoin.conf)
+</source>
+<translation>Ö¸¶¨ÔO¶¨™n (îAÔO: leafcoin.conf)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Specify pid file (default: leafcoind.pid)</source>
+<translation>Ö¸¶¨ĞĞ³Ì×R„e´a™n°¸ (îAÔO: leafcoind.pid)</translation>
+</message>
+<message>
+<location line="-1"/>
+<source>Specify data directory</source>
+<translation>Ö¸¶¨ÙYÁÏÄ¿ä›</translation>
+</message>
+<message>
+<location line="-9"/>
+<source>Set database cache size in megabytes (default: 25)</source>
+<translation>ÔO¶¨ÙYÁÏì¿ìÈ¡´óĞ¡é¶àÉÙ°ÙÈfÎ»Ôª½M(MB, îAÔO: 25)</translation>
+</message>
+<message>
+<location line="-28"/>
+<source>
+Listen for connections on <port> (default: 22556 or testnet: 44556)
+</source>
+<translation>ÔÚÍ¨Ó²º <port> Â ºòßB¾€ (îAÔO: 22556, »òÈôéœyÔ‡¾WÂ·: 44556)</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>
+Maintain at most <n> connections to peers (default: 125)
+</source>
+<translation>¾S³ÖÅc¹ücßB¾€”µµÄÉÏÏŞé <n> ‚€ (îAÔO: 125)</translation>
+</message>
+<message>
+<location line="-48"/>
+<source>
+Connect to a node to retrieve peer addresses, and disconnect
+</source>
+<translation>ßB¾€µ½Ä³‚€¹ücÒÔÈ¡µÃÆäËü¹ücµÄÎ»Ö·, È»áá”à¾€</translation>
+</message>
+<message>
+<location line="+82"/>
+<source>Specify your own public address</source>
+<translation>Ö¸¶¨×Ô¼º¹«é_µÄÎ»Ö·</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Threshold for disconnecting misbehaving peers (default: 100)
+</source>
+<translation>Åcy¸ãµÄ¹üc”à¾€µÄÅR½çÖµ (îAÔO: 100)</translation>
+</message>
+<message>
+<location line="-134"/>
+<source>
+Number of seconds to keep misbehaving peers from reconnecting (default: 86400)
+</source>
+<translation>±ÜÃâÅcy¸ãµÄ¹ücßB¾€µÄÃë”µ (îAÔO: 86400)</translation>
+</message>
+<message>
+<location line="-29"/>
+<source>
+An error occurred while setting up the RPC port %u for listening on IPv4: %s
+</source>
+<translation>ÔÚ IPv4 ¾WÂ·ÉÏÒÔÍ¨Ó²º %u Â È¡ RPC ßB¾€•r°lÉúåeÕ`: %s</translation>
+</message>
+<message>
+<location line="+27"/>
+<source>
+Listen for JSON-RPC connections on <port> (default: 22555 or testnet: 44555)
+</source>
+<translation>
+ÔÚÍ¨Ó²º <port> Â ºò JSON-RPC ßB¾€ (îAÔO: 22555, »òÈôéœyÔ‡¾WÂ·: 44555)
+</translation>
+</message>
+<message>
+<location line="+37"/>
+<source>Accept command line and JSON-RPC commands</source>
+<translation>½ÓÊÜÃüÁîÁĞÅc JSON-RPC Ö¸Áî</translation>
+</message>
+<message>
+<location line="+76"/>
+<source>
+Run in the background as a daemon and accept commands
+</source>
+<translation>ÒÔ±³¾°³ÌÊ½ˆÌĞĞK½ÓÊÜÖ¸Áî</translation>
+</message>
+<message>
+<location line="+37"/>
+<source>Use the test network</source>
+<translation>Ê¹ÓÃœyÔ‡¾WÂ·</translation>
+</message>
+<message>
+<location line="-112"/>
+<source>
+Accept connections from outside (default: 1 if no -proxy or -connect)
+</source>
+<translation>ÊÇ·ñ½ÓÊÜÍâíßB¾€ (îAÔO: ®”›]ÓĞ -proxy »ò -connect •rîAÔOé 1)</translation>
+</message>
+<message>
+<location line="-80"/>
+<source>
+%s, you must set a rpcpassword in the configuration file: %s It is recommended you use the following random password: rpcuser=leafcoinrpc rpcpassword=%s (you do not need to remember this password) The username and password MUST NOT be the same. If the file does not exist, create it with owner-readable-only file permissions. It is also recommended to set alertnotify so you are notified of problems; for example: alertnotify=echo %%s | mail -s "Leafcoin Alert" admin@foo.com
+</source>
+<translation>
+%s, Äã±ØíšÒªÔÚÒÔÏÂÔO¶¨™nÖĞÔO¶¨ RPC ÃÜ´a(rpcpassword): %s ½¨×hÄãÊ¹ÓÃÒÔÏÂëS™C®aÉúµÄÃÜ´a: rpcuser=leafcoinrpc rpcpassword=%s (Äã²»ÓÃÓ›×¡ß@‚€ÃÜ´a) Ê¹ÓÃÕßÃû·Q(rpcuser)ºÍÃÜ´a(rpcpassword)²»¿ÉÒÔÏàÍ¬! Èç¹ûÔO¶¨™nß€²»´æÔÚ, ÕˆÔÚĞÂÔö•r, ÔO¶¨™n°¸™àÏŞé"Ö»ÓĞÖ÷ÈË²ÅÄÜ×xÈ¡". Ò²½¨×hÄãÔO¶¨¾¯Ê¾Í¨Öª, °lÉú†–î}•rÄã²Å•ş±»Í¨Öªµ½; ±ÈÈçÕfÔO¶¨é: alertnotify=echo %%s | mail -s "Leafcoin Alert" admin@foo.com
+</translation>
+</message>
+<message>
+<location line="+17"/>
+<source>
+An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s
+</source>
+<translation>ÔO¶¨ÔÚ IPv6 ¾WÂ·µÄÍ¨Ó²º %u ÉÏÂ ºò RPC ßB¾€Ê§”¡, ÍË¶ø¸ÄÓÃ IPv4 ¾WÂ·: %s</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Bind to given address and always listen on it. Use [host]:port notation for IPv6
+</source>
+<translation>ºÍÖ¸¶¨µÄÎ»Ö·ÀM½Y, K¿‚ÊÇÔÚÔ“Î»Ö·Â ºòßB¾€. IPv6 ÕˆÓÃ "[Ö÷™C]:Í¨Ó²º" ß@·N¸ñÊ½</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Cannot obtain a lock on data directory %s. Leafcoin is probably already running.
+</source>
+<translation>Ÿo·¨æi¶¨ÙYÁÏÄ¿ä› %s. Ò²ÔSËÄÈ~ÅÒÑ½›ÔÚˆÌĞĞÁË.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.
+</source>
+<translation>
+åeÕ`: ½»Ò×±»¾Ü½^ÁË! ÓĞ•rºò•ş°lÉúß@·NåeÕ`, ÊÇÒòéÄãåX°üÖĞµÄÒ»Ğ©åXÒÑ½›±»»¨µôÁË. ±ÈÈçÕfÄãÑ}ÑuÁËåX°ü™n wallet.dat, È»ááÓÃÑ}ÑuµÄåX°ü»¨µôÁËåX, Äã¬FÔÚËùÓÃµÄÔ­íµÄåX°üÖĞ…s›]ÓĞÔ“¹P½»Ò×¼oä›.
+</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>
+Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!
+</source>
+<translation>
+åeÕ`: ß@¹P½»Ò×ĞèÒªÖÁÉÙ %s µÄÊÖÀmÙM! ÒòéËüµÄ½ğî~Ì«´ó, »òÑ}ës¶ÈÌ«¸ß, »òÊÇÊ¹ÓÃÁË×î½ü²Å„‚ÊÕµ½µÄ¿îí—.
+</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Execute command when a relevant alert is received (%s in cmd is replaced by message)
+</source>
+<translation>®”ÊÕµ½ÏàêP¾¯Ê¾•rËùÒªˆÌĞĞµÄÖ¸Áî (Ö¸ÁîÖĞµÄ %s •ş±»È¡´úé¾¯Ê¾ÓÏ¢)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)
+</source>
+<translation>®”åX°üÓĞ½»Ò×¸Ä×ƒ•rËùÒªˆÌĞĞµÄÖ¸Áî (Ö¸ÁîÖĞµÄ %s •ş±»È¡´úé½»Ò××R„e´a)</translation>
+</message>
+<message>
+<location line="+11"/>
+<source>
+Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)
+</source>
+<translation>ÔO¶¨¸ßƒÏÈ™à»òµÍÊÖÀmÙMµÄ½»Ò×ÙYÁÏ´óĞ¡ÉÏÏŞé¶àÉÙÎ»Ôª½M (îAÔO: 27000)</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+This is a pre-release test build - use at your own risk - do not use for mining or merchant applications
+</source>
+<translation>ß@ÊÇÉĞÎ´°l±íµÄœyÔ‡°æ±¾ - Ê¹ÓÃÕˆ×ÔØ“ïLëU - Õˆ²»ÒªÓÃì¶é_’ñ»òÉÌ˜I‘ªÓÃ</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>
+Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.
+</source>
+<translation>¾¯¸æ: -paytxfee ÔO¶¨ÁËºÜ¸ßµÄ½ğî~! ß@¿ÉÊÇÄã½»Ò×¸¶¿îËùÒª¸¶µÄÊÖÀmÙM.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.
+</source>
+<translation>¾¯¸æ: ï@Ê¾µÄ½»Ò×¿ÉÄÜ²»Õı´_! Äã¿ÉÄÜĞèÒªÉı¼‰, »òÕßĞèÒªµÈÆäËüµÄ¹ücÉı¼‰.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Warning: Please check that your computer's date and time are correct! If your clock is wrong Leafcoin will not work properly.
+</source>
+<translation>¾¯¸æ: Õˆ™z²éëŠÄX•régÅcÈÕÆÚÊÇ·ñÕı´_! ËÄÈ~ÅŸo·¨ÔÚ•rçŠ²»œÊµÄÇé›rÏÂÕı³£ß\×÷.</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.
+</source>
+<translation>
+¾¯¸æ: ×xÈ¡åX°ü™n wallet.dat Ê§”¡ÁË! ËùÓĞµÄÃÜè€¶¼Õı´_×xÈ¡ÁË, µ«ÊÇ½»Ò×ÙYÁÏ»òÎ»Ö·²¾ÙYÁÏ¿ÉÄÜ•şÈ±ÉÙ»ò²»Õı´_.
+</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.
+</source>
+<translation>
+¾¯¸æ: åX°ü™n wallet.dat ‰Äµô, µ«ÙYÁÏ±»Õü¾È»ØíÁË! Ô­íµÄ wallet.dat •ş¸Äƒ¦´æÔÚ %s, ™nÃûé wallet.{timestamp}.bak. Èç¹ûğNî~»ò½»Ò×ÙYÁÏÓĞÕ`, Äã‘ªÔ“ÒªÓÃ‚ä·İÙYÁÏÍÔ­»Øí.
+</translation>
+</message>
+<message>
+<location line="+14"/>
+<source>
+Attempt to recover private keys from a corrupt wallet.dat
+</source>
+<translation>‡LÔ‡Ä‰ÄµôµÄåX°ü™n wallet.dat ÍÔ­ÃÜè€</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Block creation options:</source>
+<translation>…^‰K®aÉúßxí—:</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Connect only to the specified node(s)</source>
+<translation>Ö»ßB¾€ÖÁÖ¸¶¨¹üc(¿É¶à‚€)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Corrupted block database detected</source>
+<translation>°l¬F…^‰KÙYÁÏì‰ÄµôÁË</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Discover own IP address (default: 1 when listening and no -externalip)
+</source>
+<translation>ÕÒ³ö×Ô¼ºµÄ¾WëH¾WÂ·Î»Ö· (îAÔO: ®”ÓĞÂ ºòßB¾€ÇÒ›]ÓĞ -externalip •ré 1)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Do you want to rebuild the block database now?</source>
+<translation>ÄãÒª¬FÔÚÖØ½¨…^‰KÙYÁÏì†á?</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Error initializing block database</source>
+<translation>³õÊ¼»¯…^‰KÙYÁÏìÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Error initializing wallet database environment %s!</source>
+<translation>åX°üÙYÁÏì­h¾³ %s ³õÊ¼»¯åeÕ`!</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Error loading block database</source>
+<translation>İdÈë…^‰KÙYÁÏìÊ§”¡</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Error opening block database</source>
+<translation>´òé_…^‰KÙYÁÏì™n°¸Ê§”¡</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Error: Disk space is low!</source>
+<translation>åeÕ`: ´Åµú¿ÕégºÜÉÙ!</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Error: Wallet locked, unable to create transaction!
+</source>
+<translation>åeÕ`: åX°ü±»ÉÏæiÁË, Ÿo·¨®aÉúĞÂµÄ½»Ò×!</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Error: system error:</source>
+<translation>åeÕ`: Ïµ½yåeÕ`:</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Failed to listen on any port. Use -listen=0 if you want this.
+</source>
+<translation>ÔÚÈÎÒâµÄÍ¨Ó²ºÂ ºòÊ§”¡. Èç¹ûÄãÏëµÄÔ’¿ÉÒÔÓÃ -listen=0.</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to read block info</source>
+<translation>×xÈ¡…^‰KÙYÓÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to read block</source>
+<translation>×xÈ¡…^‰KÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to sync block index</source>
+<translation>Í¬²½…^‰KË÷ÒıÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write block index</source>
+<translation>Œ‘Èë…^‰KË÷ÒıÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write block info</source>
+<translation>Œ‘Èë…^‰KÙYÓÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write block</source>
+<translation>Œ‘Èë…^‰KÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write file info</source>
+<translation>Œ‘Èë™n°¸ÙYÓÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write to coin database</source>
+<translation>Œ‘ÈëËÄÈ~ÅÙYÁÏìÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write transaction index</source>
+<translation>Œ‘Èë½»Ò×Ë÷ÒıÊ§”¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Failed to write undo data</source>
+<translation>Œ‘Èë»ØÍÙYÁÏÊ§”¡</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Find peers using DNS lookup (default: 1 unless -connect)
+</source>
+<translation>ÊÇ·ñÔÊÔSÔÚÕÒ¹üc•rÊ¹ÓÃÓòÃû²éÔƒ (îAÔO: ®”›]ÓÃ -connect •ré 1)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Generate coins (default: 0)</source>
+<translation>Éú®aËÄÈ~Å (îAÔOÖµ: 0)</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+How many blocks to check at startup (default: 288, 0 = all)
+</source>
+<translation>†™„Ó•r™z²éµÄ…^‰K”µ (îAÔO: 288, Ö¸¶¨ 0 ±íÊ¾È«²¿)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+How thorough the block verification is (0-4, default: 3)
+</source>
+<translation>…^‰K™z²éµÄ×Ğ¼š³Ì¶È (0 ÖÁ 4, îAÔO: 3)</translation>
+</message>
+<message>
+<location line="+19"/>
+<source>Not enough file descriptors available.</source>
+<translation>™n°¸ÃèÊöÆ÷²»×ã.</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>
+Rebuild block chain index from current blk000??.dat files
+</source>
+<translation>ÄÄ¿Ç°µÄ…^‰K™n blk000??.dat ÖØ½¨æiæœË÷Òı</translation>
+</message>
+<message>
+<location line="+16"/>
+<source>
+Set the number of threads to service RPC calls (default: 4)
+</source>
+<translation>ÔO¶¨ÌÀí RPC ·ş„ÕÕˆÇóµÄˆÌĞĞ¾w”µÄ¿ (îAÔOé 4)</translation>
+</message>
+<message>
+<location line="+26"/>
+<source>Verifying blocks...</source>
+<translation>ò×C…^‰KÙYÁÏÖĞ...</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Verifying wallet...</source>
+<translation>ò×CåX°üÙYÁÏÖĞ...</translation>
+</message>
+<message>
+<location line="-69"/>
+<source>Imports blocks from external blk000??.dat file</source>
+<translation>ÄÆäËüíÔ´µÄ blk000??.dat ™n…RÈë…^‰K</translation>
+</message>
+<message>
+<location line="-76"/>
+<source>
+Set the number of script verification threads (up to 16, 0 = auto, <0 = leave that many cores free, default: 0)
+</source>
+<translation>
+ÔO¶¨Ö¸Áî´aò×CµÄˆÌĞĞ¾w”µÄ¿ (×î¶àé 16, Èôé 0 ±íÊ¾³ÌÊ½×Ô„Ó›Q¶¨, Ğ¡ì¶ 0 ±íÊ¾±£Áô²»ÓÃµÄÌÀíÆ÷ºËĞÄ”µÄ¿, îAÔOé 0)
+</translation>
+</message>
+<message>
+<location line="+77"/>
+<source>Information</source>
+<translation>ÙYÓ</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Invalid -tor address: '%s'</source>
+<translation>ŸoĞ§µÄ -tor Î»Ö·: '%s'</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Invalid amount for -minrelaytxfee=<amount>: '%s'</source>
+<translation>ÔO¶¨ -minrelaytxfee=<½ğî~> µÄ½ğî~ŸoĞ§: '%s'</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Invalid amount for -mintxfee=<amount>: '%s'</source>
+<translation>ÔO¶¨ -mintxfee=<amount> µÄ½ğî~ŸoĞ§: '%s'</translation>
+</message>
+<message>
+<location line="+8"/>
+<source>Maintain a full transaction index (default: 0)</source>
+<translation>¾S×oÈ«²¿½»Ò×µÄË÷Òı (îAÔOé 0)</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)
+</source>
+<translation>Ã¿‚€ßB¾€µÄ½ÓÊÕ¾Ğn…^´óĞ¡ÉÏÏŞé <n>*1000 ‚€Î»Ôª½M (îAÔO: 5000)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)
+</source>
+<translation>Ã¿‚€ßB¾€µÄ‚÷ËÍ¾Ğn…^´óĞ¡ÉÏÏŞé <n>*1000 Î»Ôª½M (îAÔO: 1000)</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Only accept block chain matching built-in checkpoints (default: 1)
+</source>
+<translation>Ö»½ÓÊÜÅcƒÈ½¨µÄ™z²é¶ÎücÎÇºÏµÄ…^‰Kæiæœ (îAÔO: 1)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Only connect to nodes in network <net> (IPv4, IPv6 or Tor)
+</source>
+<translation>Ö»ºÍ <net> ¾WÂ·ÉÏµÄ¹ücßB¾€ (IPv4, IPv6, »ò Tor)</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Output extra debugging information. Implies all other -debug* options
+</source>
+<translation>İ”³öî~ÍâµÄ³ıåeÙYÓ. °üº¬ÁËÆäËüËùÓĞµÄ -debug* ßxí—</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Output extra network debugging information</source>
+<translation>İ”³öî~ÍâµÄ¾WÂ·³ıåeÙYÓ</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Prepend debug output with timestamp (default: 1)</source>
+<translation>ÔÚ³ıåeİ”³öƒÈÈİÇ°¸½¼Ó•rég</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>
+SSL options: (see the Litecoin Wiki for SSL setup instructions)
+</source>
+<translation>SSL ßxí—: (SSL ÔO¶¨³ÌĞòÕˆÒŠ Litecoin Wiki)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Select the version of socks proxy to use (4-5, default: 5)
+</source>
+<translation>ßx“ñ SOCKS ´úÀíËÅ·şÆ÷µÄ…f¶¨°æ±¾(4 »ò 5, îAÔO: 5)</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>
+Send trace/debug info to console instead of debug.log file
+</source>
+<translation>ÔÚ½K¶Ë™Cï@Ê¾×·Û™»ò³ıåeÙYÓ, ¶ø·ÇŒ‘µ½ debug.log ™n</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Send trace/debug info to debugger</source>
+<translation>İ”³ö×·Û™»ò³ıåeÙYÓ½o³ıåeÆ÷</translation>
+</message>
+<message>
+<location line="+5"/>
+<source>Set maximum block size in bytes (default: 250000)</source>
+<translation>ÔO¶¨…^‰K´óĞ¡ÉÏÏŞé¶àÉÙÎ»Ôª½M (îAÔO: 250000)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Set minimum block size in bytes (default: 0)</source>
+<translation>ÔO¶¨…^‰K´óĞ¡ÏÂÏŞé¶àÉÙÎ»Ôª½M (îAÔO: 0)</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Shrink debug.log file on client startup (default: 1 when no -debug)
+</source>
+<translation>¿Í‘ô¶ËÜ›ów†™„Ó•rŒ¢ debug.log ™n¿sĞ¡ (îAÔO: ®”›]ÓĞ -debug •ré 1)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Signing transaction failed</source>
+<translation>ºÊğ½»Ò×Ê§”¡</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>
+Specify connection timeout in milliseconds (default: 5000)
+</source>
+<translation>Ö¸¶¨ßB¾€ÔÚ×ºÁÃëááÓâ•r (îAÔO: 5000)</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>System error:</source>
+<translation>Ïµ½yåeÕ`:</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Transaction amount too small</source>
+<translation>½»Ò×½ğî~Ì«Ğ¡</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Transaction amounts must be positive</source>
+<translation>½»Ò×½ğî~±ØíšÊÇÕıµÄ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Transaction too large</source>
+<translation>½»Ò×Î»ÔªÁ¿Ì«´ó</translation>
+</message>
+<message>
+<location line="+7"/>
+<source>Use UPnP to map the listening port (default: 0)</source>
+<translation>ÊÇ·ñÊ¹ÓÃÍ¨ÓÃ¼´²å¼´ÓÃ(UPnP)…f¶¨íÔO¶¨Â ºòßB¾€µÄÍ¨Ó²º (îAÔO: 0)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Use UPnP to map the listening port (default: 1 when listening)
+</source>
+<translation>ÊÇ·ñÊ¹ÓÃÍ¨ÓÃ¼´²å¼´ÓÃ(UPnP)…f¶¨íÔO¶¨Â ºòßB¾€µÄÍ¨Ó²º (îAÔO: ®”ÓĞÂ ºòßB¾€é 1)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Use proxy to reach tor hidden services (default: same as -proxy)
+</source>
+<translation>Í¸ß^´úÀíËÅ·şÆ÷íÊ¹ÓÃ Tor ë[²Ø·ş„Õ (îAÔO: Í¬ -proxy)</translation>
+</message>
+<message>
+<location line="+2"/>
+<source>Username for JSON-RPC connections</source>
+<translation>JSON-RPC ßB¾€Ê¹ÓÃÕßÃû·Q</translation>
+</message>
+<message>
+<location line="+4"/>
+<source>Warning</source>
+<translation>¾¯¸æ</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Warning: This version is obsolete, upgrade required!
+</source>
+<translation>¾¯¸æ: ß@‚€°æ±¾ÒÑ½›±»ÌÔÌ­µôÁË, ±ØíšÒªÉı¼‰!</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+You need to rebuild the databases using -reindex to change -txindex
+</source>
+<translation>¸Ä×ƒ -txindex …¢”µáá, ±ØíšÒªÓÃ -reindex …¢”µíÖØ½¨ÙYÁÏì</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>wallet.dat corrupt, salvage failed</source>
+<translation>åX°ü™n weallet.dat ‰ÄµôÁË, Õü¾ÈÊ§”¡</translation>
+</message>
+<message>
+<location line="-50"/>
+<source>Password for JSON-RPC connections</source>
+<translation>JSON-RPC ßB¾€ÃÜ´a</translation>
+</message>
+<message>
+<location line="-67"/>
+<source>
+Allow JSON-RPC connections from specified IP address
+</source>
+<translation>Ö»ÔÊÔSÄÖ¸¶¨¾WÂ·Î»Ö·íµÄ JSON-RPC ßB¾€</translation>
+</message>
+<message>
+<location line="+76"/>
+<source>
+Send commands to node running on <ip> (default: 127.0.0.1)
+</source>
+<translation>ËÍÖ¸Áî½oÔÚ <ip> µÄ¹üc (îAÔO: 127.0.0.1)</translation>
+</message>
+<message>
+<location line="-120"/>
+<source>
+Execute command when the best block changes (%s in cmd is replaced by block hash)
+</source>
+<translation>®”×îĞÂ…^‰K¸Ä×ƒ•rËùÒªˆÌĞĞµÄÖ¸Áî (Ö¸ÁîÖĞµÄ %s •ş±»È¡´úé…^‰KµÄësœÖµ)</translation>
+</message>
+<message>
+<location line="+147"/>
+<source>Upgrade wallet to latest format</source>
+<translation>Œ¢åX°üÉı¼‰³É×îĞÂµÄ¸ñÊ½</translation>
+</message>
+<message>
+<location line="-21"/>
+<source>Set key pool size to <n> (default: 100)</source>
+<translation>ÔO¶¨ÃÜè€³Ø´óĞ¡é <n> (îAÔO: 100)</translation>
+</message>
+<message>
+<location line="-12"/>
+<source>
+Rescan the block chain for missing wallet transactions
+</source>
+<translation>ÖØĞÂ’ßÃè…^‰Kæiæœ, ÒÔŒ¤ÕÒåX°üËùßzÂ©µÄ½»Ò×.</translation>
+</message>
+<message>
+<location line="+35"/>
+<source>Use OpenSSL (https) for JSON-RPC connections</source>
+<translation>ì¶ JSON-RPC ßB¾€Ê¹ÓÃ OpenSSL (https)</translation>
+</message>
+<message>
+<location line="-26"/>
+<source>Server certificate file (default: server.cert)</source>
+<translation>ËÅ·şÆ÷‘{×C™n (îAÔO: server.cert)</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Server private key (default: server.pem)</source>
+<translation>ËÅ·şÆ÷ÃÜè€™n (îAÔO: server.pem)</translation>
+</message>
+<message>
+<location line="-151"/>
+<source>
+Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
+</source>
+<translation>
+¿ÉÒÔ½ÓÊÜµÄ¼ÓÃÜ·¨ (îAÔO: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)
+</translation>
+</message>
+<message>
+<location line="+165"/>
+<source>This help message</source>
+<translation>´Ë…fÖúÓÏ¢</translation>
+</message>
+<message>
+<location line="+6"/>
+<source>
+Unable to bind to %s on this computer (bind returned error %d, %s)
+</source>
+<translation>Ÿo·¨ºÍß@Ì¨ëŠÄXÉÏµÄ %s ÀM½Y (ÀM½Y»Ø‚÷åeÕ` %d, %s)</translation>
+</message>
+<message>
+<location line="-91"/>
+<source>Connect through socks proxy</source>
+<translation>Í¸ß^ SOCKS ´úÀíËÅ·şÆ÷ßB¾€</translation>
+</message>
+<message>
+<location line="-10"/>
+<source>
+Allow DNS lookups for -addnode, -seednode and -connect
+</source>
+<translation>ÔÊÔSŒ¦ -addnode, -seednode, -connect µÄ…¢”µÊ¹ÓÃÓòÃû²éÔƒ</translation>
+</message>
+<message>
+<location line="+55"/>
+<source>Loading addresses...</source>
+<translation>İdÈëÎ»Ö·ÖĞ...</translation>
+</message>
+<message>
+<location line="-35"/>
+<source>Error loading wallet.dat: Wallet corrupted</source>
+<translation>İdÈë™n°¸ wallet.dat Ê§”¡: åX°ü‰ÄµôÁË</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>
+Error loading wallet.dat: Wallet requires newer version of Leafcoin
+</source>
+<translation>İdÈë™n°¸ wallet.dat Ê§”¡: ´ËåX°üĞèÒªĞÂ°æµÄ Leafcoin</translation>
+</message>
+<message>
+<location line="+93"/>
+<source>
+Wallet needed to be rewritten: restart Leafcoin to complete
+</source>
+<translation>åX°üĞèÒªÖØŒ‘: ÕˆÖØ†¢ËÄÈ~ÅíÍê³É</translation>
+</message>
+<message>
+<location line="-95"/>
+<source>Error loading wallet.dat</source>
+<translation>İdÈë™n°¸ wallet.dat Ê§”¡</translation>
+</message>
+<message>
+<location line="+28"/>
+<source>Invalid -proxy address: '%s'</source>
+<translation>ŸoĞ§µÄ -proxy Î»Ö·: '%s'</translation>
+</message>
+<message>
+<location line="+56"/>
+<source>Unknown network specified in -onlynet: '%s'</source>
+<translation>ÔÚ -onlynet Ö¸¶¨ÁË²»Ã÷µÄ¾WÂ·„e: '%s'</translation>
+</message>
+<message>
+<location line="-1"/>
+<source>Unknown -socks proxy version requested: %i</source>
+<translation>ÔÚ -socks Ö¸¶¨ÁË²»Ã÷µÄ´úÀí…f¶¨°æ±¾: %i</translation>
+</message>
+<message>
+<location line="-96"/>
+<source>Cannot resolve -bind address: '%s'</source>
+<translation>Ÿo·¨½âÎö -bind Î»Ö·: '%s'</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Cannot resolve -externalip address: '%s'</source>
+<translation>Ÿo·¨½âÎö -externalip Î»Ö·: '%s'</translation>
+</message>
+<message>
+<location line="+44"/>
+<source>Invalid amount for -paytxfee=<amount>: '%s'</source>
+<translation>ÔO¶¨ -paytxfee=<½ğî~> µÄ½ğî~ŸoĞ§: '%s'</translation>
+</message>
+<message>
+<location line="+1"/>
+<source>Invalid amount</source>
+<translation>ŸoĞ§µÄ½ğî~</translation>
+</message>
+<message>
+<location line="-6"/>
+<source>Insufficient funds</source>
+<translation>ÀÛ·e½ğî~²»×ã</translation>
+</message>
+<message>
+<location line="+10"/>
+<source>Loading block index...</source>
+<translation>İdÈë…^‰KË÷ÒıÖĞ...</translation>
+</message>
+<message>
+<location line="-57"/>
+<source>
+Add a node to connect to and attempt to keep the connection open
+</source>
+<translation>¼ÓÈëÒ»‚€ÒªßB¾€µÄ¹¾€, KÔ‡Öø±£³ÖŒ¦ËüµÄßB¾€•³Í¨</translation>
+</message>
+<message>
+<location line="-25"/>
+<source>
+Unable to bind to %s on this computer. Leafcoin is probably already running.
+</source>
+<translation>Ÿo·¨ºÍß@Ì¨ëŠÄXÉÏµÄ %s ÀM½Y. Ò²ÔSËÄÈ~ÅÒÑ½›ÔÚˆÌĞĞÁË.</translation>
+</message>
+<message>
+<location line="+64"/>
+<source>Fee per KB to add to transactions you send</source>
+<translation>½»Ò×¸¶¿î•rÃ¿ KB µÄ½»Ò×ÊÖÀmÙM</translation>
+</message>
+<message>
+<location line="+19"/>
+<source>Loading wallet...</source>
+<translation>İdÈëåX°üÖĞ...</translation>
+</message>
+<message>
+<location line="-52"/>
+<source>Cannot downgrade wallet</source>
+<translation>Ÿo·¨Œ¢åX°ü¸ñÊ½½µ¼‰</translation>
+</message>
+<message>
+<location line="+3"/>
+<source>Cannot write default address</source>
+<translation>Ÿo·¨Œ‘ÈëîAÔOÎ»Ö·</translation>
+</message>
+<message>
+<location line="+64"/>
+<source>Rescanning...</source>
+<translation>ÖØĞÂ’ßÃèÖĞ...</translation>
+</message>
+<message>
+<location line="-57"/>
+<source>Done loading</source>
+<translation>İdÈëÍê³É</translation>
+</message>
+<message>
+<location line="+82"/>
+<source>To use the %s option</source>
+<translation>éÁËÒªÊ¹ÓÃ %s ßxí—</translation>
+</message>
+<message>
+<location line="-74"/>
+<source>Error</source>
+<translation>åeÕ`</translation>
+</message>
+<message>
+<location line="-31"/>
+<source>
+You must set rpcpassword=<password> in the configuration file: %s If the file does not exist, create it with owner-readable-only file permissions.
+</source>
+<translation>
+Äã±ØíšÔÚÏÂÁĞÔO¶¨™nÖĞÔO¶¨ RPC ÃÜ´a(rpcpassword=<password>): %s Èç¹ûß@‚€™n°¸ß€²»´æÔÚ, ÕˆÔÚĞÂÔö•r, ÔO¶¨™n°¸™àÏŞé"Ö»ÓĞÖ÷ÈË²ÅÄÜ×xÈ¡".
+</translation>
+</message>
 </context>
 </TS>
