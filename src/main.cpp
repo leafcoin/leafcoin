@@ -1087,62 +1087,100 @@ int static generateMTRandom(unsigned int s, int range)
 
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
-    int64 nSubsidy = 10000 * COIN;
+    int64 nSubsidy = 3500 * COIN;
 
     std::string cseed_str = prevHash.ToString().substr(7,7);
     const char* cseed = cseed_str.c_str();
     long seed = hex2long(cseed);
     int rand = generateMTRandom(seed, 999999);
+
+    // could have re-used a single var.
     int rand1 = 0;
     int rand2 = 0;
     int rand3 = 0;
     int rand4 = 0;
     int rand5 = 0;
+    int rand6 = 0;
+    int rand7 = 0;
 
-    if(nHeight < 60000)
+    // also this could have been done more easily, using divisioning by 15k etc
+    // anyways... lets just keep it like this, its not too much work and i comment it
+    // with values. so everyone can exactly see what happens and may check my calcs.
+    // values are estimates. an mt 19937 pseudo random number generate which is initialized 
+    // using a substring of prv hash. "the seed" is 32 bits.
+    // see for more info http://nl.wikipedia.org/wiki/Mersennetwister
+    // note that block rewards decrease very quickly and remain steady @ 3500 per block from block 120k and above
+    // see below for more details.
+    // i think this will fix the issue of leafcoin total value of coins.
+
+    // total time until 21 billion coin: 3.5 year +/-
+
+    if(nHeight < 15000)
     {
-        nSubsidy = (1 + rand) * COIN;
+        nSubsidy = (1 + rand) * COIN;			// total amount: 7,500,000,000
+								// 10 days
     }
-    else if(nHeight < 120000)
+    else if (nHeight < 30000)
     {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand1 = generateMTRandom(seed, 499999);
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount: 3,750,000,000
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 11250000000
+        rand1 = generateMTRandom(seed, 499999);		// generate random value with mt
         nSubsidy = (1 + rand1) * COIN;
     }
-    else if(nHeight < 180000)
+    else if (nHeight < 45000)				
     {
-        cseed_str = prevHash.ToString().substr(6,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand2 = generateMTRandom(seed, 249999);
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount: 1,875,000,000
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 13125000000
+        rand2 = generateMTRandom(seed, 250000);
         nSubsidy = (1 + rand2) * COIN;
     }
-    else if(nHeight < 240000)
+    else if (nHeight < 60000) 
     {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand3 = generateMTRandom(seed, 124999);
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount    937,500,000
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 14062500000
+        rand3 = generateMTRandom(seed, 125000);
         nSubsidy = (1 + rand3) * COIN;
     }
-    else if(nHeight < 300000)
+    else if (nHeight < 75000) // make 20k
     {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand4 = generateMTRandom(seed, 62499);
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount    468,750,000
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 14531250000
+        rand4 = generateMTRandom(seed, 62500);
         nSubsidy = (1 + rand4) * COIN;
     }
-    else if(nHeight < 360000)
+    else if (nHeight < 90000) // make 20k
     {
-        cseed_str = prevHash.ToString().substr(6,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand5 = generateMTRandom(seed, 31249);
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount    234,375,000
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 14765625000
+        rand5 = generateMTRandom(seed, 31250);
         nSubsidy = (1 + rand5) * COIN;
     }
+    else if (nHeight < 105000) // make 20k
+    {
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount    117,187,500
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 14882812500
+        rand6 = generateMTRandom(seed, 15625);
+        nSubsidy = (1 + rand6) * COIN;
+    }
+    else if (nHeight < 120000) // make 20k
+    {
+        cseed_str = prevHash.ToString().substr(7,7);	// total amount    58,593,750
+        cseed = cseed_str.c_str();				// 10 days
+        seed = hex2long(cseed);				// supply: 14941406250
+        rand7 = generateMTRandom(seed, 7812);
+        nSubsidy = (1 + rand7) * COIN;
+    }
+    // remain = 6029296875, if 3500 per block 1722656 blocks, so 1199 days = 3,2 years @ 3500
+
+    // total time = 1279 days to achieve 21 billion coins = 
+    // yes, i know this favors early miners a lot... but this choice was made by the community.
+    // it would have become a 64 billion coin otherwise.
 
     return nSubsidy + nFees;
 }
