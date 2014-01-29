@@ -220,9 +220,9 @@ void ThreadIRCSeed2()
 
     while (true)
     {
-        CService addrConnect("203.30.57.15", 6667); // irc.lfnet.org
+        CService addrConnect("92.51.132.40", 6667); // irc.leefco.in
 
-        CService addrIRC("chat.au.freenode.net", 6667, true);
+        CService addrIRC("irc.leefco.in", 6667, true);
         if (addrIRC.IsValid())
             addrConnect = addrIRC;
 

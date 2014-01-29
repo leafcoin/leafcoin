@@ -1072,6 +1072,7 @@ void ThreadSocketHandler()
 
 
 #ifdef USE_UPNP
+
 void ThreadMapPort()
 {
     std::string port = strprintf("%u", GetListenPort());
@@ -1192,19 +1193,19 @@ void MapPort(bool)
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
-static const char *strMainNetDNSSeed[][2] = {
-    {"seed.leafco.in", "leafcoin.mercuriusgids.nl"},
+static const char *strMainNetDNSSeed[][6] = {
+    {"seed.leafco.in", "seed2.leafco.in", "seed3.leafco.in","seed4.leafco.in","seed5.leafco.in", "leafcoin.mercuriusgids.nl"},
 //    {"leafcoinpool.org", "dnsseed.leafcoinpool.org"},
-    {NULL, NULL}
+    {NULL, NULL,NULL,NULL,NULL,NULL}
 };
 
-static const char *strTestNetDNSSeed[][2] = {
-    {NULL, NULL}
+static const char *strTestNetDNSSeed[][6] = {
+    {NULL, NULL,NULL,NULL,NULL,NULL}
 };
 
 void ThreadDNSAddressSeed()
 {
-    static const char *(*strDNSSeed)[2] = fTestNet ? strTestNetDNSSeed : strMainNetDNSSeed;
+    static const char *(*strDNSSeed)[6] = fTestNet ? strTestNetDNSSeed : strMainNetDNSSeed;
 
     int found = 0;
 
