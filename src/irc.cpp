@@ -220,7 +220,7 @@ void ThreadIRCSeed2()
 
     while (true)
     {
-        CService addrConnect("92.51.132.40", 6667); // irc.leefco.in
+        CService addrConnect("92.51.132.40", 6667); // irc.leafco.in
 
         CService addrIRC("irc.leafco.in", 6667, true);
         if (addrIRC.IsValid())
