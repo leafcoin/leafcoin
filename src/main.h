@@ -54,7 +54,7 @@ static const int64 DUST_SOFT_LIMIT = 100000000;
 /** Dust Hard Limit, ignored as wallet inputs (mininput default) */
 static const int64 DUST_HARD_LIMIT = 1000000;
 /** No amount larger than this (in satoshi) is valid */
-static const int64 MAX_MONEY = 21000000000 * COIN; // LeafCoin: maximum of 100B coins (given some randomness), max transaction 10,000,000,000 for now
+static const int64 MAX_MONEY = 21000000000 * COIN; // LeafCoin: maximum of N coins (given some randomness), max transaction 10,000,000,000 for now
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Coinbase transaction outputs can only be spent after this number of new blocks (network rule) */
 static const int COINBASE_MATURITY = 26;
@@ -62,6 +62,10 @@ static const int COINBASE_MATURITY = 26;
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 /** Maximum number of script-checking threads allowed */
 static const int MAX_SCRIPTCHECK_THREADS = 16;
+
+static const int DIFF_FILTER_THRESHOLD_TESTNET =  30000;
+static const int DIFF_FILTER_THRESHOLD         = 30000;
+
 #ifdef USE_UPNP
 static const int fHaveUPnP = true;
 #else
