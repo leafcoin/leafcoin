@@ -10,6 +10,8 @@
 //
 // client versioning
 //
+// added stuff for gravity update ( changed proto version to 80005, 80003 unsupported )
+
 
 static const int CLIENT_VERSION =
                            1000000 * CLIENT_VERSION_MAJOR

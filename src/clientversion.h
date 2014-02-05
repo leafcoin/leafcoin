@@ -11,6 +11,8 @@
 #define CLIENT_VERSION_REVISION    6
 #define CLIENT_VERSION_BUILD       2
 
+// did not update version
+
 // Set to true for release, false for prerelease or test build
 #define CLIENT_VERSION_IS_RELEASE  true
 

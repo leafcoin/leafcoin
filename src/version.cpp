@@ -11,6 +11,7 @@
 const std::string CLIENT_NAME("Satoshi");
 
 // Client version number
+// added stuff for gravity update
 #define CLIENT_VERSION_SUFFIX   "-beta-gravity"
 
 

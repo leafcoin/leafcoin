@@ -28,6 +28,7 @@
 using namespace std;
 using namespace boost;
 using namespace boost::asio;
+
 using namespace json_spirit;
 
 static std::string strRPCUserColonPass;
