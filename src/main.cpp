@@ -18,13 +18,13 @@
 #include <boost/random/mersenne_twister.hpp>
 #include <boost/random/uniform_int.hpp>
 
-using namespace std;
-using namespace boost;
 
 //
 // Global state
 //
 
+using namespace std;
+using namespace boost;
 CCriticalSection cs_setpwalletRegistered;
 set<CWallet*> setpwalletRegistered;
 
