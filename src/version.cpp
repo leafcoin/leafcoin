@@ -12,7 +12,7 @@ const std::string CLIENT_NAME("Satoshi");
 
 // Client version number
 // added stuff for gravity update
-#define CLIENT_VERSION_SUFFIX   "-beta-gravity"
+#define CLIENT_VERSION_SUFFIX   "-beta-gravity-2"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.

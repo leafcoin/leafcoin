@@ -1383,7 +1383,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
      	printf("Into testnet @ block # %d Diffmode: %d\n", pindexLast->nHeight+1, DiffMode );
 	}
 	else {
-		if (pindexLast->nHeight+1 >= 29300) { DiffMode = 2; }
+		if (pindexLast->nHeight+1 >= 22163) { DiffMode = 2; }
 	}
 	
 	if		(DiffMode == 1) { return GetNextWorkRequired_V1(pindexLast, pblock); }
