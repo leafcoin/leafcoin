@@ -91,6 +91,14 @@ Installing the dependencies using MacPorts is very straightforward.
 Instructions: HomeBrew
 ----------------------
 
+#### If compiling on Maverick (10.9) 
+
+You may find it easier to add the following steps to your process.  Since QT 4.8 isn't supported on Maverick (and until I can rewrite some of this code to take advantage of QT 5.2, installing QT through homebrew will make your life easier.
+
+      brew install qt
+      
+Once you have QT installed, you might need to relink the new applications so that they appear in your Application folder, but this is unnecessary for compiling Leafcoin.  Now move on to installing the rest of the dependencies.
+
 #### Install dependencies using Homebrew
 
         brew install boost miniupnpc openssl berkeley-db4
@@ -121,6 +129,10 @@ Rerunning "openssl version" should now return the correct version.
     change, or you can just patch by doing
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
+
+*Update*: The above #2 step has been rebuilt here. Now before you proceed to building leafcoind it is coing to be necessary to edit both the makefile and the leafcoin-qt.pro file.  You can find those edits in /contrib/homebrew/
+
+What you doing is fixing the locations of openssl, boost, and berkeley-db4 to the correct locations that homebrew installs.
 
 3.  Build leafcoind:
 
@@ -162,6 +174,19 @@ compiled on an OS X 10.6 32-bit machine to workaround that problem.
 Once dependencies are compiled, creating `Leafcoin-Qt.app` is easy:
 
     make -f Makefile.osx RELEASE=1
+
+QT Release
+----------
+
+First, run this command:
+
+     qmake "USE_UPNP=1"
+
+Now you can run the command:
+
+     make -f Makefile
+     
+This will make the QT version of the wallet WITHOUT having to use QT Creator (since we also installed the QT components using homebrew earlier).
 
 Running
 -------
