@@ -252,10 +252,6 @@ void ThreadIRCSeed2()
                 return;
         }
 
-        std::stringstream sVersion;
-        sVersion << PROTOCOL_VERSION_SHORT;
-
-
         CNetAddr addrIPv4("1.2.3.4"); // arbitrary IPv4 address to make GetLocal prefer IPv4 addresses
         CService addrLocal;
         string strMyName;
