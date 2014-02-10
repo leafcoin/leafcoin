@@ -252,7 +252,6 @@ void ThreadIRCSeed2()
                 return;
         }
 
-
         CNetAddr addrIPv4("1.2.3.4"); // arbitrary IPv4 address to make GetLocal prefer IPv4 addresses
         CService addrLocal;
         string strMyName;
