@@ -74,6 +74,7 @@ map<string, string> mapArgs;
 map<string, vector<string> > mapMultiArgs;
 bool fDebug = false;
 bool fDebugNet = false;
+bool fWriteDebugLog = false;
 bool fPrintToConsole = false;
 bool fPrintToDebugger = false;
 bool fDaemon = false;
@@ -238,6 +239,8 @@ static void DebugPrintInit()
 
 int OutputDebugStringF(const char* pszFormat, ...)
 {
+    if ( ! fWriteDebugLog ) return 0;
+
     int ret = 0; // Returns total number of characters written
     if (fPrintToConsole)
     {
@@ -247,7 +250,7 @@ int OutputDebugStringF(const char* pszFormat, ...)
         ret += vprintf(pszFormat, arg_ptr);
         va_end(arg_ptr);
     }
-    else if (!fPrintToDebugger)
+    else if (!fPrintToDebugger && fWriteDebugLog )
     {
         static bool fStartedNewLine = true;
         boost::call_once(&DebugPrintInit, debugPrintInitFlag);
@@ -1338,7 +1341,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
         int64 nMedian = vTimeOffsets.median();
         std::vector<int64> vSorted = vTimeOffsets.sorted();
         // Only let other nodes change our time by so much
-        if (abs64(nMedian) < 35 * 60) // Leafcoin: changed maximum adjust to 35 mins to avoid letting peers change our time too much in case of an attack.
+        if (abs64(nMedian) < 13 * 60) // Leafcoin: changed maximum adjust to 35 mins to avoid letting peers change our time too much in case of an attack.
         {
             nTimeOffset = nMedian;
         }
@@ -1431,7 +1434,7 @@ long hex2long(const char* hexString)
 
     while (*hexString && ret >= 0)
     {
-        ret = (ret << 4) | hextable[*hexString++];
+        ret = (ret << 4) | hextable[(uint8_t)*hexString++];
     }
 
     return ret;

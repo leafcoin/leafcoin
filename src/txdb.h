@@ -34,7 +34,9 @@ private:
     CBlockTreeDB(const CBlockTreeDB&);
     void operator=(const CBlockTreeDB&);
 public:
-    bool WriteBlockIndex(const CDiskBlockIndex& blockindex);
+    bool WriteDiskBlockIndex(const CDiskBlockIndex& diskblockindex);
+    bool WriteBlockIndex(const CBlockIndex& blockindex);
+    bool ReadDiskBlockIndex(const uint256 &blkid, CDiskBlockIndex& diskblockindex);
     bool ReadBestInvalidWork(CBigNum& bnBestInvalidWork);
     bool WriteBestInvalidWork(const CBigNum& bnBestInvalidWork);
     bool ReadBlockFileInfo(int nFile, CBlockFileInfo &fileinfo);
@@ -48,6 +50,12 @@ public:
     bool WriteFlag(const std::string &name, bool fValue);
     bool ReadFlag(const std::string &name, bool &fValue);
     bool LoadBlockIndexGuts();
+
+    // ppcoin sync checkpoint related data
+    bool ReadSyncCheckpoint(uint256& hashCheckpoint);
+    bool WriteSyncCheckpoint(uint256 hashCheckpoint);
+    bool ReadCheckpointPubKey(std::string& strPubKey);
+    bool WriteCheckpointPubKey(const std::string& strPubKey);
 };
 
 #endif // BITCOIN_TXDB_LEVELDB_H

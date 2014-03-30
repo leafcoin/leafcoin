@@ -28,15 +28,15 @@ extern const std::string CLIENT_DATE;
 //
 
 
-static const int PROTOCOL_VERSION_SHORT = 7;
+static const int PROTOCOL_VERSION_SHORT = 8;
 
-static const int PROTOCOL_VERSION = 80007;
+static const int PROTOCOL_VERSION = 80008;
 
 // intial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
 
 // disconnect from peers older than this proto version
-static const int MIN_PEER_PROTO_VERSION = 80004;
+static const int MIN_PEER_PROTO_VERSION = 80007;
 
 // nTime field added to CAddress, starting with this version;
 // if possible, avoid requesting addresses nodes older than this
@@ -44,7 +44,7 @@ static const int CADDR_TIME_VERSION = 31402;
 
 // only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 80000;
-static const int NOBLKS_VERSION_END = 80002;
+static const int NOBLKS_VERSION_END = 80004;
 
 // BIP 0031, pong message, is enabled for all versions AFTER this one
 static const int BIP0031_VERSION = 60000;

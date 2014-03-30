@@ -569,6 +569,17 @@ int64 CWallet::GetDebit(const CTxIn &txin) const
     return 0;
 }
 
+bool CWallet::HasAddress(const CTxDestination &txDest) const
+{
+	bool	hasAddress = false;
+	
+	LOCK(cs_wallet);
+	if (mapAddressBook.count(txDest))
+		hasAddress = true;
+	
+	return hasAddress;
+}
+
 bool CWallet::IsChange(const CTxOut& txout) const
 {
     CTxDestination address;
@@ -637,6 +648,8 @@ int CWalletTx::GetRequestCount() const
 void CWalletTx::GetAmounts(list<pair<CTxDestination, int64> >& listReceived,
                            list<pair<CTxDestination, int64> >& listSent, int64& nFee, string& strSentAccount) const
 {
+	CTxDestination	address;
+	
     nFee = 0;
     listReceived.clear();
     listSent.clear();
@@ -651,24 +664,24 @@ void CWalletTx::GetAmounts(list<pair<CTxDestination, int64> >& listReceived,
     }
 
     // Sent/received.
-    BOOST_FOREACH(const CTxOut& txout, vout)
-    {
-        CTxDestination address;
-        vector<unsigned char> vchPubKey;
-        if (!ExtractDestination(txout.scriptPubKey, address))
-        {
-            printf("CWalletTx::GetAmounts: Unknown transaction type found, txid %s\n",
-                   this->GetHash().ToString().c_str());
+	for (unsigned int i = 0; i < vout.size(); i++) {
+		const CTxOut	&txout = vout[i];
+		bool			isMine = false;
+		bool			warnUnkownTX = false;
+		
+		warnUnkownTX = !ExtractDestinationAndMine(*pwallet, txout.scriptPubKey, address, &isMine);
+		if (warnUnkownTX) {
+            printf("CWalletTx::GetAmounts: Unknown transaction type found, txid %s\n", this->GetHash().ToString().c_str());
         }
 
-        // Don't report 'change' txouts
-        if (nDebit > 0 && pwallet->IsChange(txout))
-            continue;
+		if (nDebit > 0) {
+			if (isMine && !pwallet->HasAddress(address))			// Don't report 'change' txouts
+				continue;
 
-        if (nDebit > 0)
             listSent.push_back(make_pair(address, txout.nValue));
+		}
 
-        if (pwallet->IsMine(txout))
+        if (isMine)
             listReceived.push_back(make_pair(address, txout.nValue));
     }
 
@@ -985,8 +998,7 @@ void CWallet::AvailableCoins(vector<COutput>& vCoins, bool fOnlyConfirmed, const
                 continue;
 
             for (unsigned int i = 0; i < pcoin->vout.size(); i++) {
-                if (!(pcoin->IsSpent(i)) && IsMine(pcoin->vout[i]) &&
-                    !IsLockedCoin((*it).first, i) && pcoin->vout[i].nValue >= nMinimumInputValue &&
+                if (!(pcoin->IsSpent(i)) && IsMine(pcoin->vout[i]) && !IsLockedCoin((*it).first, i) &&
                     (!coinControl || !coinControl->HasSelected() || coinControl->IsSelected((*it).first, i))) 
                         vCoins.push_back(COutput(pcoin, i, pcoin->GetDepthInMainChain()));
             }
@@ -1073,7 +1085,7 @@ bool CWallet::SelectCoinsMinConf(int64 nTargetValue, int nConfMine, int nConfThe
             nValueRet += coin.first;
             return true;
         }
-        else if (n < nTargetValue + CENT)
+        else if (n < nTargetValue + COIN)
         {
             vValue.push_back(coin);
             nTotalLower += n;
@@ -1109,13 +1121,13 @@ bool CWallet::SelectCoinsMinConf(int64 nTargetValue, int nConfMine, int nConfThe
     int64 nBest;
 
     ApproximateBestSubset(vValue, nTotalLower, nTargetValue, vfBest, nBest, 1000);
-    if (nBest != nTargetValue && nTotalLower >= nTargetValue + CENT)
-        ApproximateBestSubset(vValue, nTotalLower, nTargetValue + CENT, vfBest, nBest, 1000);
+    if (nBest != nTargetValue && nTotalLower >= nTargetValue + COIN)
+        ApproximateBestSubset(vValue, nTotalLower, nTargetValue + COIN, vfBest, nBest, 1000);
 
     // If we have a bigger coin and (either the stochastic approximation didn't find a good solution,
     //                                   or the next bigger coin is closer), return the bigger coin
     if (coinLowestLarger.second.first &&
-        ((nBest != nTargetValue && nBest < nTargetValue + CENT) || coinLowestLarger.first <= nBest))
+        ((nBest != nTargetValue && nBest < nTargetValue + COIN) || coinLowestLarger.first <= nBest))
     {
         setCoinsRet.insert(coinLowestLarger.second);
         nValueRet += coinLowestLarger.first;
@@ -1219,10 +1231,8 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64> >& vecSend,
                 BOOST_FOREACH(PAIRTYPE(const CWalletTx*, unsigned int) pcoin, setCoins)
                 {
                     int64 nCredit = pcoin.first->vout[pcoin.second].nValue;
-                    //The priority after the next block (depth+1) is used instead of the current,
-                    //reflecting an assumption the user would accept a bit more delay for
-                    //a chance at a free transaction.
-                    dPriority += (double)nCredit * (pcoin.first->GetDepthInMainChain()+1);
+
+                    dPriority += (double)nCredit * pcoin.first->GetDepthInMainChain();
                 }
 
                 int64 nChange = nValueIn - nValue - nFeeRet;
@@ -1247,6 +1257,19 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64> >& vecSend,
                     if (coinControl && !boost::get<CNoDestination>(&coinControl->destChange))
                         scriptChange.SetDestination(coinControl->destChange);
                         
+                    // send change to one of the specified change addresses
+                    else if (mapArgs.count("-change") && mapMultiArgs["-change"].size() > 0)
+                    {
+                        CBitcoinAddress address(mapMultiArgs["-change"][GetRandInt(mapMultiArgs["-change"].size())]);
+
+                        CKeyID keyID;
+                        if (!address.GetKeyID(keyID)) {
+                            strFailReason = _("Bad change address");
+                            return false;
+                        }
+
+                        scriptChange.SetDestination(keyID);
+                    }
                     // no coin control: send change to newly generated address
                     else
                     {

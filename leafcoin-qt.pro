@@ -9,8 +9,16 @@ DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread
 CONFIG += exceptions
-CONFIG -= x86_64
 
+#BOOST_LIB_SUFFIX=
+BOOST_INCLUDE_PATH=C:/deps/boost
+BOOST_LIB_PATH=C:/deps/boost/stage/lib
+BDB_INCLUDE_PATH=c:/deps/db/build_unix
+BDB_LIB_PATH=c:/deps/db/build_unix
+OPENSSL_INCLUDE_PATH=c:/deps/ssl/include
+OPENSSL_LIB_PATH=c:/deps/ssl
+MINIUPNPC_LIB_PATH=C:/deps/upnpc-exe-win32
+MINIUPNPC_INCLUDE_PATH=c:/deps
 
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
@@ -53,7 +61,7 @@ win32:QMAKE_LFLAGS *= -Wl,--dynamicbase -Wl,--nxcompat
 # on Windows: enable GCC large address aware linker flag
 win32:QMAKE_LFLAGS *= -Wl,--large-address-aware
 # i686-w64-mingw32
-win32:QMAKE_LFLAGS *= -static-libgcc -static-libstdc++
+#win32:QMAKE_LFLAGS *= -static-libgcc -static-libstdc++
 
 # use: qmake "USE_QRCODE=1"
 # libqrencode (http://fukuchi.org/works/qrencode/index.en.html) must be installed for support
@@ -150,6 +158,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/aboutdialog.h \
     src/qt/editaddressdialog.h \
     src/qt/bitcoinaddressvalidator.h \
+    src/auxpow.h \
     src/alert.h \
     src/addrman.h \
     src/base58.h \
@@ -219,6 +228,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/netbase.h \
     src/clientversion.h \
     src/txdb.h \
+    src/checkpointsync.h \
     src/leveldb.h \
     src/threadsafety.h \
     src/limitedmap.h \
@@ -238,6 +248,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/aboutdialog.cpp \
     src/qt/editaddressdialog.cpp \
     src/qt/bitcoinaddressvalidator.cpp \
+    src/auxpow.cpp \
     src/alert.cpp \
     src/version.cpp \
     src/sync.cpp \
@@ -295,6 +306,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/noui.cpp \
     src/leveldb.cpp \
     src/txdb.cpp \
+    src/checkpointsync.cpp \
     src/qt/splashscreen.cpp
 
 RESOURCES += src/qt/bitcoin.qrc
@@ -380,7 +392,7 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_LIB_PATH) {
-  macx:BDB_LIB_PATH = /usr/local/opt/berkeley-db4/lib
+    macx:BDB_LIB_PATH = /opt/local/lib/db48
 }
 
 isEmpty(BDB_LIB_SUFFIX) {
@@ -388,23 +400,15 @@ isEmpty(BDB_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_INCLUDE_PATH) {
-  macx:BDB_INCLUDE_PATH = /usr/local/opt/berkeley-db4/include
+    macx:BDB_INCLUDE_PATH = /opt/local/include/db48
 }
 
 isEmpty(BOOST_LIB_PATH) {
-    macx:BOOST_LIB_PATH = /usr/local/opt/boost/lib
+    macx:BOOST_LIB_PATH = /opt/local/lib
 }
 
 isEmpty(BOOST_INCLUDE_PATH) {
-    macx:BOOST_INCLUDE_PATH = /usr/local/opt/boost/include
-}
-
-isEmpty(OPENSSL_LIB_PATH) {
-  macx:OPENSSL_LIB_PATH = /usr/local/opt/openssl/lib
-}
-
-isEmpty(OPENSSL_INCLUDE_PATH) {
-  macx:OPENSSL_INCLUDE_PATH = /usr/local/opt/openssl/include
+    macx:BOOST_INCLUDE_PATH = /opt/local/include
 }
 
 win32:DEFINES += WIN32 WIN32_LEAN_AND_MEAN
