@@ -28,9 +28,9 @@ extern const std::string CLIENT_DATE;
 //
 
 
-static const int PROTOCOL_VERSION_SHORT = 8;
+static const int PROTOCOL_VERSION_SHORT = 9;
 
-static const int PROTOCOL_VERSION = 80008;
+static const int PROTOCOL_VERSION = 80009;
 
 // intial proto version, to be increased after version/verack negotiation
 static const int INIT_PROTO_VERSION = 209;
@@ -44,7 +44,7 @@ static const int CADDR_TIME_VERSION = 31402;
 
 // only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 80000;
-static const int NOBLKS_VERSION_END = 80004;
+static const int NOBLKS_VERSION_END = 80005;
 
 // BIP 0031, pong message, is enabled for all versions AFTER this one
 static const int BIP0031_VERSION = 60000;
