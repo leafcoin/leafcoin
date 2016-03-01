@@ -18,3 +18,5 @@ KGW: yes
 https://bitcointalk.org/index.php?topic=514032.0
 
 `#leafcoin on irc.freenode.net`
+
+http://www.leafcoin.nl
