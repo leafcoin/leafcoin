@@ -10,15 +10,15 @@ CONFIG += no_include_pwd
 CONFIG += thread
 CONFIG += exceptions
 
-#BOOST_LIB_SUFFIX=
-BOOST_INCLUDE_PATH=C:/deps/boost
-BOOST_LIB_PATH=C:/deps/boost/stage/lib
-BDB_INCLUDE_PATH=c:/deps/db/build_unix
-BDB_LIB_PATH=c:/deps/db/build_unix
-OPENSSL_INCLUDE_PATH=c:/deps/ssl/include
-OPENSSL_LIB_PATH=c:/deps/ssl
-MINIUPNPC_LIB_PATH=C:/deps/upnpc-exe-win32
-MINIUPNPC_INCLUDE_PATH=c:/deps
+# #BOOST_LIB_SUFFIX=
+# BOOST_INCLUDE_PATH=C:/deps/boost
+# BOOST_LIB_PATH=C:/deps/boost/stage/lib
+# BDB_INCLUDE_PATH=c:/deps/db/build_unix
+# BDB_LIB_PATH=c:/deps/db/build_unix
+# OPENSSL_INCLUDE_PATH=c:/deps/ssl/include
+# OPENSSL_LIB_PATH=c:/deps/ssl
+# MINIUPNPC_LIB_PATH=C:/deps/upnpc-exe-win32
+# MINIUPNPC_INCLUDE_PATH=c:/deps
 
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
