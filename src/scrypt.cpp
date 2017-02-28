@@ -34,6 +34,16 @@
 #include <string.h>
 #include <openssl/sha.h>
 
+#if defined(USE_SSE2) && !defined(USE_SSE2_ALWAYS)
+#ifdef _MSC_VER
+// MSVC 64bit is unable to use inline asm
+#include <intrin.h>
+#else
+// GCC Linux or i686-w64-mingw32
+#include <cpuid.h>
+#endif
+#endif
+
 static inline uint32_t be32dec(const void *pp)
 {
 	const uint8_t *p = (uint8_t const *)pp;
@@ -277,47 +287,43 @@ void scrypt_1024_1_1_256_sp_generic(const char *input, char *output, char *scrat
 }
 
 #if defined(USE_SSE2)
-#if defined(_M_X64) || defined(__x86_64__) || defined(_M_AMD64) || (defined(MAC_OSX) && defined(__i386__))
-/* Always SSE2 */
-void scrypt_detect_sse2(unsigned int cpuid_edx)
-{
-    printf("scrypt: using scrypt-sse2 as built.\n");
-}
-#else
-/* Detect SSE2 */
-void (*scrypt_1024_1_1_256_sp)(const char *input, char *output, char *scratchpad);
+// By default, set to generic scrypt function. This will prevent crash in case when scrypt_detect_sse2() wasn't called
+void (*scrypt_1024_1_1_256_sp_detected)(const char *input, char *output, char *scratchpad) = &scrypt_1024_1_1_256_sp_generic;
 
-void scrypt_detect_sse2(unsigned int cpuid_edx)
+void scrypt_detect_sse2()
 {
+#if defined(USE_SSE2_ALWAYS)
+    printf("scrypt: using scrypt-sse2 as built.\n");
+#else // USE_SSE2_ALWAYS
+    // 32bit x86 Linux or Windows, detect cpuid features
+    unsigned int cpuid_edx=0;
+#if defined(_MSC_VER)
+    // MSVC
+    int x86cpuid[4];
+    __cpuid(x86cpuid, 1);
+    cpuid_edx = (unsigned int)buffer[3];
+#else // _MSC_VER
+    // Linux or i686-w64-mingw32 (gcc-4.6.3)
+    unsigned int eax, ebx, ecx;
+    __get_cpuid(1, &eax, &ebx, &ecx, &cpuid_edx);
+#endif // _MSC_VER
+
     if (cpuid_edx & 1<<26)
     {
-        scrypt_1024_1_1_256_sp = &scrypt_1024_1_1_256_sp_sse2;
+        scrypt_1024_1_1_256_sp_detected = &scrypt_1024_1_1_256_sp_sse2;
         printf("scrypt: using scrypt-sse2 as detected.\n");
     }
     else
     {
-        scrypt_1024_1_1_256_sp = &scrypt_1024_1_1_256_sp_generic;
+        scrypt_1024_1_1_256_sp_detected = &scrypt_1024_1_1_256_sp_generic;
         printf("scrypt: using scrypt-generic, SSE2 unavailable.\n");
     }
+#endif // USE_SSE2_ALWAYS
 }
-#endif
 #endif
 
 void scrypt_1024_1_1_256(const char *input, char *output)
 {
 	char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
-#if defined(USE_SSE2)
-        // Detection would work, but in cases where we KNOW it always has SSE2,
-        // it is faster to use directly than to use a function pointer or conditional.
-#if defined(_M_X64) || defined(__x86_64__) || defined(_M_AMD64) || (defined(MAC_OSX) && defined(__i386__))
-        // Always SSE2: x86_64 or Intel MacOS X
-        scrypt_1024_1_1_256_sp_sse2(input, output, scratchpad);
-#else
-        // Detect SSE2: 32bit x86 Linux or Windows
-        scrypt_1024_1_1_256_sp(input, output, scratchpad);
-#endif
-#else
-        // Generic scrypt
-        scrypt_1024_1_1_256_sp_generic(input, output, scratchpad);
-#endif
+    scrypt_1024_1_1_256_sp(input, output, scratchpad);
 }
