@@ -1072,7 +1072,6 @@ void ThreadSocketHandler()
 
 
 #ifdef USE_UPNP
-
 void ThreadMapPort()
 {
     std::string port = strprintf("%u", GetListenPort());

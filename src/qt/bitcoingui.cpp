@@ -37,7 +37,6 @@
 #include <QToolBar>
 #include <QStatusBar>
 #include <QLabel>
-#include <QFont>
 #include <QMessageBox>
 #include <QProgressBar>
 #include <QStackedWidget>
@@ -81,12 +80,6 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     // Create wallet frame and make it the central widget
     walletFrame = new WalletFrame(this);
     setCentralWidget(walletFrame);
-
-    //specify a new font.
-    //QFont newFont("Comic Sans MS", 10);
-
-    //set font of application
-    //QApplication::setFont(newFont);
 
     // Accept D&D of URIs
     setAcceptDrops(true);
