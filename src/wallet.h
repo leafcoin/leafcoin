@@ -18,6 +18,8 @@
 #include "util.h"
 #include "walletdb.h"
 
+extern bool bSpendZeroConfChange;
+
 class CAccountingEntry;
 class CWalletTx;
 class CReserveKey;
@@ -643,9 +645,12 @@ public:
         // Quick answer in most cases
         if (!IsFinal())
             return false;
-        if (GetDepthInMainChain() >= 1)
+        int nDepth = GetDepthInMainChain();
+        if (nDepth >= 1)
             return true;
-        if (!IsFromMe()) // using wtx's cached debit
+        if (nDepth < 0)
+            return false;
+        if (!bSpendZeroConfChange || !IsFromMe()) // using wtx's cached debit
             return false;
 
         // If no confirmations but it's from us, we can still
@@ -660,8 +665,11 @@ public:
 
             if (!ptx->IsFinal())
                 return false;
-            if (ptx->GetDepthInMainChain() >= 1)
+            int nPDepth = ptx->GetDepthInMainChain();
+            if (nPDepth >= 1)
                 continue;
+            if (nPDepth < 0)
+                return false;			
             if (!pwallet->IsFromMe(*ptx))
                 return false;
 
