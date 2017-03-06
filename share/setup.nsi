@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.9
+!define VERSION 0.8.7.1
 !define COMPANY "Leafcoin project"
 !define URL http://www.leafcoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile leafcoin-0.8.6.2-win32-setup.exe
+OutFile leafcoin-${VERSION}-win32-setup.exe
 InstallDir $PROGRAMFILES\Leafcoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.2
+VIProductVersion ${VERSION}
 VIAddVersionKey ProductName Leafcoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
