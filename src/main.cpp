@@ -318,16 +318,17 @@ bool AddOrphanTx(const CTransaction& tx)
 
 void static EraseOrphanTx(uint256 hash)
 {
-    if (!mapOrphanTransactions.count(hash))
+    map<uint256, CTransaction>::iterator it = mapOrphanTransactions.find(hash);
+    if (it == mapOrphanTransactions.end())
         return;
-    const CTransaction& tx = mapOrphanTransactions[hash];
-    BOOST_FOREACH(const CTxIn& txin, tx.vin)
+    BOOST_FOREACH(const CTxIn& txin, it->second.vin)
     {
-        mapOrphanTransactionsByPrev[txin.prevout.hash].erase(hash);
-        if (mapOrphanTransactionsByPrev[txin.prevout.hash].empty())
-            mapOrphanTransactionsByPrev.erase(txin.prevout.hash);
+        map<uint256, set<uint256> >::iterator itPrev = mapOrphanTransactionsByPrev.find(txin.prevout.hash);
+        itPrev->second.erase(hash);
+        if (itPrev->second.empty())
+            mapOrphanTransactionsByPrev.erase(itPrev);
     }
-    mapOrphanTransactions.erase(hash);
+    mapOrphanTransactions.erase(it);
 }
 
 unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
@@ -402,7 +403,7 @@ bool CTransaction::IsStandard(string& strReason) const
         if (!txin.scriptSig.HasCanonicalPushes()) {
             strReason = "non-canonical-push";
             return false;
-        }		
+        }
     }
     BOOST_FOREACH(const CTxOut& txout, vout) {
         if (!::IsStandard(txout.scriptPubKey)) {
@@ -1568,7 +1569,6 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
         return error("CheckProofOfWork() : nBits below minimum work");
 
     // Check proof of work matches claimed amount
-
     if (hash > bnTarget.getuint256())
         return error("CheckProofOfWork() : hash doesn't match nBits");
 
@@ -1733,14 +1733,14 @@ unsigned int CTransaction::GetP2SHSigOpCount(CCoinsViewCache& inputs) const
 
 void CTransaction::UpdateCoins(CValidationState &state, CCoinsViewCache &inputs, CTxUndo &txundo, int nHeight, const uint256 &txhash) const
 {
-	bool ret;
+    bool ret;
     // mark inputs spent
     if (!IsCoinBase()) {
         BOOST_FOREACH(const CTxIn &txin, vin) {
             CCoins &coins = inputs.GetCoins(txin.prevout.hash);
             CTxInUndo undo;
-			ret = coins.Spend(txin.prevout, undo);
-			assert(ret);
+            ret = coins.Spend(txin.prevout, undo);
+            assert(ret);
             txundo.vprevout.push_back(undo);
         }
     }
@@ -2373,7 +2373,7 @@ bool SetBestChain(CValidationState &state, CBlockIndex* pindexNew)
         else
             strCheckpointWarning = "";
     }
-	
+
     std::string strCmd = GetArg("-blocknotify", "");
 
     if (!fIsInitialDownload && !strCmd.empty())
@@ -3326,12 +3326,9 @@ bool InitBlockIndex() {
 		
 		
 		
-	    assert(block.hashMerkleRoot == uint256("0x35e6a0e897ed76cd5f08b75d118fb7c99aec7cdd297b96c21dc6671d2034c953"));
-		
+        assert(block.hashMerkleRoot == uint256("0x35e6a0e897ed76cd5f08b75d118fb7c99aec7cdd297b96c21dc6671d2034c953"));
         block.print();
-		
-	    assert(hash == hashGenesisBlock);
-		
+        assert(hash == hashGenesisBlock);
 
         // Start new block file
         try {
@@ -3539,7 +3536,7 @@ string GetWarnings(string strFor)
         nPriority = 900;
         strStatusBar = strCheckpointWarning;
     }
-		
+
     // Misc warnings like out of disk space and clock is wrong
     if (strMiscWarning != "")
     {
@@ -3560,7 +3557,7 @@ string GetWarnings(string strFor)
         nPriority = 3000;
         strStatusBar = strRPC = "WARNING: Inconsistent checkpoint found! Stop enforcing checkpoints and notify developers to resolve the issue.";
     }
-	
+
     // Alerts
     {
         LOCK(cs_mapAlerts);
@@ -3878,7 +3875,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             if (!checkpointMessage.IsNull())
                 checkpointMessage.RelayTo(pfrom);
         }
-		
+
         pfrom->fSuccessfullyConnected = true;
 
         printf("receive version message: %s: version %d, blocks=%d, us=%s, them=%s, peer=%s\n", pfrom->cleanSubVer.c_str(), pfrom->nVersion, pfrom->nStartingHeight, addrMe.ToString().c_str(), addrFrom.ToString().c_str(), pfrom->addr.ToString().c_str());
@@ -4141,9 +4138,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             // Recursively process any orphan transactions that depended on this one
             for (unsigned int i = 0; i < vWorkQueue.size(); i++)
             {
-                uint256 hashPrev = vWorkQueue[i];
-                for (set<uint256>::iterator mi = mapOrphanTransactionsByPrev[hashPrev].begin();
-                     mi != mapOrphanTransactionsByPrev[hashPrev].end();
+                map<uint256, set<uint256> >::iterator itByPrev = mapOrphanTransactionsByPrev.find(vWorkQueue[i]);
+                if (itByPrev == mapOrphanTransactionsByPrev.end())
+                    continue;
+                for (set<uint256>::iterator mi = itByPrev->second.begin();
+                     mi != itByPrev->second.end();
                      ++mi)
                 {
                     const uint256& orphanHash = *mi;
